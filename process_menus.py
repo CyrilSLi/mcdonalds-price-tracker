@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
 # Built-in modules
+import csv, json, os
 from itertools import zip_longest
-import json, os
 
 
 
@@ -36,9 +36,8 @@ def main():
     for restaurant_id in os.listdir(relpath("menus_json")):
         with open(relpath("menus_json/" + restaurant_id)) as f:
             menu = json.load(f)
-            strings = lambda lang: menu["channelMenus"]["localizations"][lang]["strings"]
-            l10n_strings["en-CA"].append(strings("en-CA"))
-            l10n_strings["fr-CA"].append(strings("fr-CA"))
+            for lang in l10n_strings.keys():
+                l10n_strings[lang].append(tuple(map(str.strip, menu["channelMenus"]["localizations"][lang]["strings"])))
 
     mismatches = 0
     for lang, strings in l10n_strings.items():
@@ -51,27 +50,35 @@ def main():
     if mismatches != 0:
         return
 
-    l10n_strings["en-CA"] = l10n_strings["en-CA"][0]
-    l10n_strings["fr-CA"] = l10n_strings["fr-CA"][0]
+    for lang in l10n_strings.keys():
+        l10n_strings[lang] = l10n_strings[lang][0]
 
-    with open(relpath("localization_en-CA.txt"), "w") as f:
-        f.write("\n".join(l10n_strings["en-CA"]))
-    with open(relpath("localization_fr-CA.txt"), "w") as f:
-        f.write("\n".join(l10n_strings["fr-CA"]))
+    with open(relpath("localization.csv"), "w") as f:
+        writer = csv.writer(f)
+        writer.writerow(l10n_strings.keys())
+        writer.writerows(zip_longest(*l10n_strings.values(), fillvalue=""))
 
-    for menu_file in os.listdir(relpath("menus_json")):
-        with open(relpath("menus_json/" + menu_file)) as f:
-            menu = json.load(f)
+    for lang in l10n_strings.keys():
+        all_prices = {}
 
-        for lang in ("en-CA", "fr-CA"):
+        for menu_file in os.listdir(relpath("menus_json")):
+            restaurant_id = menu_file.rstrip(".json")
+            with open(relpath("menus_json/" + menu_file)) as f:
+                menu = json.load(f)
+        
             lookup = menu["channelMenus"]["localizations"][lang]["lookup"]
             prices = [""] * len(l10n_strings[lang])
 
             for item in menu_items(menu): # Get localization index for each menu item
                 prices[lookup[str(item["ID"])][2]] = str(item["price"])
 
-            with open(relpath(f'prices/{menu_file.rstrip(".json")}_{lang}.txt'), "w") as f:
-                f.write("\n".join(prices))
+            all_prices[restaurant_id] = prices
+        assert all(len(prices) == len(l10n_strings[lang]) for prices in all_prices.values())
+
+        with open(relpath(f"prices_{lang}.csv"), "w") as f:
+            writer = csv.writer(f)
+            writer.writerow(all_prices.keys())
+            writer.writerows(zip(*all_prices.values()))
 
     print("Localization and prices files generated successfully.")
 
