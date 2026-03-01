@@ -43,6 +43,10 @@
   "addr": "1460 Henderson Highway",
   "updated": "2026-03-01"
  },
+ "2245": {
+  "addr": "416 Hespeler Rd.",
+  "updated": "2026-03-01"
+ },
  "2248": {
   "addr": "1906 Richmond Avenue",
   "updated": "2026-03-01"
@@ -105,6 +109,10 @@
  },
  "10991": {
   "addr": "(Food Court) Unit 102-H 333 St. Mary Avenue",
+  "updated": "2026-03-01"
+ },
+ "11019": {
+  "addr": "400 Main Street East",
   "updated": "2026-03-01"
  },
  "11135": {
@@ -173,6 +181,14 @@
  },
  "23915": {
   "addr": "10 Kenderdine Road",
+  "updated": "2026-03-01"
+ },
+ "25001": {
+  "addr": "(Wal-Mart) 22 Pinebush Road",
+  "updated": "2026-03-01"
+ },
+ "25010": {
+  "addr": "100 Jamieson Parkway",
   "updated": "2026-03-01"
  },
  "26006": {
@@ -401,6 +417,7 @@
  },
  "__locations__": [
   "Brandon",
+  "Cambridge",
   "Kitchener-Waterloo",
   "Moose Jaw",
   "Portage La Prairie",
