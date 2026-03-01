@@ -44,7 +44,7 @@ document.getElementById("filter").addEventListener("input", () => {
         alert("Unsupported language: " + lang);
     }
 
-    const tableRows = [];
+    const tableRows = [[["MIN", "#00000000"], ["N/A", "#00000000"]], [["MAX", "#00000000"], ["N/A", "#00000000"]], [["", "#00000000"]]];
     Object.keys(prices[0]).forEach(key => {
         if (key === "any") {
             return;
@@ -62,9 +62,11 @@ document.getElementById("filter").addEventListener("input", () => {
         if (minPrice === maxPrice) {
             return;
         }
+        tableRows[0].push([(minPrice / 100).toFixed(2), redGreenGradient(minPrice, minPrice, maxPrice)]);
+        tableRows[1].push([(maxPrice / 100).toFixed(2), redGreenGradient(maxPrice, minPrice, maxPrice)]);
 
         tableHeader.push(localization[index][lang]);
-        tableRows.forEach(row => {
+        tableRows.slice(3).forEach(row => {
             const price = el[row[0][0]] || "N/A";
             if (price === "N/A") {
                 row.push(["N/A", "#00000000"]);
