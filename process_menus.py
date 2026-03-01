@@ -33,7 +33,8 @@ def main():
         "fr-CA": []
     }
 
-    for restaurant_id in os.listdir(relpath("menus_json")):
+    restaurant_ids = os.listdir(relpath("menus_json"))
+    for restaurant_id in restaurant_ids:
         with open(relpath("menus_json/" + restaurant_id)) as f:
             menu = json.load(f)
             for lang in l10n_strings.keys():
@@ -48,6 +49,7 @@ def main():
 
     print("Total localization mismatches among restaurants:", mismatches)
     if mismatches != 0:
+        print(restaurant_ids)
         return
 
     for lang in l10n_strings.keys():

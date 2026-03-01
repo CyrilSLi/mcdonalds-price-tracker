@@ -84,7 +84,7 @@ def fetch_menu(location_id, is_retry=False):
         addresses = json.load(f)
     addresses[location_id] = res.json()["response"]["restaurant"]["address"]["addressLine1"].strip()
     with open(relpath("addresses.json"), "w") as f:
-        json.dump(addresses, f, indent=4, sort_keys=True)
+        json.dump({int(k): v for k, v in addresses.items()}, f, indent=4, sort_keys=True)
 
 
 
