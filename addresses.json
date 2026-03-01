@@ -51,6 +51,10 @@
   "addr": "1906 Richmond Avenue",
   "updated": "2026-03-01"
  },
+ "2544": {
+  "addr": "417 Welton Street",
+  "updated": "2026-03-01"
+ },
  "2584": {
   "addr": "666 Fairway Rd",
   "updated": "2026-03-01"
@@ -121,6 +125,10 @@
  },
  "10822": {
   "addr": "6210 Rochdale Blvd",
+  "updated": "2026-03-01"
+ },
+ "10860": {
+  "addr": "101 King Street",
   "updated": "2026-03-01"
  },
  "10884": {
@@ -271,6 +279,10 @@
   "addr": "1105 Kramer Blvd",
   "updated": "2026-03-01"
  },
+ "29030": {
+  "addr": "1189 Kings Road",
+  "updated": "2026-03-01"
+ },
  "29033": {
   "addr": "(Wal-Mart) 1001 Empress Street",
   "updated": "2026-03-01"
@@ -377,6 +389,10 @@
  },
  "40176": {
   "addr": "(Wal-Mart) 903-18th Street N",
+  "updated": "2026-03-01"
+ },
+ "40200": {
+  "addr": "(Wal-Mart) 80 Sydney Port Access Road",
   "updated": "2026-03-01"
  },
  "40235": {
@@ -487,6 +503,10 @@
   "addr": "1950 Fischer Hallmann Rd",
   "updated": "2026-03-01"
  },
+ "41206": {
+  "addr": "110 Kenikala Cres.",
+  "updated": "2026-03-01"
+ },
  "41244": {
   "addr": "207 Broadway Street East",
   "updated": "2026-03-01"
@@ -517,6 +537,7 @@
   "Prince Albert",
   "Regina",
   "Saskatoon",
+  "Sydney-North Sydney",
   "Winnipeg",
   "Yorkton"
  ]
