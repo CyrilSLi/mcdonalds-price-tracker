@@ -75,8 +75,12 @@ document.getElementById("filter").addEventListener("input", () => {
     const tableRows = [
         [["MIN", "#00000000"], ["N/A", "#00000000"], ["N/A", "#00000000"]],
         [["MAX", "#00000000"], ["N/A", "#00000000"], ["N/A", "#00000000"]],
+        [["DIFF", "#00000000"], ["N/A", "#00000000"], ["N/A", "#00000000"]],
         [["", "#00000000"]]
     ];
+    const headerDataRows = tableRows.length; // Number of computed data rows (vs. restaurant rows)
+    const percentDiffs = [];
+
     Object.keys(prices[0]).forEach(key => {
         if (key === "any") {
             return;
@@ -94,11 +98,12 @@ document.getElementById("filter").addEventListener("input", () => {
         if (minPrice === maxPrice) {
             return;
         }
-        tableRows[0].push([(minPrice / 100).toFixed(2), redGreenGradient(minPrice, minPrice, maxPrice)]);
-        tableRows[1].push([(maxPrice / 100).toFixed(2), redGreenGradient(maxPrice, minPrice, maxPrice)]);
+        tableRows[0].push([(minPrice / 100).toFixed(2), "#00000000"]);
+        tableRows[1].push([(maxPrice / 100).toFixed(2), "#00000000"]);
+        percentDiffs.push(((maxPrice - minPrice) / ((maxPrice + minPrice) / 2) * 100).toFixed(2));
 
         tableHeader.push(localization[index][lang]);
-        tableRows.slice(3).forEach(row => {
+        tableRows.slice(headerDataRows).forEach(row => {
             const price = el[row[0][0]] || "N/A";
             if (price === "N/A") {
                 row.push(["N/A", "#00000000"]);
@@ -108,11 +113,17 @@ document.getElementById("filter").addEventListener("input", () => {
         });
     });
 
+    const minPercentDiff = Math.min(...percentDiffs);
+    const maxPercentDiff = Math.max(...percentDiffs);
+    percentDiffs.forEach(item => {
+        tableRows[2].push([item + "%", redGreenGradient(item, minPercentDiff, maxPercentDiff)]);
+    });
+
     document.getElementById("table-header").innerHTML = tableHeader.map(header => `<th>${header}</th>`).join("");
     document.getElementById("table-body").innerHTML = tableRows.map(row => `<tr>${row.map(cell => {
         return `<td style="background-color: ${cell[1]}">${cell[0]}</td>`;
     }).join("")}</tr>`).join("");
-    document.querySelectorAll("#table-body > tr:nth-child(n+3) > td:first-child").forEach(td => {
+    document.querySelectorAll(`#table-body > tr:nth-child(n+${headerDataRows + 1}) > td:first-child`).forEach(td => {
         td.innerHTML = `<a href="https://www.mcdonalds.com/ca/${lang.toLowerCase()}/location/${td.textContent}.html" target="_blank">${td.textContent}</a>`;
     });
 })();
