@@ -3,6 +3,7 @@
 # Built-in modules
 import csv, json, os, sys
 from itertools import zip_longest
+from pathlib import Path
 
 
 
@@ -40,6 +41,11 @@ def main(location):
         "fr-CA": []
     }
     menu_files = tuple (i for i in os.listdir(relpath("menus_json")) if i.endswith(".json"))
+    if not menu_files:
+        menu_files = tuple (f"{location}/{i}" for i in os.listdir(relpath(f"menus_json/{location}")) if i.endswith(".json"))
+        if not menu_files:
+            print("No menu files found for location:", location)
+            return
 
     for menu_file in menu_files:
         with open(relpath("menus_json/" + menu_file)) as f:
@@ -72,9 +78,10 @@ def main(location):
 
     for lang in l10n_strings.keys():
         all_prices = {}
+        item_count, diff_price_count = 0, 0
 
-        for restaurant_id in sorted((int(fn.rstrip(".json")) for fn in menu_files)):
-            with open(relpath(f"menus_json/{restaurant_id}.json")) as f:
+        for menu_file in sorted(menu_files, key=lambda x: int(Path(x).stem)):
+            with open(relpath("menus_json/" + menu_file)) as f:
                 menu = json.load(f)
         
             lookup = menu["channelMenus"]["localizations"][lang]["lookup"]
@@ -85,11 +92,14 @@ def main(location):
 
                 if prices[localized] not in ("", str(item["price"])): # Add-on with different prices depending on the main item
                     prices[localized] = "/".join(sorted(set(prices[localized].split("/") + [str(item["price"])]), key=int))
+                    diff_price_count += 1
                 else:
                     prices[localized] = str(item["price"])
+                item_count += 1
 
-            all_prices[restaurant_id] = prices
+            all_prices[Path(menu_file).stem] = prices
         assert all(len(prices) == len(l10n_strings[lang]) for prices in all_prices.values())
+        print(f"{lang}: {item_count} items processed across {len(menu_files)} restaurants, {diff_price_count} items have different prices depending on the main item.")
 
         items_offered = [] # Items which at least one restaurant offers, to display as table column headers
         for item in zip(*all_prices.values()):
