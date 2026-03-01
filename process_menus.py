@@ -16,8 +16,15 @@ def relpath(p):
 
 def menu_items(json_input):
     if isinstance(json_input, dict):
-        if "ID" in json_input and "price" in json_input and isinstance(json_input["ID"], int) and isinstance(json_input["price"], int):
-            yield json_input
+        if "ID" in json_input and "price" in json_input:
+            yield json_input # Menu item (e.g. hamburger)
+
+        elif "ID" in json_input and json_input.get("type") == "QUANTITY" and "options" in json_input:
+            for qty in json_input["options"]:
+                if isinstance(qty, list) and qty[0] != 0:
+                    yield {"ID": json_input["ID"], "price": qty[0]} # Add-on (e.g. lettuce)
+                    break
+
         else:
             for item in json_input.values():
                 yield from menu_items(item)
@@ -73,8 +80,12 @@ def main(location):
             lookup = menu["channelMenus"]["localizations"][lang]["lookup"]
             prices = [""] * len(l10n_strings[lang])
 
-            for item in menu_items(menu): # Get localization index for each menu item
-                prices[lookup[str(item["ID"])][2]] = str(item["price"])
+            for item in menu_items(menu["channelMenus"]["channels"]["GMA_PICKUP"]): # TODO: Add support for DELIVERY and EATIN channels
+                localized = lookup[str(item["ID"])][2] # Get localization index for each menu item
+
+                if prices[localized] not in ("", str(item["price"])): # Add-on with different prices depending on the main item
+                    prices[localized] += "/" + str(item["price"])
+                prices[localized] = str(item["price"])
 
             all_prices[restaurant_id] = prices
         assert all(len(prices) == len(l10n_strings[lang]) for prices in all_prices.values())
