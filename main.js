@@ -70,6 +70,7 @@ document.getElementById("filter").addEventListener("input", () => {
     } else {
         alert("Unsupported language: " + lang);
     }
+    document.getElementById("total-restaurants").textContent = Object.keys(prices[0]).length - 1;
 
     const tableRows = [
         [["MIN", "#00000000"], ["N/A", "#00000000"], ["N/A", "#00000000"]],
