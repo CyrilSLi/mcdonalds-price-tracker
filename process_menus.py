@@ -55,6 +55,9 @@ def main(location):
     for lang in l10n_strings.keys():
         l10n_strings[lang] = l10n_strings[lang][0]
 
+    if not os.path.exists(relpath(f"data/{location}")):
+        os.makedirs(relpath(f"data/{location}"))
+
     with open(relpath(f"data/{location}/localization.csv"), "w") as f:
         writer = csv.writer(f)
         writer.writerow(l10n_strings.keys())

@@ -15,7 +15,7 @@ if (!params.has("location")) {
         const addresses = await fetch("addresses.json").then(res => res.json());
         document.getElementById("locations").innerHTML += addresses.__locations__.map(loc => {
             return `<a href="?location=${loc}"><button class="secondary">${loc}</button></a>`;
-        });
+        }).join(" ");
     })();
     throw new Error("Missing location parameter"); // Halt execution
 }
