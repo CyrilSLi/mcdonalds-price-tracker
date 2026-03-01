@@ -61,9 +61,8 @@ def main():
     for lang in l10n_strings.keys():
         all_prices = {}
 
-        for menu_file in os.listdir(relpath("menus_json")):
-            restaurant_id = menu_file.rstrip(".json")
-            with open(relpath("menus_json/" + menu_file)) as f:
+        for restaurant_id in sorted((int(fn.rstrip(".json")) for fn in os.listdir(relpath("menus_json")))):
+            with open(relpath(f"menus_json/{restaurant_id}.json")) as f:
                 menu = json.load(f)
         
             lookup = menu["channelMenus"]["localizations"][lang]["lookup"]
