@@ -25,10 +25,6 @@ tr > th:first-child, tr > td:first-child {
 tr > td:nth-child(2), tr > td:nth-child(3) {
     white-space: nowrap; /* Do not wrap address or last updated columns */
 }
-#language-and-filter {
-    display: flex;
-    gap: var(--pico-spacing);
-}
 #locations {
     margin-bottom: 0;
 }
