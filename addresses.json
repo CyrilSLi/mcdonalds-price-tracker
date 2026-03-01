@@ -27,6 +27,10 @@
   "addr": "2225 22nd Street West",
   "updated": "2026-03-01"
  },
+ "1832": {
+  "addr": "431 Highland Road",
+  "updated": "2026-03-01"
+ },
  "2135": {
   "addr": "1301 McPhillips",
   "updated": "2026-03-01"
@@ -41,6 +45,10 @@
  },
  "2248": {
   "addr": "1906 Richmond Avenue",
+  "updated": "2026-03-01"
+ },
+ "2584": {
+  "addr": "666 Fairway Rd",
   "updated": "2026-03-01"
  },
  "2622": {
@@ -61,6 +69,10 @@
  },
  "4203": {
   "addr": "1021 Middleton Avenue",
+  "updated": "2026-03-01"
+ },
+ "4718": {
+  "addr": "362 King Street North",
   "updated": "2026-03-01"
  },
  "5172": {
@@ -107,6 +119,10 @@
   "addr": "630 Pembina Highway",
   "updated": "2026-03-01"
  },
+ "12224": {
+  "addr": "1020 Ottawa Street North",
+  "updated": "2026-03-01"
+ },
  "12270": {
   "addr": "847 Leila Avenue",
   "updated": "2026-03-01"
@@ -129,6 +145,10 @@
  },
  "18285": {
   "addr": "Unit #2 - 2359 Ness Avenue",
+  "updated": "2026-03-01"
+ },
+ "18461": {
+  "addr": "55 Northfield Dr East",
   "updated": "2026-03-01"
  },
  "21444": {
@@ -175,6 +195,14 @@
   "addr": "1725 Kenaston Blvd.",
   "updated": "2026-03-01"
  },
+ "29014": {
+  "addr": "715 Ottawa Street South",
+  "updated": "2026-03-01"
+ },
+ "29017": {
+  "addr": "2410 Homer Watson Boul.",
+  "updated": "2026-03-01"
+ },
  "29022": {
   "addr": "1105 Kramer Blvd",
   "updated": "2026-03-01"
@@ -215,6 +243,10 @@
   "addr": "979 Henderson Hwy",
   "updated": "2026-03-01"
  },
+ "29708": {
+  "addr": "1138 Victoria St",
+  "updated": "2026-03-01"
+ },
  "29718": {
   "addr": "833 McLeod Ave",
   "updated": "2026-03-01"
@@ -235,6 +267,10 @@
   "addr": "(Wal-Mart) 2370 McPhillips St",
   "updated": "2026-03-01"
  },
+ "40137": {
+  "addr": "(Wal-Mart) Kitchener, 1400 Ottawa Street S., Unit E",
+  "updated": "2026-03-01"
+ },
  "40166": {
   "addr": "(Wal-Mart) 1706 Preston Avenue North",
   "updated": "2026-03-01"
@@ -247,8 +283,20 @@
   "addr": "(Wal-Mart) 3035 Clarence Ave. S",
   "updated": "2026-03-01"
  },
+ "40268": {
+  "addr": "Fischer Hallman & Westmount, 1191 Fischer Hallman Road",
+  "updated": "2026-03-01"
+ },
  "40271": {
   "addr": "2626 Victoria Ave.",
+  "updated": "2026-03-01"
+ },
+ "40285": {
+  "addr": "(Wal-Mart) 335 Farmers Market Road",
+  "updated": "2026-03-01"
+ },
+ "40289": {
+  "addr": "40 Sportsworld Drive",
   "updated": "2026-03-01"
  },
  "40299": {
@@ -273,6 +321,10 @@
  },
  "40485": {
   "addr": "3202 Preston Avenue South",
+  "updated": "2026-03-01"
+ },
+ "40493": {
+  "addr": "928 Erb Street West",
   "updated": "2026-03-01"
  },
  "40577": {
@@ -319,6 +371,10 @@
   "addr": "195 17 St W",
   "updated": "2026-03-01"
  },
+ "41190": {
+  "addr": "1950 Fischer Hallmann Rd",
+  "updated": "2026-03-01"
+ },
  "41244": {
   "addr": "207 Broadway Street East",
   "updated": "2026-03-01"
@@ -341,6 +397,7 @@
  },
  "__locations__": [
   "Brandon",
+  "Kitchener-Waterloo",
   "Moose Jaw",
   "Portage La Prairie",
   "Prince Albert",
