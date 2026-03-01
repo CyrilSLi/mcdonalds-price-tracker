@@ -68,24 +68,6 @@ def fetch_menu(location_id, is_retry=False):
 
 
 
-def process_menu(menu):
-    # TODO: add french localization support
-    def localize(product_id, lang="en-CA"):
-        strings = menu["channelMenus"]["localizations"][lang]["strings"]
-        """ localized = []
-        for s in menu["channelMenus"]["localizations"][lang]["lookup"][str(product_id)]:
-            if type(s) is int and 0 <= s < len(strings):
-                localized.append(strings[s])
-            else:
-                localized.append("N/A") """
-        return strings[menu["channelMenus"]["localizations"][lang]["lookup"][str(product_id)][2]]
-
-    processed_menu = {}
-    print(localize(14098))
-    print(menu["channelMenus"]["localizations"]["en-CA"]["strings"].index("Big Mac (No Meat) Extra Value Meal"))
-
-
-
 def menu_items(json_input):
     if isinstance(json_input, dict):
         if "ID" in json_input and "price" in json_input and isinstance(json_input["ID"], int) and isinstance(json_input["price"], int):
