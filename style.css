@@ -22,10 +22,17 @@ tr > th:first-child, tr > td:first-child {
     left: 0;
     background-color: var(--absolute-background) !important;
 }
-tr > td:nth-child(2) {
-    white-space: nowrap; /* Do not wrap address column */
+tr > td:nth-child(2), tr > td:nth-child(3) {
+    white-space: nowrap; /* Do not wrap address or last updated columns */
 }
 #language-and-filter {
     display: flex;
     gap: var(--pico-spacing);
+}
+#locations {
+    margin-bottom: 0;
+}
+#locations > * {
+    display: inline-block;
+    margin-bottom: var(--pico-spacing);
 }

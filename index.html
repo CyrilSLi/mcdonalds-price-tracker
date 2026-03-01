@@ -3,34 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>McDonald's Winnipeg Price Comparison</title>
+    <title class="location-substitute">McDonald's %location% Price Comparison</title>
     <script src="https://cdn.jsdelivr.net/npm/papaparse@5/papaparse.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
     <link rel="stylesheet" href="style.css">
     <script src="main.js" defer></script>
 </head>
 <body>
-    <hgroup>
-        <h1>McDonald's&reg; Winnipeg Price Comparison</h1>
-        <p>Compare the prices of McDonald's menu items across different restaurants in Winnipeg</p>
-    </hgroup>
-    <p><strong>NOTE:</strong> Items that are the same price across all restaurants are not shown to improve readability and performance.</p>
-    <p id="language-and-filter">
-        <a href="index-fr.html"><button>Français</button></a>
-        <input type="search" id="filter" placeholder="Filter menu items...">
-    </p>
-    <table>
-        <thead>
-            <tr id="table-header"></tr>
-        </thead>
-        <tbody id="table-body"></tbody>
-    </table>
-    <p>
-        McDonald's&reg; is a registered trademark of McDonald's Corporation.
-        This website is for informational purposes only and is not affiliated with or endorsed by McDonald's Corporation.
-        Information may be incorrect or outdated. Please verify prices with official websites or applications before making purchasing decisions.
-    </p>
-    <p>Last updated on March 1, 2026</p>
+    <div id="index-page">
+        <hgroup>
+            <h1>McDonald's&reg; Price Comparison</h1>
+            <p>Compare the prices of McDonald's menu items across different restaurants in your location</p>
+        </hgroup>
+        <p id="locations">
+            <a href="index-fr.html"><button>Français</button></a>
+        </p>
+    </div>
+    <div id="app-page" style="display: none;">
+        <hgroup>
+            <h1 class="location-substitute">McDonald's&reg; %location% Price Comparison</h1>
+            <p class="location-substitute">Compare the prices of McDonald's menu items across different restaurants in %location%</p>
+        </hgroup>
+        <p><strong>NOTE:</strong> Items that are the same price across all restaurants are not shown to improve readability and performance.</p>
+        <p id="language-and-filter">
+            <a href="index-fr.html?location=%location%" class="location-substitute"><button>Français</button></a>
+            <input type="search" id="filter" placeholder="Filter menu items...">
+        </p>
+        <table>
+            <thead>
+                <tr id="table-header"></tr>
+            </thead>
+            <tbody id="table-body"></tbody>
+        </table>
+        <p>
+            McDonald's&reg; is a registered trademark of McDonald's Corporation.
+            This website is for informational purposes only and is not affiliated with or endorsed by McDonald's Corporation.
+            Information may be incorrect or outdated. Please verify prices with official websites or applications before making purchasing decisions.
+        </p>
+    </div>
     <a href="https://github.com/CyrilSLi/mcdonalds-price-tracker">View source code on GitHub</a>
 </body>
 </html>
