@@ -1,0 +1,3 @@
+#!/usr/bin/env python3
+import main, sys
+main.fetch_menu(int(sys.argv[1]))
