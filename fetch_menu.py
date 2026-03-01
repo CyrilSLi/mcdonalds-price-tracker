@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 # Built-in modules
-import json, sys
+import json, sys, uuid
 from os import path
 
 # Third-party modules
@@ -24,17 +24,24 @@ with open(relpath("login_refresh_response.json")) as f:
 
 
 
+def mcd_headers():
+    global bearer
+    return dict(env["headers"], **{
+        "Authorization": "Bearer " + bearer,
+        "mcd-uuid": str(uuid.uuid4()).upper()
+    })
+
+
+
 def refresh_login():
     global bearer
     with open(relpath("login_refresh_response.json")) as f:
         old_resp = json.load(f)
+        bearer = old_resp["response"]["accessToken"]
 
     res = r.post(
         "https://us-prod.api.mcd.com/exp/v1/customer/login/refresh",
-        headers=dict(
-            env["headers"]["customer_login_refresh"],
-            Authorization="Bearer " + old_resp["response"]["accessToken"]
-        ),
+        headers=mcd_headers(),
         json={
             "refreshToken": old_resp["response"]["refreshToken"]
         }
@@ -51,10 +58,7 @@ def refresh_login():
 def fetch_menu(location_id, is_retry=False):
     res = r.get(
         f"https://us-prod.api.mcd.com/ca/gma/api/v1/restaurants/{location_id}/menus",
-        headers=dict(
-            env["headers"]["restaurants_menus"],
-            Authorization="Bearer " + bearer
-        )
+        headers=mcd_headers()
     )
 
     try:
@@ -69,6 +73,18 @@ def fetch_menu(location_id, is_retry=False):
 
     with open(relpath(f"menus_json/{location_id}.json"), "w") as f:
         json.dump(res.json(), f, indent=4)
+
+    res = r.get(
+        f"https://us-prod.api.mcd.com/exp/v1/restaurant/{location_id}?filter=full&storeUniqueIdType=NSN",
+        headers=mcd_headers()
+    )
+
+    res.raise_for_status()
+    with open(relpath("addresses.json")) as f:
+        addresses = json.load(f)
+    addresses[location_id] = res.json()["response"]["restaurant"]["address"]["addressLine1"].strip()
+    with open(relpath("addresses.json"), "w") as f:
+        json.dump(addresses, f, indent=4, sort_keys=True)
 
 
 

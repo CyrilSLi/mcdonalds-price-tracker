@@ -76,7 +76,7 @@ def main():
 
         items_offered = [] # Items which at least one restaurant offers, to display as table column headers
         for item in zip(*all_prices.values()):
-            items_offered.append("1" if any(price != "" for price in item) else "")
+            items_offered.append("Y" if any(price != "" for price in item) else "")
 
         with open(relpath(f"prices_{lang}.csv"), "w") as f:
             writer = csv.writer(f)

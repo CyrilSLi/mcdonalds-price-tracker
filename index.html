@@ -21,9 +21,10 @@
 </head>
 <body>
     <hgroup>
-        <h1>McDonald's&reg; Canada Price Comparison</h1>
-        <p>Compare the prices of McDonald's menu items across different restaurants in Canada</p>
+        <h1>McDonald's&reg; Winnipeg Price Comparison</h1>
+        <p>Compare the prices of McDonald's menu items across different restaurants in Winnipeg</p>
     </hgroup>
+    <p><strong>NOTE:</strong> Items that are the same price across all restaurants are not shown to improve readability and performance.</p>
     <input type="search" id="filter" placeholder="Filter menu items...">
     <table>
         <thead>
@@ -36,9 +37,15 @@
         This website is for informational purposes only and is not affiliated with or endorsed by McDonald's Corporation.
         Information may be incorrect or outdated. Please verify prices with official websites or applications before making purchasing decisions.
     </p>
+    <p>Last updated on March 1, 2026</p>
     <script>
         const stickyColumns = 1;
         const filterDelay = 500;
+
+        function redGreenGradient(value, min, max) {
+            const ratio = (value - min) / (max - min);
+            return `rgba(${Math.round(255 * ratio)}, ${Math.round(255 * (1 - ratio))}, 0, 0.5)`;
+        }
 
         // TODO: Optimise filter function (by only hiding/showing columns that have changed instead of all columns?)
         function filterTable() {
@@ -76,22 +83,35 @@
                 if (key === "any") {
                     return;
                 }
-                tableRows.push([key]);
+                tableRows.push([[key, "#00000000"]]);
             });
-    
+
             prices.map((el, index) => {
                 if (!el.any) {
                     return;
                 }
+                const itemPrices = Object.values(el).filter(price => price !== "" && price !== "Y").map(price => parseInt(price));
+                const minPrice = Math.min(...itemPrices);
+                const maxPrice = Math.max(...itemPrices);
+                if (minPrice === maxPrice) {
+                    return;
+                }
+
                 tableHeader.push(localization[index][lang]);
                 tableRows.forEach(row => {
-                    const price = el[row[0]];
-                    row.push(price ? (price / 100).toFixed(2) : "N/A");
+                    const price = parseInt(el[row[0][0]]) || "N/A";
+                    if (price === "N/A") {
+                        row.push(["N/A", "#00000000"]);
+                        return;
+                    }
+                    row.push([(price / 100).toFixed(2), redGreenGradient(price, minPrice, maxPrice)]);
                 });
             });
 
             document.getElementById("table-header").innerHTML = tableHeader.map(header => `<th>${header}</th>`).join("");
-            document.getElementById("table-body").innerHTML = tableRows.map(row => `<tr>${row.map(cell => `<td>${cell}</td>`).join("")}</tr>`).join("");
+            document.getElementById("table-body").innerHTML = tableRows.map(row => `<tr>${row.map(cell => {
+                return `<td style="background-color: ${cell[1]}">${cell[0]}</td>`;
+            }).join("")}</tr>`).join("");
         })();
     </script>
 </body>
