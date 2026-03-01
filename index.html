@@ -1,40 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-CA">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>McDonald's Canada Price Comparison</title>
+    <title>McDonald's Winnipeg Price Comparison</title>
     <script src="https://cdn.jsdelivr.net/npm/papaparse@5/papaparse.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
-    <style>
-        :root {
-            --absolute-background: #ffffff;
-        }
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --absolute-background: #000000;
-            }
-        }
-        body {
-            padding: 1rem;
-        }
-        table {
-            display: block;
-            overflow-x: auto;
-        }
-        th, td {
-            text-align: center;
-        }
-        tr > th:first-child, tr > td:first-child {
-            font-weight: bold;
-            position: sticky;
-            left: 0;
-            background-color: var(--absolute-background) !important;
-        }
-        tr > td:nth-child(2) {
-            white-space: nowrap; /* Do not wrap address column */
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
 </head>
 <body>
     <hgroup>
@@ -42,7 +15,10 @@
         <p>Compare the prices of McDonald's menu items across different restaurants in Winnipeg</p>
     </hgroup>
     <p><strong>NOTE:</strong> Items that are the same price across all restaurants are not shown to improve readability and performance.</p>
-    <input type="search" id="filter" placeholder="Filter menu items...">
+    <p id="language-and-filter">
+        <a href="index-fr.html"><button>Français</button></a>
+        <input type="search" id="filter" placeholder="Filter menu items...">
+    </p>
     <table>
         <thead>
             <tr id="table-header"></tr>
@@ -55,81 +31,5 @@
         Information may be incorrect or outdated. Please verify prices with official websites or applications before making purchasing decisions.
     </p>
     <p>Last updated on March 1, 2026</p>
-    <script>
-        const filterDelay = 500;
-
-        function redGreenGradient(value, min, max) {
-            const ratio = (value - min) / (max - min);
-            return `rgba(${Math.round(255 * ratio)}, ${Math.round(255 * (1 - ratio))}, 0, 0.5)`;
-        }
-
-        // TODO: Optimise filter function (by only hiding/showing columns that have changed instead of all columns?)
-        function filterTable() {
-            const filterValue = document.getElementById("filter").value.toLowerCase();
-            [...document.getElementById("table-header").children].forEach((th, index) => {
-                if (index <= 1) {
-                    return;
-                }
-                const visible = th.textContent.toLowerCase().includes(filterValue);
-                th.style.display = visible ? "" : "none";
-                document.querySelectorAll(`#table-body tr td:nth-child(${index + 1})`).forEach(td => {
-                    td.style.display = visible ? "" : "none";
-                });
-            });
-        }
-        document.getElementById("filter").addEventListener("input", () => {
-            clearTimeout(filterTable.timeout);
-            filterTable.timeout = setTimeout(filterTable, filterDelay);
-        });
-
-        // TODO: Add dictionary/object of restaurants instead of hardcoding
-        // TODO: Add support for switching languages (en-CA and fr-CA)
-        // TODO: Add gradiant colouring (red for expensive, green for cheap)
-        (async () => {
-            const localization = Papa.parse(await fetch("localization.csv").then(res => res.text()), { header: true }).data;
-            const pricesEnCA = Papa.parse(await fetch("prices_en-CA.csv").then(res => res.text()), { header: true }).data;
-            const addresses = await fetch("addresses.json").then(res => res.json());
-            // const pricesFrCA = Papa.parse(await fetch('prices_fr-CA.csv').then(res => res.text()), { header: true }).data;
-
-            const lang = "en-CA";
-            const prices = pricesEnCA;
-
-            const tableHeader = ["ID", "Address"];
-            const tableRows = [];
-            Object.keys(prices[0]).forEach(key => {
-                if (key === "any") {
-                    return;
-                }
-                tableRows.push([[key, "#00000000"], [addresses[key] || "N/A", "#00000000"]]);
-            });
-
-            prices.map((el, index) => {
-                if (!el.any) {
-                    return;
-                }
-                const itemPrices = Object.values(el).filter(price => price !== "" && price !== "Y").map(price => parseInt(price));
-                const minPrice = Math.min(...itemPrices);
-                const maxPrice = Math.max(...itemPrices);
-                if (minPrice === maxPrice) {
-                    return;
-                }
-
-                tableHeader.push(localization[index][lang]);
-                tableRows.forEach(row => {
-                    const price = parseInt(el[row[0][0]]) || "N/A";
-                    if (price === "N/A") {
-                        row.push(["N/A", "#00000000"]);
-                        return;
-                    }
-                    row.push([(price / 100).toFixed(2), redGreenGradient(price, minPrice, maxPrice)]);
-                });
-            });
-
-            document.getElementById("table-header").innerHTML = tableHeader.map(header => `<th>${header}</th>`).join("");
-            document.getElementById("table-body").innerHTML = tableRows.map(row => `<tr>${row.map(cell => {
-                return `<td style="background-color: ${cell[1]}">${cell[0]}</td>`;
-            }).join("")}</tr>`).join("");
-        })();
-    </script>
 </body>
 </html>

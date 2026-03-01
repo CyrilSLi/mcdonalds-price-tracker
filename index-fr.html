@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr-CA">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparaison des prix de McDonald's à Winnipeg</title>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5/papaparse.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <hgroup>
+        <h1>Comparaison des prix de McDonald's&reg; à Winnipeg</h1>
+        <p>Comparez les prix des articles du menu McDonald's dans différents restaurants à Winnipeg</p>
+    </hgroup>
+    <p><strong>NOTE:</strong> Les articles de même prix dans tous les restaurants ne sont pas affichés pour améliorer la lisibilité et la performance.</p>
+    <p id="language-and-filter">
+        <a href="index.html"><button>English</button></a>
+        <input type="search" id="filter" placeholder="Filtrer les éléments du menu...">
+    </p>
+    <table>
+        <thead>
+            <tr id="table-header"></tr>
+        </thead>
+        <tbody id="table-body"></tbody>
+    </table>
+    <p>
+        McDonald's&reg; est une marque déposée de McDonald's Corporation.
+        Ce site Web est fourni à titre informatif seulement et il n'est pas affilié par McDonald's Corporation.
+        Les informations peuvent être incorrectes ou obsolètes. Veuillez vérifier les prix sur les sites Web ou applications officiels avant de prendre des décisions d'achat.
+    </p>
+    <p>Mise à jour le 1er mars 2026</p>
+</body>
+</html>

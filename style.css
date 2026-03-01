@@ -1,0 +1,31 @@
+:root {
+    --absolute-background: #ffffff;
+}
+@media (prefers-color-scheme: dark) {
+    :root {
+        --absolute-background: #000000;
+    }
+}
+body {
+    padding: 1rem;
+}
+table {
+    display: block;
+    overflow-x: auto;
+}
+th, td {
+    text-align: center;
+}
+tr > th:first-child, tr > td:first-child {
+    font-weight: bold;
+    position: sticky;
+    left: 0;
+    background-color: var(--absolute-background) !important;
+}
+tr > td:nth-child(2) {
+    white-space: nowrap; /* Do not wrap address column */
+}
+#language-and-filter {
+    display: flex;
+    gap: var(--pico-spacing);
+}
