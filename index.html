@@ -7,6 +7,14 @@
     <script src="https://cdn.jsdelivr.net/npm/papaparse@5/papaparse.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
     <style>
+        :root {
+            --absolute-background: #ffffff;
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --absolute-background: #000000;
+            }
+        }
         body {
             padding: 1rem;
         }
@@ -16,6 +24,15 @@
         }
         th, td {
             text-align: center;
+        }
+        tr > th:first-child, tr > td:first-child {
+            font-weight: bold;
+            position: sticky;
+            left: 0;
+            background-color: var(--absolute-background) !important;
+        }
+        tr > td:nth-child(2) {
+            white-space: nowrap; /* Do not wrap address column */
         }
     </style>
 </head>
@@ -39,7 +56,6 @@
     </p>
     <p>Last updated on March 1, 2026</p>
     <script>
-        const stickyColumns = 1;
         const filterDelay = 500;
 
         function redGreenGradient(value, min, max) {
@@ -51,7 +67,7 @@
         function filterTable() {
             const filterValue = document.getElementById("filter").value.toLowerCase();
             [...document.getElementById("table-header").children].forEach((th, index) => {
-                if (index < stickyColumns) {
+                if (index <= 1) {
                     return;
                 }
                 const visible = th.textContent.toLowerCase().includes(filterValue);
@@ -70,20 +86,21 @@
         // TODO: Add support for switching languages (en-CA and fr-CA)
         // TODO: Add gradiant colouring (red for expensive, green for cheap)
         (async () => {
-            const localization = Papa.parse(await fetch('localization.csv').then(res => res.text()), { header: true }).data;
-            const pricesEnCA = Papa.parse(await fetch('prices_en-CA.csv').then(res => res.text()), { header: true }).data;
+            const localization = Papa.parse(await fetch("localization.csv").then(res => res.text()), { header: true }).data;
+            const pricesEnCA = Papa.parse(await fetch("prices_en-CA.csv").then(res => res.text()), { header: true }).data;
+            const addresses = await fetch("addresses.json").then(res => res.json());
             // const pricesFrCA = Papa.parse(await fetch('prices_fr-CA.csv').then(res => res.text()), { header: true }).data;
 
             const lang = "en-CA";
             const prices = pricesEnCA;
 
-            const tableHeader = ["Restaurant"];
+            const tableHeader = ["ID", "Address"];
             const tableRows = [];
             Object.keys(prices[0]).forEach(key => {
                 if (key === "any") {
                     return;
                 }
-                tableRows.push([[key, "#00000000"]]);
+                tableRows.push([[key, "#00000000"], [addresses[key] || "N/A", "#00000000"]]);
             });
 
             prices.map((el, index) => {
