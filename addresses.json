@@ -3,6 +3,18 @@
   "addr": "425 Nathaniel Street",
   "updated": "2026-03-01"
  },
+ "1331": {
+  "addr": "4651 Albert Street",
+  "updated": "2026-03-01"
+ },
+ "1332": {
+  "addr": "2620 Dewdney Avenue",
+  "updated": "2026-03-01"
+ },
+ "1371": {
+  "addr": "924 Victoria Avenue East",
+  "updated": "2026-03-01"
+ },
  "1563": {
   "addr": "1887 Main Street",
   "updated": "2026-03-01"
@@ -39,6 +51,10 @@
   "addr": "1803 Idylwyld Drive, North",
   "updated": "2026-03-01"
  },
+ "3983": {
+  "addr": "525 Albert Street North",
+  "updated": "2026-03-01"
+ },
  "4203": {
   "addr": "1021 Middleton Avenue",
   "updated": "2026-03-01"
@@ -67,6 +83,10 @@
   "addr": "905-51St Street East",
   "updated": "2026-03-01"
  },
+ "10822": {
+  "addr": "6210 Rochdale Blvd",
+  "updated": "2026-03-01"
+ },
  "10991": {
   "addr": "(Food Court) Unit 102-H 333 St. Mary Avenue",
   "updated": "2026-03-01"
@@ -93,6 +113,10 @@
  },
  "14203": {
   "addr": "1251 Portage Avenue",
+  "updated": "2026-03-01"
+ },
+ "14929": {
+  "addr": "(Wal-Mart) #54 - 1225 St. Mary's Rd.",
   "updated": "2026-03-01"
  },
  "15611": {
@@ -139,8 +163,28 @@
   "addr": "1725 Kenaston Blvd.",
   "updated": "2026-03-01"
  },
+ "29022": {
+  "addr": "1105 Kramer Blvd",
+  "updated": "2026-03-01"
+ },
+ "29033": {
+  "addr": "(Wal-Mart) 1001 Empress Street",
+  "updated": "2026-03-01"
+ },
+ "29043": {
+  "addr": "(Wal-Mart) 3605 Portage Avenue",
+  "updated": "2026-03-01"
+ },
+ "29044": {
+  "addr": "486 Dundas St.West",
+  "updated": "2026-03-01"
+ },
  "29092": {
   "addr": "375 Osborne Street",
+  "updated": "2026-03-01"
+ },
+ "29169": {
+  "addr": "(Wal-Mart) 3939 Rochdale Blvd.",
   "updated": "2026-03-01"
  },
  "29176": {
@@ -153,6 +197,14 @@
  },
  "40005": {
   "addr": "1525 King Edward St",
+  "updated": "2026-03-01"
+ },
+ "40032": {
+  "addr": "1955 Prince of Wales Dr",
+  "updated": "2026-03-01"
+ },
+ "40067": {
+  "addr": "(Wal-Mart) 2370 McPhillips St",
   "updated": "2026-03-01"
  },
  "40166": {
@@ -179,6 +231,10 @@
   "addr": "(Wal-Mart) 225 Betts Ave.",
   "updated": "2026-03-01"
  },
+ "40315": {
+  "addr": "(Wal-Mart) 4500 Gordon Road",
+  "updated": "2026-03-01"
+ },
  "40345": {
   "addr": "300 Confederation Drive",
   "updated": "2026-03-01"
@@ -189,6 +245,10 @@
  },
  "40485": {
   "addr": "3202 Preston Avenue South",
+  "updated": "2026-03-01"
+ },
+ "40577": {
+  "addr": "4910 Gordon Road",
   "updated": "2026-03-01"
  },
  "40609": {
@@ -211,6 +271,18 @@
   "addr": "3010 Meadows Parkway",
   "updated": "2026-03-01"
  },
+ "40734": {
+  "addr": "3751 Chuka Blvd",
+  "updated": "2026-03-01"
+ },
+ "40779": {
+  "addr": "2002 Aurora Blvd.",
+  "updated": "2026-03-01"
+ },
+ "40902": {
+  "addr": "1810 Exhibition Parkway",
+  "updated": "2026-03-01"
+ },
  "41333": {
   "addr": "211 Saskatchewan Avenue West",
   "updated": "2026-03-01"
@@ -226,6 +298,7 @@
  "__locations__": [
   "Brandon",
   "Portage La Prairie",
+  "Regina",
   "Saskatoon",
   "Winnipeg"
  ]
