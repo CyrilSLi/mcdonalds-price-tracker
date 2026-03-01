@@ -84,8 +84,9 @@ def main(location):
                 localized = lookup[str(item["ID"])][2] # Get localization index for each menu item
 
                 if prices[localized] not in ("", str(item["price"])): # Add-on with different prices depending on the main item
-                    prices[localized] += "/" + str(item["price"])
-                prices[localized] = str(item["price"])
+                    prices[localized] = "/".join(sorted(set(prices[localized].split("/") + [str(item["price"])]), key=int))
+                else:
+                    prices[localized] = str(item["price"])
 
             all_prices[restaurant_id] = prices
         assert all(len(prices) == len(l10n_strings[lang]) for prices in all_prices.values())

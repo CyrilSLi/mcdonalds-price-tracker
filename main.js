@@ -92,10 +92,11 @@ document.getElementById("filter").addEventListener("input", () => {
         if (!el.any) {
             return;
         }
-        const itemPrices = Object.values(el).filter(price => price !== "" && price !== "Y").map(price => parseInt(price));
+        const itemPrices = Object.values(el).filter(price => price !== "" && price !== "Y" && !price.includes("/")).map(price => parseInt(price));
         const minPrice = Math.min(...itemPrices);
         const maxPrice = Math.max(...itemPrices);
-        if (minPrice === maxPrice) {
+
+        if (minPrice === maxPrice || minPrice === Infinity) {
             return;
         }
         tableRows[0].push([(minPrice / 100).toFixed(2), "#00000000"]);
@@ -108,8 +109,14 @@ document.getElementById("filter").addEventListener("input", () => {
             if (price === "N/A") {
                 row.push(["N/A", "#00000000"]);
                 return;
+            } else if (price.includes("/")) { // Multiple prices separated by "/"
+                row.push([
+                    price.split("/").map(p => (parseInt(p) / 100).toFixed(2)).join("/"),
+                    "#FFFF00"
+                ]);
+            } else {
+                row.push([(price / 100).toFixed(2), redGreenGradient(price, minPrice, maxPrice)]);
             }
-            row.push([(price / 100).toFixed(2), redGreenGradient(price, minPrice, maxPrice)]);
         });
     });
 
