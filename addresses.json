@@ -146,5 +146,8 @@
  "41363": {
   "addr": "1 Meadowland Drive",
   "updated": "2026-03-01"
- }
+ },
+ "__locations__": [
+  "winnipeg"
+ ]
 }

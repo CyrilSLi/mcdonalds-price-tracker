@@ -88,7 +88,9 @@ def fetch_menu(location_id, is_retry=False):
         "updated": datetime.now().strftime("%Y-%m-%d")
     }
     with open(relpath("addresses.json"), "w") as f:
-        json.dump({int(k): v for k, v in addresses.items()}, f, indent=1, sort_keys=True)
+        # Sort integer keys numerically first, then string keys alphabetically
+        sorted_dict = {k: addresses[k] for k in sorted(addresses.keys(), key=lambda x: (False, int(x)) if x.isdigit() else (True, x))}
+        json.dump(sorted_dict, f, indent=1)
 
 
 

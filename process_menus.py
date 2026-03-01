@@ -32,10 +32,10 @@ def main(location):
         "en-CA": [],
         "fr-CA": []
     }
+    menu_files = tuple (i for i in os.listdir(relpath("menus_json")) if i.endswith(".json"))
 
-    restaurant_ids = os.listdir(relpath("menus_json"))
-    for restaurant_id in restaurant_ids:
-        with open(relpath("menus_json/" + restaurant_id)) as f:
+    for menu_file in menu_files:
+        with open(relpath("menus_json/" + menu_file)) as f:
             menu = json.load(f)
             for lang in l10n_strings.keys():
                 l10n_strings[lang].append(tuple(map(str.strip, menu["channelMenus"]["localizations"][lang]["strings"])))
@@ -49,7 +49,7 @@ def main(location):
 
     print("Total localization mismatches among restaurants:", mismatches)
     if mismatches != 0:
-        print(restaurant_ids)
+        print(menu_files)
         return
 
     for lang in l10n_strings.keys():
@@ -63,7 +63,7 @@ def main(location):
     for lang in l10n_strings.keys():
         all_prices = {}
 
-        for restaurant_id in sorted((int(fn.rstrip(".json")) for fn in os.listdir(relpath("menus_json")))):
+        for restaurant_id in sorted((int(fn.rstrip(".json")) for fn in menu_files)):
             with open(relpath(f"menus_json/{restaurant_id}.json")) as f:
                 menu = json.load(f)
         
@@ -86,6 +86,15 @@ def main(location):
             writer.writerows(zip(items_offered, *all_prices.values()))
 
     print("Localization and prices files generated successfully.")
+
+    with open(relpath("addresses.json")) as f:
+        addresses = json.load(f)
+    addresses["__locations__"] = sorted(set(addresses.get("__locations__", []) + [location]))
+    with open(relpath("addresses.json"), "w") as f:
+        # Sort integer keys numerically first, then string keys alphabetically
+        sorted_dict = {k: addresses[k] for k in sorted(addresses.keys(), key=lambda x: (False, int(x)) if x.isdigit() else (True, x))}
+        json.dump(sorted_dict, f, indent=1)
+    print(f"Location '{location}' added to addresses.json.")
 
 
 
