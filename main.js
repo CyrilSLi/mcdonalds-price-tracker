@@ -92,23 +92,42 @@ document.getElementById("filter").addEventListener("input", () => {
         if (!el.any) {
             return;
         }
-        const itemPrices = Object.values(el).filter(price => price !== "" && price !== "Y" && !price.includes("/")).map(price => parseInt(price));
+        let diffPriceCount = 0;
+        const itemPrices = Object.values(el).filter(price => {
+            if (price === "" || price === "Y") {
+                return false;
+            } else if (price.includes("/")) { // Multiple prices separated by "/"
+                diffPriceCount++;
+                return false;
+            } else {
+                return true;
+            }
+        }).map(price => parseInt(price));
         const minPrice = Math.min(...itemPrices);
         const maxPrice = Math.max(...itemPrices);
 
-        if (minPrice === maxPrice || minPrice === Infinity) {
+        if ((minPrice === maxPrice || minPrice === Infinity) && diffPriceCount === 0) {
             return;
         }
-        tableRows[0].push([(minPrice / 100).toFixed(2), "#00000000"]);
-        tableRows[1].push([(maxPrice / 100).toFixed(2), "#00000000"]);
-        percentDiffs.push(((maxPrice - minPrice) / ((maxPrice + minPrice) / 2) * 100).toFixed(2));
+        if (minPrice === Infinity) {
+            tableRows[0].push(["N/A", "#00000000"]);
+            tableRows[1].push(["N/A", "#00000000"]);
+            percentDiffs.push("N/A");
+        } else {
+            tableRows[0].push([(minPrice / 100).toFixed(2), "#00000000"]);
+            tableRows[1].push([(maxPrice / 100).toFixed(2), "#00000000"]);
+            if (minPrice === maxPrice) {
+                percentDiffs.push("N/A");
+            } else {
+                percentDiffs.push(((maxPrice - minPrice) / ((maxPrice + minPrice) / 2) * 100).toFixed(2));
+            }
+        }
 
         tableHeader.push(localization[index][lang]);
         tableRows.slice(headerDataRows).forEach(row => {
             const price = el[row[0][0]] || "N/A";
             if (price === "N/A") {
                 row.push(["N/A", "#00000000"]);
-                return;
             } else if (price.includes("/")) { // Multiple prices separated by "/"
                 row.push([
                     price.split("/").map(p => (parseInt(p) / 100).toFixed(2)).join("/"),
@@ -120,10 +139,15 @@ document.getElementById("filter").addEventListener("input", () => {
         });
     });
 
-    const minPercentDiff = Math.min(...percentDiffs);
-    const maxPercentDiff = Math.max(...percentDiffs);
+    const minPercentDiff = Math.min(...percentDiffs.filter(diff => diff !== "N/A"));
+    const maxPercentDiff = Math.max(...percentDiffs.filter(diff => diff !== "N/A"));
+
     percentDiffs.forEach(item => {
-        tableRows[2].push([item + "%", redGreenGradient(item, minPercentDiff, maxPercentDiff)]);
+        if (item === "N/A") {
+            tableRows[2].push(["N/A", "#00000000"]);
+        } else {
+            tableRows[2].push([item + "%", redGreenGradient(item, minPercentDiff, maxPercentDiff)]);
+        }
     });
 
     document.getElementById("table-header").innerHTML = tableHeader.map(header => `<th>${header}</th>`).join("");
