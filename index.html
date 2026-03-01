@@ -4,10 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>McDonald's Canada Price Comparison</title>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5/papaparse.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
     <style>
         body {
             padding: 1rem;
+        }
+        table {
+            display: block;
+            overflow-x: auto;
+        }
+        th, td {
+            text-align: center;
         }
     </style>
 </head>
@@ -18,8 +26,10 @@
     </hgroup>
     <input type="search" id="filter" placeholder="Filter menu items...">
     <table>
-        <thead></thead>
-        <tbody></tbody>
+        <thead>
+            <tr id="table-header"></tr>
+        </thead>
+        <tbody id="table-body"></tbody>
     </table>
     <p>
         McDonald's&reg; is a registered trademark of McDonald's Corporation.
@@ -27,7 +37,62 @@
         Information may be incorrect or outdated. Please verify prices with official websites or applications before making purchasing decisions.
     </p>
     <script>
+        const stickyColumns = 1;
+        const filterDelay = 500;
+
+        // TODO: Optimise filter function (by only hiding/showing columns that have changed instead of all columns?)
+        function filterTable() {
+            const filterValue = document.getElementById("filter").value.toLowerCase();
+            [...document.getElementById("table-header").children].forEach((th, index) => {
+                if (index < stickyColumns) {
+                    return;
+                }
+                const visible = th.textContent.toLowerCase().includes(filterValue);
+                th.style.display = visible ? "" : "none";
+                document.querySelectorAll(`#table-body tr td:nth-child(${index + 1})`).forEach(td => {
+                    td.style.display = visible ? "" : "none";
+                });
+            });
+        }
+        document.getElementById("filter").addEventListener("input", () => {
+            clearTimeout(filterTable.timeout);
+            filterTable.timeout = setTimeout(filterTable, filterDelay);
+        });
+
         // TODO: Add dictionary/object of restaurants instead of hardcoding
+        // TODO: Add support for switching languages (en-CA and fr-CA)
+        // TODO: Add gradiant colouring (red for expensive, green for cheap)
+        (async () => {
+            const localization = Papa.parse(await fetch('localization.csv').then(res => res.text()), { header: true }).data;
+            const pricesEnCA = Papa.parse(await fetch('prices_en-CA.csv').then(res => res.text()), { header: true }).data;
+            // const pricesFrCA = Papa.parse(await fetch('prices_fr-CA.csv').then(res => res.text()), { header: true }).data;
+
+            const lang = "en-CA";
+            const prices = pricesEnCA;
+
+            const tableHeader = ["Restaurant"];
+            const tableRows = [];
+            Object.keys(prices[0]).forEach(key => {
+                if (key === "any") {
+                    return;
+                }
+                tableRows.push([key]);
+            });
+    
+            prices.map((el, index) => {
+                if (!el.any) {
+                    return;
+                }
+                tableHeader.push(localization[index][lang]);
+                tableRows.forEach(row => {
+                    const price = el[row[0]];
+                    row.push(price ? (price / 100).toFixed(2) : "N/A");
+                });
+            });
+
+            document.getElementById("table-header").innerHTML = tableHeader.map(header => `<th>${header}</th>`).join("");
+            document.getElementById("table-body").innerHTML = tableRows.map(row => `<tr>${row.map(cell => `<td>${cell}</td>`).join("")}</tr>`).join("");
+        })();
     </script>
 </body>
 </html>
