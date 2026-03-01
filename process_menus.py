@@ -74,10 +74,14 @@ def main():
             all_prices[restaurant_id] = prices
         assert all(len(prices) == len(l10n_strings[lang]) for prices in all_prices.values())
 
+        items_offered = [] # Items which at least one restaurant offers, to display as table column headers
+        for item in zip(*all_prices.values()):
+            items_offered.append("1" if any(price != "" for price in item) else "")
+
         with open(relpath(f"prices_{lang}.csv"), "w") as f:
             writer = csv.writer(f)
-            writer.writerow(all_prices.keys())
-            writer.writerows(zip(*all_prices.values()))
+            writer.writerow(("any", *all_prices.keys()))
+            writer.writerows(zip(items_offered, *all_prices.values()))
 
     print("Localization and prices files generated successfully.")
 
