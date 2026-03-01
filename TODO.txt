@@ -1,1 +1,0 @@
-- Fix 26020 (1440 Ellice) formatting issue
