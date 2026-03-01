@@ -2,6 +2,7 @@
 
 # Built-in modules
 import json, sys, uuid
+from datetime import datetime
 from os import path
 
 # Third-party modules
@@ -72,7 +73,7 @@ def fetch_menu(location_id, is_retry=False):
             raise e
 
     with open(relpath(f"menus_json/{location_id}.json"), "w") as f:
-        json.dump(res.json(), f, indent=4)
+        json.dump(res.json(), f, indent=1)
 
     res = r.get(
         f"https://us-prod.api.mcd.com/exp/v1/restaurant/{location_id}?filter=full&storeUniqueIdType=NSN",
@@ -82,9 +83,12 @@ def fetch_menu(location_id, is_retry=False):
     res.raise_for_status()
     with open(relpath("addresses.json")) as f:
         addresses = json.load(f)
-    addresses[location_id] = res.json()["response"]["restaurant"]["address"]["addressLine1"].strip()
+    addresses[location_id] = {
+        "addr": res.json()["response"]["restaurant"]["address"]["addressLine1"].strip(),
+        "updated": datetime.now().strftime("%Y-%m-%d")
+    }
     with open(relpath("addresses.json"), "w") as f:
-        json.dump({int(k): v for k, v in addresses.items()}, f, indent=4, sort_keys=True)
+        json.dump({int(k): v for k, v in addresses.items()}, f, indent=1, sort_keys=True)
 
 
 

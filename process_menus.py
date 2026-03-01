@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 # Built-in modules
-import csv, json, os
+import csv, json, os, sys
 from itertools import zip_longest
 
 
@@ -27,7 +27,7 @@ def menu_items(json_input):
 
 
 
-def main():
+def main(location):
     l10n_strings = {
         "en-CA": [],
         "fr-CA": []
@@ -55,7 +55,7 @@ def main():
     for lang in l10n_strings.keys():
         l10n_strings[lang] = l10n_strings[lang][0]
 
-    with open(relpath("localization.csv"), "w") as f:
+    with open(relpath(f"data/{location}/localization.csv"), "w") as f:
         writer = csv.writer(f)
         writer.writerow(l10n_strings.keys())
         writer.writerows(zip_longest(*l10n_strings.values(), fillvalue=""))
@@ -80,7 +80,7 @@ def main():
         for item in zip(*all_prices.values()):
             items_offered.append("Y" if any(price != "" for price in item) else "")
 
-        with open(relpath(f"prices_{lang}.csv"), "w") as f:
+        with open(relpath(f"data/{location}/prices_{lang}.csv"), "w") as f:
             writer = csv.writer(f)
             writer.writerow(("any", *all_prices.keys()))
             writer.writerows(zip(items_offered, *all_prices.values()))
@@ -90,4 +90,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    main(sys.argv[1])

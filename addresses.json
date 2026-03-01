@@ -1,39 +1,150 @@
 {
-    "1187": "425 Nathaniel Street",
-    "1563": "1887 Main Street",
-    "2135": "1301 McPhillips",
-    "2137": "144 St. Anne's Rd.",
-    "2140": "1460 Henderson Highway",
-    "2622": "1049 Notre Dame Ave",
-    "5382": "77 Goulet St",
-    "6167": "3920 Grant Avenue",
-    "7094": "3045 Pembina Hwy South",
-    "10991": "(Food Court) Unit 102-H 333 St. Mary Avenue",
-    "11135": "994 Keewatin",
-    "11476": "65 Vermillion Rd., Southdale Mall",
-    "11928": "630 Pembina Highway",
-    "12270": "847 Leila Avenue",
-    "12592": "484 McPhillips Street",
-    "14203": "1251 Portage Avenue",
-    "15611": "2475 Portage Avenue",
-    "18285": "Unit #2 - 2359 Ness Avenue",
-    "21444": "1186 Main Street",
-    "23173": "15 Reenders Drive",
-    "23251": "3401 Portage Avenue",
-    "23430": "1501 St. Mary's Road",
-    "23914": "2027 Pembina",
-    "26020": "1440 Ellice Avenue",
-    "26056": "664 Portage Ave",
-    "26060": "1725 Kenaston Blvd.",
-    "29092": "375 Osborne Street",
-    "29176": "979 Henderson Hwy",
-    "29718": "833 McLeod Ave",
-    "40005": "1525 King Edward St",
-    "40299": "680 Nairn Ave",
-    "40390": "1425 Regent Avenue",
-    "40609": "11 Devonshire Drive",
-    "40629": "1475 Regent Ave West",
-    "40694": "Unit 111 - 25 Sage Creek Blvd",
-    "40700": "457 Sterling Lyon Parkway",
-    "41363": "1 Meadowland Drive"
+ "1187": {
+  "addr": "425 Nathaniel Street",
+  "updated": "2026-03-01"
+ },
+ "1563": {
+  "addr": "1887 Main Street",
+  "updated": "2026-03-01"
+ },
+ "2135": {
+  "addr": "1301 McPhillips",
+  "updated": "2026-03-01"
+ },
+ "2137": {
+  "addr": "144 St. Anne's Rd.",
+  "updated": "2026-03-01"
+ },
+ "2140": {
+  "addr": "1460 Henderson Highway",
+  "updated": "2026-03-01"
+ },
+ "2622": {
+  "addr": "1049 Notre Dame Ave",
+  "updated": "2026-03-01"
+ },
+ "5382": {
+  "addr": "77 Goulet St",
+  "updated": "2026-03-01"
+ },
+ "6167": {
+  "addr": "3920 Grant Avenue",
+  "updated": "2026-03-01"
+ },
+ "7094": {
+  "addr": "3045 Pembina Hwy South",
+  "updated": "2026-03-01"
+ },
+ "10991": {
+  "addr": "(Food Court) Unit 102-H 333 St. Mary Avenue",
+  "updated": "2026-03-01"
+ },
+ "11135": {
+  "addr": "994 Keewatin",
+  "updated": "2026-03-01"
+ },
+ "11476": {
+  "addr": "65 Vermillion Rd., Southdale Mall",
+  "updated": "2026-03-01"
+ },
+ "11928": {
+  "addr": "630 Pembina Highway",
+  "updated": "2026-03-01"
+ },
+ "12270": {
+  "addr": "847 Leila Avenue",
+  "updated": "2026-03-01"
+ },
+ "12592": {
+  "addr": "484 McPhillips Street",
+  "updated": "2026-03-01"
+ },
+ "14203": {
+  "addr": "1251 Portage Avenue",
+  "updated": "2026-03-01"
+ },
+ "15611": {
+  "addr": "2475 Portage Avenue",
+  "updated": "2026-03-01"
+ },
+ "18285": {
+  "addr": "Unit #2 - 2359 Ness Avenue",
+  "updated": "2026-03-01"
+ },
+ "21444": {
+  "addr": "1186 Main Street",
+  "updated": "2026-03-01"
+ },
+ "23173": {
+  "addr": "15 Reenders Drive",
+  "updated": "2026-03-01"
+ },
+ "23251": {
+  "addr": "3401 Portage Avenue",
+  "updated": "2026-03-01"
+ },
+ "23430": {
+  "addr": "1501 St. Mary's Road",
+  "updated": "2026-03-01"
+ },
+ "23914": {
+  "addr": "2027 Pembina",
+  "updated": "2026-03-01"
+ },
+ "26020": {
+  "addr": "1440 Ellice Avenue",
+  "updated": "2026-03-01"
+ },
+ "26056": {
+  "addr": "664 Portage Ave",
+  "updated": "2026-03-01"
+ },
+ "26060": {
+  "addr": "1725 Kenaston Blvd.",
+  "updated": "2026-03-01"
+ },
+ "29092": {
+  "addr": "375 Osborne Street",
+  "updated": "2026-03-01"
+ },
+ "29176": {
+  "addr": "979 Henderson Hwy",
+  "updated": "2026-03-01"
+ },
+ "29718": {
+  "addr": "833 McLeod Ave",
+  "updated": "2026-03-01"
+ },
+ "40005": {
+  "addr": "1525 King Edward St",
+  "updated": "2026-03-01"
+ },
+ "40299": {
+  "addr": "680 Nairn Ave",
+  "updated": "2026-03-01"
+ },
+ "40390": {
+  "addr": "1425 Regent Avenue",
+  "updated": "2026-03-01"
+ },
+ "40609": {
+  "addr": "11 Devonshire Drive",
+  "updated": "2026-03-01"
+ },
+ "40629": {
+  "addr": "1475 Regent Ave West",
+  "updated": "2026-03-01"
+ },
+ "40694": {
+  "addr": "Unit 111 - 25 Sage Creek Blvd",
+  "updated": "2026-03-01"
+ },
+ "40700": {
+  "addr": "457 Sterling Lyon Parkway",
+  "updated": "2026-03-01"
+ },
+ "41363": {
+  "addr": "1 Meadowland Drive",
+  "updated": "2026-03-01"
+ }
 }
