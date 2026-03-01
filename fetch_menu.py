@@ -1,9 +1,13 @@
+#!/usr/bin/env python3
+
 # Built-in modules
-import json
+import json, sys
 from os import path
 
 # Third-party modules
 import requests as r
+
+
 
 def relpath(p):
     try:
@@ -68,20 +72,5 @@ def fetch_menu(location_id, is_retry=False):
 
 
 
-def menu_items(json_input):
-    if isinstance(json_input, dict):
-        if "ID" in json_input and "price" in json_input and isinstance(json_input["ID"], int) and isinstance(json_input["price"], int):
-            yield json_input
-        else:
-            for item in json_input.values():
-                yield from menu_items(item)
-    elif isinstance(json_input, list):
-        for item in json_input:
-            yield from menu_items(item)
-
-
-
 if __name__ == "__main__":
-    # Example
-    with open(relpath("menus_json/7094.json")) as f:
-        print(list(menu_items(json.load(f))))
+    fetch_menu(sys.argv[1])

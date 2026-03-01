@@ -47,7 +47,7 @@ def main():
                 print(f"Mismatch in {lang}: {item}")
                 mismatches += 1
 
-    print("Total mismatches:", mismatches)
+    print("Total localization mismatches among restaurants:", mismatches)
     if mismatches != 0:
         return
 
