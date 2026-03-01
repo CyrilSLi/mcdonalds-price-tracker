@@ -51,6 +51,10 @@
   "addr": "1803 Idylwyld Drive, North",
   "updated": "2026-03-01"
  },
+ "3904": {
+  "addr": "94 Broadway Street West",
+  "updated": "2026-03-01"
+ },
  "3983": {
   "addr": "525 Albert Street North",
   "updated": "2026-03-01"
@@ -151,6 +155,14 @@
   "addr": "10 Kenderdine Road",
   "updated": "2026-03-01"
  },
+ "26006": {
+  "addr": "(Wal-Mart) 551 Thatcher Drive East",
+  "updated": "2026-03-01"
+ },
+ "26013": {
+  "addr": "(Wal-Mart) 240 Hamilton Road",
+  "updated": "2026-03-01"
+ },
  "26020": {
   "addr": "1440 Ellice Avenue",
   "updated": "2026-03-01"
@@ -183,6 +195,18 @@
   "addr": "375 Osborne Street",
   "updated": "2026-03-01"
  },
+ "29104": {
+  "addr": "(Wal-Mart) 800-15th Street East, Unit #100",
+  "updated": "2026-03-01"
+ },
+ "29114": {
+  "addr": "50 MacDonald Street",
+  "updated": "2026-03-01"
+ },
+ "29115": {
+  "addr": "3625 2nd Avenue W",
+  "updated": "2026-03-01"
+ },
  "29169": {
   "addr": "(Wal-Mart) 3939 Rochdale Blvd.",
   "updated": "2026-03-01"
@@ -197,6 +221,10 @@
  },
  "40005": {
   "addr": "1525 King Edward St",
+  "updated": "2026-03-01"
+ },
+ "40006": {
+  "addr": "800 - 15th Street E",
   "updated": "2026-03-01"
  },
  "40032": {
@@ -251,6 +279,10 @@
   "addr": "4910 Gordon Road",
   "updated": "2026-03-01"
  },
+ "40601": {
+  "addr": "1585 9th Ave NE",
+  "updated": "2026-03-01"
+ },
  "40609": {
   "addr": "11 Devonshire Drive",
   "updated": "2026-03-01"
@@ -283,6 +315,14 @@
   "addr": "1810 Exhibition Parkway",
   "updated": "2026-03-01"
  },
+ "41184": {
+  "addr": "195 17 St W",
+  "updated": "2026-03-01"
+ },
+ "41244": {
+  "addr": "207 Broadway Street East",
+  "updated": "2026-03-01"
+ },
  "41333": {
   "addr": "211 Saskatchewan Avenue West",
   "updated": "2026-03-01"
@@ -295,11 +335,18 @@
   "addr": "1 Meadowland Drive",
   "updated": "2026-03-01"
  },
+ "41388": {
+  "addr": "4115 7th Avenue East",
+  "updated": "2026-03-01"
+ },
  "__locations__": [
   "Brandon",
+  "Moose Jaw",
   "Portage La Prairie",
+  "Prince Albert",
   "Regina",
   "Saskatoon",
-  "Winnipeg"
+  "Winnipeg",
+  "Yorkton"
  ]
 }
