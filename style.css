@@ -32,3 +32,7 @@ tr > td:nth-child(2), tr > td:nth-child(3) {
     display: inline-block;
     margin-bottom: var(--pico-spacing);
 }
+a, a:visited {
+    color: blue;
+    text-decoration-color: blue;
+}
