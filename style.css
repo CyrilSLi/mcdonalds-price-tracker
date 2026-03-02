@@ -1,13 +1,16 @@
 :root {
-    --absolute-background: #ffffff;
+    --absolute-background: white;
+    --absolute-foreground: black;
 }
 @media (prefers-color-scheme: dark) {
     :root {
-        --absolute-background: #000000;
+        --absolute-background: black;
+        --absolute-foreground: white;
     }
 }
 body {
     padding: 1rem;
+    background-color: var(--absolute-background);
 }
 table {
     display: block;
@@ -15,12 +18,14 @@ table {
 }
 th, td {
     text-align: center;
+    color: var(--absolute-foreground);
 }
 tr > th:first-child, tr > td:first-child {
     font-weight: bold;
     position: sticky;
     left: 0;
-    background-color: var(--absolute-background) !important;
+    background-color: white !important;
+    color: black;
 }
 tr > td:nth-child(2), tr > td:nth-child(3) {
     white-space: nowrap; /* Do not wrap address or last updated columns */

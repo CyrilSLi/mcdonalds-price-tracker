@@ -152,7 +152,7 @@ document.getElementById("filter").addEventListener("input", () => {
 
     document.getElementById("table-header").innerHTML = tableHeader.map(header => `<th>${header}</th>`).join("");
     document.getElementById("table-body").innerHTML = tableRows.map(row => `<tr>${row.map(cell => {
-        return `<td style="background-color: ${cell[1]}">${cell[0]}</td>`;
+        return `<td style="background-color: ${cell[1]};${cell[1] === "#FFFF00" ? " color: black;" : ""}">${cell[0]}</td>`;
     }).join("")}</tr>`).join("");
     document.querySelectorAll(`#table-body > tr:nth-child(n+${headerDataRows + 1}) > td:first-child`).forEach(td => {
         td.innerHTML = `<a href="https://www.mcdonalds.com/ca/${lang.toLowerCase()}/location/${td.textContent}.html" target="_blank">${td.textContent}</a>`;
