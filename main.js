@@ -134,7 +134,7 @@ document.getElementById("filter").addEventListener("input", () => {
                     "#FFFF00"
                 ]);
             } else {
-                row.push([(price / 100).toFixed(2), redGreenGradient(price, minPrice, maxPrice)]);
+                row.push([(price / 100).toFixed(2), minPrice === maxPrice ? "#00000000" : redGreenGradient(price, minPrice, maxPrice)]);
             }
         });
     });

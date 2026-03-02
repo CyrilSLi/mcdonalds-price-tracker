@@ -24,6 +24,8 @@ tr > th:first-child, tr > td:first-child {
     font-weight: bold;
     position: sticky;
     left: 0;
+}
+tr > td:first-child {
     background-color: white !important;
     color: black;
 }
