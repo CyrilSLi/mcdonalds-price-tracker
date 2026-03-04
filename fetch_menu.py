@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 
 # Built-in modules
-import json, sys, uuid
+import json, os, sys, uuid
 from datetime import datetime
 from os import path
+from pathlib import Path
 
 # Third-party modules
 import requests as r
@@ -56,9 +57,9 @@ def refresh_login():
 
 
 
-def fetch_menu(location_id, is_retry=False):
+def fetch_menu(restaurant_id, location="", is_retry=False):
     res = r.get(
-        f"https://us-prod.api.mcd.com/ca/gma/api/v1/restaurants/{location_id}/menus",
+        f"https://us-prod.api.mcd.com/ca/gma/api/v1/restaurants/{restaurant_id}/menus",
         headers=mcd_headers()
     )
 
@@ -68,22 +69,22 @@ def fetch_menu(location_id, is_retry=False):
         if not is_retry and res.status_code == 401:
             print("Unauthorized, refreshing login...")
             refresh_login()
-            return fetch_menu(location_id, is_retry=True)
+            return fetch_menu(restaurant_id, is_retry=True)
         else:
             raise e
 
-    with open(relpath(f"menus_json/{location_id}.json"), "w") as f:
+    with open(relpath(f"menus_json{location}/{restaurant_id}.json"), "w") as f:
         json.dump(res.json(), f, indent=1)
 
     res = r.get(
-        f"https://us-prod.api.mcd.com/exp/v1/restaurant/{location_id}?filter=full&storeUniqueIdType=NSN",
+        f"https://us-prod.api.mcd.com/exp/v1/restaurant/{restaurant_id}?filter=full&storeUniqueIdType=NSN",
         headers=mcd_headers()
     )
 
     res.raise_for_status()
     with open(relpath("addresses.json")) as f:
         addresses = json.load(f)
-    addresses[location_id] = {
+    addresses[restaurant_id] = {
         "addr": res.json()["response"]["restaurant"]["address"]["addressLine1"].strip(),
         "updated": datetime.now().strftime("%Y-%m-%d")
     }
@@ -95,4 +96,20 @@ def fetch_menu(location_id, is_retry=False):
 
 
 if __name__ == "__main__":
-    fetch_menu(sys.argv[1])
+    location_dir = "/" + sys.argv[1].title()
+    if len(sys.argv) > 2:
+        if all(i in "0123456789" for i in sys.argv[2]):
+            fetch_menu(sys.argv[2], location=location_dir)
+        else:
+            raise SystemExit("Restaurant ID must be a number.")
+    else:
+        if all(i in "0123456789" for i in sys.argv[1]):
+            fetch_menu(sys.argv[1])
+        else: # Fetch all for the specified location and process menus
+            menu_files = tuple (i for i in os.listdir(relpath("menus_json" + location_dir)) if i.endswith(".json"))
+            for i, menu_file in enumerate(menu_files, 1):
+                print(f"Fetching menu for {menu_file} ({i}/{len(menu_files)})...")
+                fetch_menu(Path(menu_file).stem, location=location_dir)
+
+            from process_menus import main
+            main(sys.argv[1].title())
