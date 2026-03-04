@@ -13,7 +13,7 @@ if (!params.has("location")) {
     substituteLocationString("");
     (async () => {
         const addresses = await fetch("addresses.json").then(res => res.json());
-        document.getElementById("locations").innerHTML += addresses.__locations__.map(loc => {
+        document.getElementById("locations").innerHTML += Object.keys(addresses.__locations__).map(loc => {
             return `<a href="?location=${loc}"><button class="secondary">${loc}</button></a>`;
         }).join(" ");
     })();
@@ -58,6 +58,9 @@ document.getElementById("filter").addEventListener("input", () => {
     const localization = Papa.parse(await fetch(`data/${appLocation}/localization.csv`).then(res => res.text()), { header: true }).data;
     const addresses = await fetch("addresses.json").then(res => res.json());
 
+    const globalUpdated = addresses.__locations__[appLocation].updated || "N/A";
+    const strMin = (...arr) => arr.reduce((min, c) => c < min ? c : min); 
+
     let prices, tableHeader;
     const lang = document.documentElement.lang;
 
@@ -85,7 +88,11 @@ document.getElementById("filter").addEventListener("input", () => {
         if (key === "any") {
             return;
         }
-        tableRows.push([[key, "#00000000"], [addresses[key].updated || "N/A", "#00000000"], [addresses[key].addr || "N/A", "#00000000"]]);
+        let updated = globalUpdated;
+        if ("updated" in addresses[key]) {
+            updated = strMin(updated, addresses[key].updated); // Earliest of individual restaurant update and global (location-wide) update
+        }
+        tableRows.push([[key, "#00000000"], [updated, "#00000000"], [addresses[key].addr || "N/A", "#00000000"]]);
     });
 
     prices.map((el, index) => {

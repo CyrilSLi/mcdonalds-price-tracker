@@ -309,7 +309,7 @@
  },
  "29104": {
   "addr": "(Wal-Mart) 800-15th Street East, Unit #100",
-  "updated": "2026-03-01"
+  "updated": "2026-03-04"
  },
  "29114": {
   "addr": "50 MacDonald Street",
@@ -527,18 +527,42 @@
   "addr": "4115 7th Avenue East",
   "updated": "2026-03-04"
  },
- "__locations__": [
-  "Brandon",
-  "Cambridge",
-  "Kitchener-Waterloo",
-  "Mississauga",
-  "Moose Jaw",
-  "Portage La Prairie",
-  "Prince Albert",
-  "Regina",
-  "Saskatoon",
-  "Sydney-North Sydney",
-  "Winnipeg",
-  "Yorkton"
- ]
+ "__locations__": {
+  "Brandon": {
+   "updated": "2026-03-04"
+  },
+  "Cambridge": {
+   "updated": "2026-03-04"
+  },
+  "Kitchener-Waterloo": {
+   "updated": "2026-03-01"
+  },
+  "Mississauga": {
+   "updated": "2026-03-01"
+  },
+  "Moose Jaw": {
+   "updated": "2026-03-01"
+  },
+  "Portage La Prairie": {
+   "updated": "2026-03-04"
+  },
+  "Prince Albert": {
+   "updated": "2026-03-04"
+  },
+  "Regina": {
+   "updated": "2026-03-01"
+  },
+  "Saskatoon": {
+   "updated": "2026-03-01"
+  },
+  "Sydney-North Sydney": {
+   "updated": "2026-03-04"
+  },
+  "Winnipeg": {
+   "updated": "2026-03-01"
+  },
+  "Yorkton": {
+   "updated": "2026-03-04"
+  }
+ }
 }

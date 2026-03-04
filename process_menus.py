@@ -2,6 +2,7 @@
 
 # Built-in modules
 import csv, json, os, sys
+from datetime import datetime
 from itertools import zip_longest
 from pathlib import Path
 
@@ -35,7 +36,7 @@ def menu_items(json_input):
 
 
 
-def main(location):
+def main(location, log_mismatches=True):
     l10n_strings = {
         "en-CA": [],
         "fr-CA": []
@@ -57,12 +58,14 @@ def main(location):
     for lang, strings in l10n_strings.items():
         for item in zip_longest(*strings):
             if len(set(item)) > 1:
-                print(f"Mismatch in {lang}: {item}")
+                if log_mismatches:
+                    print(f"Mismatch in {lang}: {item}")
                 mismatches += 1
 
     print("Total localization mismatches among restaurants:", mismatches)
     if mismatches != 0:
-        print(menu_files)
+        if log_mismatches:
+            print(menu_files)
         return
 
     for lang in l10n_strings.keys():
@@ -114,7 +117,11 @@ def main(location):
 
     with open(relpath("addresses.json")) as f:
         addresses = json.load(f)
-    addresses["__locations__"] = sorted(set(addresses.get("__locations__", []) + [location]))
+    addresses.setdefault("__locations__", {})[location] = {
+        "updated": datetime.now().strftime("%Y-%m-%d")
+    }
+    addresses["__locations__"] = dict(sorted(addresses["__locations__"].items(), key=lambda x: x[0]))
+
     with open(relpath("addresses.json"), "w") as f:
         # Sort integer keys numerically first, then string keys alphabetically
         sorted_dict = {k: addresses[k] for k in sorted(addresses.keys(), key=lambda x: (False, int(x)) if x.isdigit() else (True, x))}
@@ -124,4 +131,10 @@ def main(location):
 
 
 if __name__ == "__main__":
-    main(sys.argv[1].title())
+    if len(sys.argv) > 1:
+        main(sys.argv[1].title())
+    else:
+        locations = tuple (i for i in os.listdir(relpath("menus_json")) if os.path.isdir(relpath("menus_json/" + i)))
+        for i, location in enumerate(locations, 1):
+            print(f"Processing menus for {location} ({i}/{len(locations)})...")
+            main(location, log_mismatches=False)
