@@ -112,4 +112,4 @@ if __name__ == "__main__":
                 fetch_menu(Path(menu_file).stem, location=location_dir)
 
             from process_menus import main
-            main(sys.argv[1].title())
+            main(sys.argv[1].title(), check_menus_in_root_dir=False)

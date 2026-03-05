@@ -36,13 +36,16 @@ def menu_items(json_input):
 
 
 
-def main(location, log_mismatches=True):
+def main(location, log_mismatches=True, check_menus_in_root_dir=True):
     l10n_strings = {
         "en-CA": [],
         "fr-CA": []
     }
-    menu_files = tuple (i for i in os.listdir(relpath("menus_json")) if i.endswith(".json"))
-    if not menu_files:
+    menu_files = None
+
+    if check_menus_in_root_dir:
+        menu_files = tuple (i for i in os.listdir(relpath("menus_json")) if i.endswith(".json"))
+    if not (menu_files and check_menus_in_root_dir):
         menu_files = tuple (f"{location}/{i}" for i in os.listdir(relpath(f"menus_json/{location}")) if i.endswith(".json"))
         if not menu_files:
             print("No menu files found for location:", location)
