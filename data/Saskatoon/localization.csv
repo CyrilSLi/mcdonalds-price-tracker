@@ -11,23 +11,24 @@ Sml VanChai Frappé w/ Whipped Cream & Choc Drizzle,**Frais fixes**
 ** Flat Fee Integrated **,1 sucre
 $1 Donation,1 tranche de fromage seulement
 $10 Gift Card,10 McCroquettes
-$20 Gift Card,10 Poulet McCroquettes
-$25 Gift Card,12 Biscuits douceur
-$5 Gift Card,12 biscuits OMRM
-$50 Gift Card,12 Croissants
-1 Breakfast Burrito,12 Danois
-1 Breakfast Burrito McValue Meal,12 mini-viennoiseries
-1 Cheese Slice Only,12 Patates hachées brunes
-1 Cream,1Dollar Promo bannière
-1 Hamburger & 1 Cheesburger,2 Biscuits douceur
-1 Hamburger & 1 Cheeseburger Meal,2 biscuits OMRM
-1 Milk,2 Boisson à l’avoine
-1 Oat Beverage,2 Bracelets D'amitie
-1 Splenda,2 Burritos-matin
-1 Sugar,2 chaussons
-1% Milk Bottle,2 chaussons au caramel salé cu
-10 Chicken McNuggets,2 chaussons au caramel salé cuits au four
-10 McNuggets,2 chaussons aux bleuets
+$20 Gift Card,10 McCroquettes - repas Bâtons des étoiles LNH
+$25 Gift Card,10 Poulet McCroquettes
+$5 Gift Card,12 Biscuits douceur
+$50 Gift Card,12 biscuits OMRM
+1 Breakfast Burrito,12 Croissants
+1 Breakfast Burrito McValue Meal,12 Danois
+1 Cheese Slice Only,12 mini-viennoiseries
+1 Cream,12 Patates hachées brunes
+1 Hamburger & 1 Cheesburger,1Dollar Promo bannière
+1 Hamburger & 1 Cheeseburger Meal,2 Biscuits douceur
+1 Milk,2 biscuits OMRM
+1 Oat Beverage,2 Boisson à l’avoine
+1 Splenda,2 Bracelets D'amitie
+1 Sugar,2 Burritos-matin
+1% Milk Bottle,2 chaussons
+10 Chicken McNuggets,2 chaussons au caramel salé cu
+10 McNuggets,2 chaussons au caramel salé cuits au four
+10 McNuggets - NHL Star Sticks Meal,2 chaussons aux bleuets
 10 McNuggets Extra Value Meal,2 chaussons aux bleuets et au fromage à la crème
 12 Caring Cookies,2 chaussons aux pommes
 12 Classic Croissants,2 chaussons aux pommes cuits au four
@@ -280,60 +281,61 @@ Bagl B-Egg EVM ***,Beurre avec couteau
 Bagl B-Egg VM ***,Beurre d'arachide
 Bagl Bac Egg 'N Gouda,Bien grillé
 Bagl Bac Egg 'N Gouda VM,Big Mac
-Bagl Bac Egg VM ***,Big Mac (sans viande)
-Bagl Bacon Egg  ***,Big Mac enfant
-Bagl Bacon Egg ***,Big Mac et côte
-Bagl BLT ***,"Big Mac, sans viande"
-Bagl BLT EVM ***,Billet hockey
-Bagl BLT VM ***,Biscuit arc-en-ciel
-Bagl Bny B-Egg  VM ***,Biscuit aux morceaux de chocol
-Bagl Bny B-Egg VM ***,Biscuit aux morceaux de chocolat
-Bagl Bny Bacon Egg  ***,Biscuit s'mores
-Bagl Bny Bacon Egg ***,Biscuits
-Bagl Crm Chs VM,Biscuits douceur
-Bagl Egg BLT ***,Bist Thaïe m frites ***
-Bagl Egg BLT EVM ***,Blanc 250ml de lait
-Bagl Egg BLT VM ***,Blanc d'oeuf
-Bagl Egg LT ***,Bleuets
-Bagl Egg LT EVM ***,BLT poulet ***
-Bagl Egg LT VM ***,Boisson
-Bagl Egg LT***,Boisson à l’avoine
-Bagl Plain ***,Boisson café chaude specialite
-Bagl R ***,Boisson d'amande
-Bagl Sau Egg ***,Boisson fontaine
-Bagl Sau Egg VM ***,Boisson Latte/Cappuccino
-Bagl w/ CC ***,Boisson McCafé chaude
-Bagl w/ CC VM ***,Boisson McCafé Chaude
-Bagl w/ R/CC Smk Slmn,Boisson Splash fraîcheur
-Bagl w/ Spreads,Boissons chaudes
-Bagl w/ Spreads ***,Boissons de fontaine
-Bagl w/Cream Chs,Boissons en bouteille
+Bagl Bac Egg VM ***,Big Mac - repas Bâtons des étoiles de la LNH
+Bagl Bacon Egg  ***,Big Mac (sans viande)
+Bagl Bacon Egg ***,Big Mac enfant
+Bagl BLT ***,Big Mac et côte
+Bagl BLT EVM ***,"Big Mac, sans viande"
+Bagl BLT VM ***,Billet hockey
+Bagl Bny B-Egg  VM ***,Biscuit arc-en-ciel
+Bagl Bny B-Egg VM ***,Biscuit aux morceaux de chocol
+Bagl Bny Bacon Egg  ***,Biscuit aux morceaux de chocolat
+Bagl Bny Bacon Egg ***,Biscuit s'mores
+Bagl Crm Chs VM,Biscuits
+Bagl Egg BLT ***,Biscuits douceur
+Bagl Egg BLT EVM ***,Bist Thaïe m frites ***
+Bagl Egg BLT VM ***,Blanc 250ml de lait
+Bagl Egg LT ***,Blanc d'oeuf
+Bagl Egg LT EVM ***,Bleuets
+Bagl Egg LT VM ***,BLT poulet ***
+Bagl Egg LT***,Boisson
+Bagl Plain ***,Boisson à l’avoine
+Bagl R ***,Boisson café chaude specialite
+Bagl Sau Egg ***,Boisson d'amande
+Bagl Sau Egg VM ***,Boisson fontaine
+Bagl w/ CC ***,Boisson Latte/Cappuccino
+Bagl w/ CC VM ***,Boisson McCafé chaude
+Bagl w/ R/CC Smk Slmn,Boisson McCafé Chaude
+Bagl w/ Spreads,Boisson Splash fraîcheur
+Bagl w/ Spreads ***,Boissons chaudes
+Bagl w/Cream Chs,Boissons de fontaine
 Bags,Boissons en bouteille
-Baked Apple Pie,Boissons fontaine - enfant
-Baked Blueberry Cream Cheese Pie,Boissons froides
-Baked Muffins,Boissons Splash fraîcheur
-Baked Pies,Boîte à café
-Baked Salted Caramel Pie,Boîte à café (pour 12 pers.)
-Bakery,Boîte à décaf
-Bakery & Sweets & Treats,Boîte à décaf (pour 12 pers.)
-Bakery Pairings,Boîte à partager (2 personnes)
-Banana Chocolate Chunk Muffin,Boîte à partager (pour 2 personnes)
-Barbeque Sauce,Boîte à partager 20 McCroq
-Barq's Root Beer,Boîte à partager des Fêtes
+Baked Apple Pie,Boissons en bouteille
+Baked Blueberry Cream Cheese Pie,Boissons fontaine - enfant
+Baked Muffins,Boissons froides
+Baked Pies,Boissons Splash fraîcheur
+Baked Salted Caramel Pie,Boîte à café
+Bakery,Boîte à café (pour 12 pers.)
+Bakery & Sweets & Treats,Boîte à décaf
+Bakery Pairings,Boîte à décaf (pour 12 pers.)
+Banana Chocolate Chunk Muffin,Boîte à partager (2 personnes)
+Barbeque Sauce,Boîte à partager (pour 2 personnes)
+Barq's Root Beer,Boîte à partager 20 McCroq
 BBQ Sauce,Boîte à partager des Fêtes
-Begel,Boîte à partager des Fêtes avec chaussons
-Benny B-Egg Bagl VM,Bouchées de patates du Grincheux
-Benny B-Egg Bgl VM ***,Bout consignée
-Benny Bacon Egg Bagel ***,Bouteille
-Benny-Style Bacon ‘N Egg Evry,Bouteille au miel
-Benny-Style Bacon ‘N Egg Mgrn,Bouteille consignée
-Benny-Style Bacon ‘N Egg Plain,Bouteille d'eau
-Benny-Style Bacon ‘N Egg Sesam,Bouteille d'eau DASANI
-Bergamia Grey Tea,Bouteille de lait 1%
-Berry McPops,Bouteille de lait 1% au choco
-Big Arch,Bouteille de lait 1% au chocolat
-Big Breakfast,Bouteille de Sprite
-Big Mac,Brioche à la cannelle
+Begel,Boîte à partager des Fêtes
+Benny B-Egg Bagl VM,Boîte à partager des Fêtes avec chaussons
+Benny B-Egg Bgl VM ***,Bouchées de patates du Grincheux
+Benny Bacon Egg Bagel ***,Bout consignée
+Benny-Style Bacon ‘N Egg Evry,Bouteille
+Benny-Style Bacon ‘N Egg Mgrn,Bouteille au miel
+Benny-Style Bacon ‘N Egg Plain,Bouteille consignée
+Benny-Style Bacon ‘N Egg Sesam,Bouteille d'eau
+Bergamia Grey Tea,Bouteille d'eau DASANI
+Berry McPops,Bouteille de lait 1%
+Big Arch,Bouteille de lait 1% au choco
+Big Breakfast,Bouteille de lait 1% au chocolat
+Big Mac,Bouteille de Sprite
+Big Mac - NHL Star Sticks Meal,Brioche à la cannelle
 Big Mac (No Meat),Brunch
 Big Mac (No Meat) Extra Value Meal,Burrito-matin
 Big Mac & Side Deal,Burritos-matin
@@ -562,352 +564,354 @@ Creamy Chipotle McWrap with Grilled Chicken,Donner à l’OMRM $5
 Creamy Chipotle McWrap with Grilled Chicken Extra Value Meal,Double Big Mac
 Creamy Chipotle Sauce,Double double
 Creamy Dijon Mustard,Double espresso
-Creamy Dill Pickle Dip Cup,Double extra fromagé
-Creamy Spicy Sauce,Double filet de poisson
-Crispy Chicken Patty,Double h-fromage
-Crispy Onions,Double hamburger
-Crispy Ranch Snack Wrap,Double Hamburger
-Crispy Snack Wrap,Double hamburger avec fromage
-Croissant,Double Hamburger avec fromage
-Croissants Sandwiches,Double Hamburger avec fromage et bacon
-Crumble,double hamburger fromage
-Cucumber,Double hamburger fromage
-Cut in half,Double quart BLT
-Dasani Water,Double quart de livre avec fromage
-Dbl Chsb LT,Double quart de livre BLT
-Dbl Dbl,Double quart de livre fromage
-Dbl Quarter Pounder,Double quart de livre sans fro
-Dbl Quarter Pounder withCheese,Double quart de livre sans fromage
-Decaf Coffee,Double Quart Fromage
-Delivery,Double Quart Hamburger (sans fromage)
-Delivery Fee,Double Quart livre (sans fromage)
-Description,Duo
-Dessert,Duo 2 biscuits
-Diced Apples,duo avec Café
-Diet Coke,Duo Bagel Crm Chs avec Café
-Diet Coke Syrup,Duo café et pâtisserie
-Distance Fee,Duo chausson aux pommes
-Double Bacon 'N Crispy Onion,Duo chausson aux pommes et McCafé
-Double Bacon 'N Crispy Onion Quarter Pounder,Duo chausson aux pommes McCafé
-Double Big Mac,Duo muffin anglais
-Double Big Mac Extra Value Meal,Duo muffin anglais et boisson chaude
-Double Cheeseburger,Duo muffin et café
-Double Cheeseburger Extra Value Meal,"Duo patates hachées brunes et café, format moyen"
-Double Cheesy Melt,Duo rôties blanc
-Double Cheesy Melt Extra Value Meal,Duo rôties blanc et boisson chaude
-Double Chsb LT,Duo rôties blé entier
-Double Double,Duo rôties blé entier et 2 œufs frits
-Double Espresso,Duo rôties blé entier et boisson chaude
-Double Filet-O-Fish,E Coke
-Double Filet-O-Fish Extra Value Meal,E Eau froide
-Double Hamburger,E LF à la fraise ML
-Double Hamburger Extra Value Meal,E LF au chocolat ML
-Double Quarter Pounder,E LF au vanille ML
-Double Quarter Pounder BLT,E LF chocolat
-Double Quarter Pounder BLT Extra Value Meal,E LF fraise
-Double Quarter Pounder Cheese,E LF vanille
-Double Quarter Pounder Extra Value Meal,Eau DASANI
-Double Quarter Pounder with Cheese,EC Capp sirop ***
-Double Quarter Pounder With Cheese,ÉC Cappuccino ***
-Double Quarter Pounder with Cheese Extra Value Meal,EC Choc ch ment ***
-Double Quarter Pounder without Cheese,ÉC Lat M. Car
-Double Quarter Pounder without Cheese Extra Value Meal,EC Latte
-Double Toasted,ÉC Latte ***
-Drink,ÉC Latte M. Caramel
-Drink tray,EC Latte sirop ***
-Driver Regulatory Fee,ÉC Latte ss ***
-Earl Grey Tea,ÉC Moka ***
-Earlybird Mug,EC Moka menthe ***
-Edamame,Échantillon
-Egg ‘N Cheese McGriddles,Échantillon latte caramel (lait 2%)
-Egg ‘N Cheese McGriddles Extra Value Meal,Edamame
-Egg ‘N Cheese McMuffin,Enfant
-Egg ‘N Cheese McMuffin Extra Value Meal,Enfant Coca-Cola
-Egg BLT Bagel ***,Enfant Coca-Cola Zero
-Egg BLT Bagl VM,Enfant Coke
-Egg BLT McMuffin,Enfant Coke Diète
-Egg BLT McMuffin Extra Value Meal,Enfant Fruitopia fraises
-Egg LT Bagl VM,Enfant Fruitopia orange
-Egg LT Croissant Sandwich,Enfant Racinette Barq's
-Egg McMuffin,Enfant Sprite
-Egg McMuffin & Hash Brown Deal,Enfant Thé glacé Fuze
-Egg McMuffin Extra Value Meal,Enfant Thé glacé FUZE
-Egg White Only,Enfant Thé glacé NESTEA
-English Muffin,Ens mél salades
-English Muffin Special,Érable et cheddar ***
-Entrée Salad,Espresso
-Espresso,Espresso allongé
-Everything Bacon 'N Egg Bagel,Extra from ched jack
-Everything Bacon 'N Egg Bagel Extra Value Meal,Extra garniture coupe glacée
-Everything Bacon & Guacamole Bagel,Extra garniture pour coupe glacée
-Everything Bacon & Guacamole Bagel Meal,Extra sauce à McCroquettes
-Everything Bagel,Extra sauce poutine
-Everything Bagel Happy Meal,Extra sirop
-Everything Bagel Reg CC Prod,Facturation pour livraison
-Everything Bagel w/ Reg Cream Cheese McValue Meal,Festin 20 McCroquettes
-Everything Bagel w/ Regular Cream Cheese Product,Festin 20 McCroquettes (portion pour 2)
-Everything Bagel with Regular Cream Cheese Product,Festin déjeuner pour 4
-Everything BLT Bagel,Festin déjeuner pour 4 (portion pour 4)
-Everything BLT Bagel Extra Value Meal,Festin écono
-Everything Egg BLT Bagel,Festin écono (portion pour 4)
-Everything Egg BLT Bagel Extra Value Meal,Festin familial
-Everything Sausag 'N Egg Bagel,Festin familial (portion pour 3)
-Everything Sausage 'N Egg Bagel,Festin fin de soirée
-Everything Sausage 'N Egg Bagel Extra Value Meal,Festin fin de soirée (portion pour 4)
-Everything Sausage Egg Bagel,Festins à partager
-Evr Bgl w/Sprd VM ***,Filet de poisson
-Evry Bagl w/ Spreads,Filet de poisson et Côte
-Evry Bagl w/ Spreads ***,Fourchettes
-Evry Bgl w/ Sprd VM ***,Frais (2 sacs)
-Exclusive McValue Add-on,Frais de distance
-Extra Chai Glow Tea Bag,Frais de fête
-Extra Earl Grey Tea Bag,Frais de livraison
-Extra Gravy,Frais de réponse réglementaire
-Extra Green Tea Bag,Frais de réponse réglementaire du livreur
-Extra Ice,Frais de service
-Extra Large,Frais de temps d'attente évita
-Extra Large Earl Grey Tea,Frais de temps d'attente évitable des livreurs DD
-Extra Large Green Tea,Frais pour petite commande
-Extra Large Peppermint Tea,Frites
-Extra Large Senior's Coffee,Frites assaisonnées aux fines herbes et à l'ail
-Extra Large Senior's Decaf Coffee,Frites de renommée mondiale
-Extra Large Senior's Earl Grey Tea,Frites fines herbes et à l'ail
-Extra Large Senior's Green Tea,"Frites, format petit"
-Extra Large Senior's Orange Pekoe Tea,"Frites, grand format"
-Extra Large Senior's Peppermint Tea,"Frites, mini-format"
-Extra Orange Pekoe Tea,"Frites, moyen format"
-Extra Peppermint tea bag,"Frites, petit format"
-Extra Peppermint Tea Bag,From chedar jack
-Extra Sundae Topping,From cr orig
-Extra Syrup,From. la crème à côté
-Extra Value Meal,Fromage
-Family Bundle,Fromage à la crème
-Family Bundle (Serves 3),Fromage à la crème original
-Feta & Olive Sauce,Fromage Brie
-Filet-O-Fish,Fromage cheddar blanc
-Filet-O-Fish & Side Deal,Fromage crème
-Filet-O-Fish Extra Value Meal,Fromage en grains
-Filet-O-Fish Patty,Fromage grillé sandwichs
+Creamy Spicy Sauce,Double extra fromagé
+Crispy Chicken Patty,Double filet de poisson
+Crispy Onions,Double h-fromage
+Crispy Ranch Snack Wrap,Double hamburger
+Crispy Snack Wrap,Double Hamburger
+Croissant,Double hamburger avec fromage
+Croissants Sandwiches,Double Hamburger avec fromage
+Crumble,Double Hamburger avec fromage et bacon
+Cucumber,double hamburger fromage
+Cut in half,Double hamburger fromage
+Dasani Water,Double quart BLT
+Dbl Chsb LT,Double quart de livre avec fromage
+Dbl Dbl,Double quart de livre BLT
+Dbl Quarter Pounder,Double quart de livre fromage
+Dbl Quarter Pounder withCheese,Double quart de livre sans fro
+Decaf Coffee,Double quart de livre sans fromage
+Delivery,Double Quart Fromage
+Delivery Fee,Double Quart Hamburger (sans fromage)
+Description,Double Quart livre (sans fromage)
+Dessert,Duo
+Diced Apples,Duo 2 biscuits
+Diet Coke,duo avec Café
+Diet Coke Syrup,Duo Bagel Crm Chs avec Café
+Distance Fee,Duo café et pâtisserie
+Double Bacon 'N Crispy Onion,Duo chausson aux pommes
+Double Bacon 'N Crispy Onion Quarter Pounder,Duo chausson aux pommes et McCafé
+Double Big Mac,Duo chausson aux pommes McCafé
+Double Big Mac Extra Value Meal,Duo muffin anglais
+Double Cheeseburger,Duo muffin anglais et boisson chaude
+Double Cheeseburger Extra Value Meal,Duo muffin et café
+Double Cheesy Melt,"Duo patates hachées brunes et café, format moyen"
+Double Cheesy Melt Extra Value Meal,Duo rôties blanc
+Double Chsb LT,Duo rôties blanc et boisson chaude
+Double Double,Duo rôties blé entier
+Double Espresso,Duo rôties blé entier et 2 œufs frits
+Double Filet-O-Fish,Duo rôties blé entier et boisson chaude
+Double Filet-O-Fish Extra Value Meal,E Coke
+Double Hamburger,E Eau froide
+Double Hamburger Extra Value Meal,E LF à la fraise ML
+Double Quarter Pounder,E LF au chocolat ML
+Double Quarter Pounder BLT,E LF au vanille ML
+Double Quarter Pounder BLT Extra Value Meal,E LF chocolat
+Double Quarter Pounder Cheese,E LF fraise
+Double Quarter Pounder Extra Value Meal,E LF vanille
+Double Quarter Pounder with Cheese,Eau DASANI
+Double Quarter Pounder With Cheese,EC Capp sirop ***
+Double Quarter Pounder with Cheese Extra Value Meal,ÉC Cappuccino ***
+Double Quarter Pounder without Cheese,EC Choc ch ment ***
+Double Quarter Pounder without Cheese Extra Value Meal,ÉC Lat M. Car
+Double Toasted,EC Latte
+Drink,ÉC Latte ***
+Drink tray,ÉC Latte M. Caramel
+Driver Regulatory Fee,EC Latte sirop ***
+Earl Grey Tea,ÉC Latte ss ***
+Earlybird Mug,ÉC Moka ***
+Edamame,EC Moka menthe ***
+Egg ‘N Cheese McGriddles,Échantillon
+Egg ‘N Cheese McGriddles Extra Value Meal,Échantillon latte caramel (lait 2%)
+Egg ‘N Cheese McMuffin,Edamame
+Egg ‘N Cheese McMuffin Extra Value Meal,Enfant
+Egg BLT Bagel ***,Enfant Coca-Cola
+Egg BLT Bagl VM,Enfant Coca-Cola Zero
+Egg BLT McMuffin,Enfant Coke
+Egg BLT McMuffin Extra Value Meal,Enfant Coke Diète
+Egg LT Bagl VM,Enfant Fruitopia fraises
+Egg LT Croissant Sandwich,Enfant Fruitopia orange
+Egg McMuffin,Enfant Racinette Barq's
+Egg McMuffin & Hash Brown Deal,Enfant Sprite
+Egg McMuffin Extra Value Meal,Enfant Thé glacé Fuze
+Egg White Only,Enfant Thé glacé FUZE
+English Muffin,Enfant Thé glacé NESTEA
+English Muffin Special,Ens mél salades
+Entrée Salad,Érable et cheddar ***
+Espresso,Espresso
+Everything Bacon 'N Egg Bagel,Espresso allongé
+Everything Bacon 'N Egg Bagel Extra Value Meal,Extra from ched jack
+Everything Bacon & Guacamole Bagel,Extra garniture coupe glacée
+Everything Bacon & Guacamole Bagel Meal,Extra garniture pour coupe glacée
+Everything Bagel,Extra sauce à McCroquettes
+Everything Bagel Happy Meal,Extra sauce poutine
+Everything Bagel Reg CC Prod,Extra sirop
+Everything Bagel w/ Reg Cream Cheese McValue Meal,Facturation pour livraison
+Everything Bagel w/ Regular Cream Cheese Product,Festin 20 McCroquettes
+Everything Bagel with Regular Cream Cheese Product,Festin 20 McCroquettes (portion pour 2)
+Everything BLT Bagel,Festin déjeuner pour 4
+Everything BLT Bagel Extra Value Meal,Festin déjeuner pour 4 (portion pour 4)
+Everything Egg BLT Bagel,Festin écono
+Everything Egg BLT Bagel Extra Value Meal,Festin écono (portion pour 4)
+Everything Sausag 'N Egg Bagel,Festin familial
+Everything Sausage 'N Egg Bagel,Festin familial (portion pour 3)
+Everything Sausage 'N Egg Bagel Extra Value Meal,Festin fin de soirée
+Everything Sausage Egg Bagel,Festin fin de soirée (portion pour 4)
+Evr Bgl w/Sprd VM ***,Festins à partager
+Evry Bagl w/ Spreads,Filet de poisson
+Evry Bagl w/ Spreads ***,Filet de poisson et Côte
+Evry Bgl w/ Sprd VM ***,Fourchettes
+Exclusive McValue Add-on,Frais (2 sacs)
+Extra Chai Glow Tea Bag,Frais de distance
+Extra Earl Grey Tea Bag,Frais de fête
+Extra Gravy,Frais de livraison
+Extra Green Tea Bag,Frais de réponse réglementaire
+Extra Ice,Frais de réponse réglementaire du livreur
+Extra Large,Frais de service
+Extra Large Earl Grey Tea,Frais de temps d'attente évita
+Extra Large Green Tea,Frais de temps d'attente évitable des livreurs DD
+Extra Large Peppermint Tea,Frais pour petite commande
+Extra Large Senior's Coffee,Frites
+Extra Large Senior's Decaf Coffee,Frites assaisonnées aux fines herbes et à l'ail
+Extra Large Senior's Earl Grey Tea,Frites de renommée mondiale
+Extra Large Senior's Green Tea,Frites fines herbes et à l'ail
+Extra Large Senior's Orange Pekoe Tea,"Frites, format petit"
+Extra Large Senior's Peppermint Tea,"Frites, grand format"
+Extra Orange Pekoe Tea,"Frites, mini-format"
+Extra Peppermint tea bag,"Frites, moyen format"
+Extra Peppermint Tea Bag,"Frites, petit format"
+Extra Sundae Topping,From chedar jack
+Extra Syrup,From cr orig
+Extra Value Meal,From. la crème à côté
+Family Bundle,Fromage
+Family Bundle (Serves 3),Fromage à la crème
+Feta & Olive Sauce,Fromage à la crème original
+Filet-O-Fish,Fromage Brie
+Filet-O-Fish & Side Deal,Fromage cheddar blanc
+Filet-O-Fish Extra Value Meal,Fromage crème
+Filet-O-Fish Patty,Fromage en grains
 Fireworks Mug,Fromage grillé sandwichs
-Fish,Fromage mozzarella
-Flexible Straw,Fromage parmesan râpé
-Foam,Fromage râpé
-Forks,Fromage Suisse
-Fountain Drinks,Fruitopia fraises
-Frank's Creamy Garlic Sauce,Fruitopia orange
-Frank's RedHot Menu,Fruitopia Org Syrup
-Frank's RedHot Original McCrispy,Fruitopia Strw Syrup
-Frank's RedHot Original McCrispy Extra Value Meal,Fuze Iced Tea Syrup
-Frank’s RedHot Creamy Garlic B,G Café
-Frank’s RedHot Creamy Garlic Bacon ‘N Egg McMfn VM,G Café décaf infusé
-Frank’s RedHot Creamy Garlic Bacon ‘N Egg McMuffin,G Café frappé + crème fouettée + coulis au choc.
-Frank’s RedHot Creamy Garlic C,G Capp sirop ***
-Frank’s RedHot Creamy Garlic Chicken McMuffin,G Cappuccino ***
-Frank’s RedHot Creamy Garlic Chicken McMuffin EVM,G Cappuccino R ***
-Frank’s RedHot Creamy Garlic E,G Cappuccino Sirop ***
-Frank’s RedHot Creamy Garlic Egg McMuffin,G Cappuccino Sirop R***
-Frank’s RedHot Creamy Garlic Egg McMuffin EVM,G Chai frappé van. + cr. fouettée + coulis au choc.
-Frank’s RedHot Creamy Garlic S,G Choc ch ment ***
-Frank’s RedHot Creamy Garlic Saus ‘N Egg McMfn VM,G Coke
-Frank’s RedHot Creamy Garlic Sausage ‘N Egg McMfn,G Déca infusé
-Frank’s RedHot Hot Honey Dippi,G Eau chaude
-Frank’s RedHot Hot Honey Dipping Sauce,G Eau froide
-Frank’s RedHot McVeggie,G Lat caramel ***
-Frank’s RedHot Original McCris,G Lat M. Car ***
-Frank’s RedHot Original McCrispy,G Lat pép choc ***
-Frank’s RedHot Original McCrispy Bacon Deluxe,G Latte ***
-Frank’s RedHot Original McCrispy Bacon Deluxe Meal,G Latte au caramel ***
-Frank’s RedHot Original McVeggie,G Latte au chocolat et à la noisette (lait 2 %)
-Frank’s RedHot Original McVeggie Meal,G Latte glacé ***
-Frank’s RedHot® Original Thick,G Latte glacé au chocolat et à la noisette (lait 2 %)
-Frank’s RedHot® Original Thick Sauce,G Latte glacé L ***
-Free Medium Soft Drink,G Latte M. Caramel ***
-Free Sandwich,G Latte menthe ***
-French Book,G Latte pép choc ***
+Fish,Fromage grillé sandwichs
+Flexible Straw,Fromage mozzarella
+Foam,Fromage parmesan râpé
+Forks,Fromage râpé
+Fountain Drinks,Fromage Suisse
+Frank's Creamy Garlic Sauce,Fruitopia fraises
+Frank's RedHot Menu,Fruitopia orange
+Frank's RedHot Original McCrispy,Fruitopia Org Syrup
+Frank's RedHot Original McCrispy Extra Value Meal,Fruitopia Strw Syrup
+Frank’s RedHot Creamy Garlic B,Fuze Iced Tea Syrup
+Frank’s RedHot Creamy Garlic Bacon ‘N Egg McMfn VM,G Café
+Frank’s RedHot Creamy Garlic Bacon ‘N Egg McMuffin,G Café décaf infusé
+Frank’s RedHot Creamy Garlic C,G Café frappé + crème fouettée + coulis au choc.
+Frank’s RedHot Creamy Garlic Chicken McMuffin,G Capp sirop ***
+Frank’s RedHot Creamy Garlic Chicken McMuffin EVM,G Cappuccino ***
+Frank’s RedHot Creamy Garlic E,G Cappuccino R ***
+Frank’s RedHot Creamy Garlic Egg McMuffin,G Cappuccino Sirop ***
+Frank’s RedHot Creamy Garlic Egg McMuffin EVM,G Cappuccino Sirop R***
+Frank’s RedHot Creamy Garlic S,G Chai frappé van. + cr. fouettée + coulis au choc.
+Frank’s RedHot Creamy Garlic Saus ‘N Egg McMfn VM,G Choc ch ment ***
+Frank’s RedHot Creamy Garlic Sausage ‘N Egg McMfn,G Coke
+Frank’s RedHot Hot Honey Dippi,G Déca infusé
+Frank’s RedHot Hot Honey Dipping Sauce,G Eau chaude
+Frank’s RedHot McVeggie,G Eau froide
+Frank’s RedHot Original McCris,G Lat caramel ***
+Frank’s RedHot Original McCrispy,G Lat M. Car ***
+Frank’s RedHot Original McCrispy Bacon Deluxe,G Lat pép choc ***
+Frank’s RedHot Original McCrispy Bacon Deluxe Meal,G Latte ***
+Frank’s RedHot Original McVeggie,G Latte au caramel ***
+Frank’s RedHot Original McVeggie Meal,G Latte au chocolat et à la noisette (lait 2 %)
+Frank’s RedHot® Original Thick,G Latte glacé ***
+Frank’s RedHot® Original Thick Sauce,G Latte glacé au chocolat et à la noisette (lait 2 %)
+Free Medium Soft Drink,G Latte glacé L ***
+Free Sandwich,G Latte M. Caramel ***
+French Book,G Latte menthe ***
+French Croissant,G Latte pép choc ***
 French Croissant,G Latte sirop ***
-French Croissant,G Latte Sirop ***
-French Fries,G Latte Sirop R ***
-French Vanilla Cream Cold Brew,G Latte vanille fr
-French Vanilla Latte (2% milk),G LF à la fraise ML
-French Vanilla Latte (2% Milk),G LF à la vanille ML
-French Vanilla Latte (Almond Milk,G LF au chocolat ML
-French Vanilla Latte (Almond milk),G LF chocolat
-French Vanilla Latte (Almond Milk),G LF fraise
-French Vanilla Syrup,G LF vanille
-Fried Egg,G Moka ***
-Fries,G Moka menthe ***
-Fruit & Fibre Muffin,G Smo bleuet
-Fruit Medley,G Smo mangue
-Fruit Splash Beverage,G Smooth bleuet ML
-Fruit Splash Beverages,G Smooth mangue ML
-Fruitopia Orange,G Thé Earl Grey
-Fruitopia Org Syrup,G Thé pekoe
-Fruitopia Strawberry,G Thé vert
-Fruitopia Strawberry Passion Awareness,Galette de poulet
-Fruitopia Strw Syrup,Garni comme Big Mac
-Fry Display,Garni comme Mac
-Fry Monitor Display,Garniture croustillante au car
-Fudge,Garniture croustillante au caramel salé
-Fudge Sundae,Garniture Mcflurry
-Fuze Iced Tea,Glaçage au fromage à la crème
-FUZE Iced Tea,Glace
-Fuze Iced Tea Syrup,Glace chili limettes
-Garden Salad(apples & walnuts),Glacéau smartwater
-Garlic Seasoning,"Glacéau vitaminwater baie d'acai, bleuet et grenade"
-Gingham Holiday Mug,Glacéau vitaminwater bleuets
-Gold Peak Slightly Sweet Lemon Iced Tea,Glacéau vitaminwater orange
-Gold Peak Sweet Lemon Iced Tea,glacée moka
-Granola,Glacée moka  (lait d'amande)
-Grape Tomatoes,Godet crème
-Gravy,Godet de lait
-Greek Entrée Salad,Gonflez V Tr
-Greek Pasta Feta Salad,Graines tournesol
-Green Dipped Mug,Grand
+French Fries,G Latte Sirop ***
+French Vanilla Cream Cold Brew,G Latte Sirop R ***
+French Vanilla Latte (2% milk),G Latte vanille fr
+French Vanilla Latte (2% Milk),G LF à la fraise ML
+French Vanilla Latte (Almond Milk,G LF à la vanille ML
+French Vanilla Latte (Almond milk),G LF au chocolat ML
+French Vanilla Latte (Almond Milk),G LF chocolat
+French Vanilla Syrup,G LF fraise
+Fried Egg,G LF vanille
+Fries,G Moka ***
+Fruit & Fibre Muffin,G Moka menthe ***
+Fruit Medley,G Smo bleuet
+Fruit Splash Beverage,G Smo mangue
+Fruit Splash Beverages,G Smooth bleuet ML
+Fruitopia Orange,G Smooth mangue ML
+Fruitopia Org Syrup,G Thé Earl Grey
+Fruitopia Strawberry,G Thé pekoe
+Fruitopia Strawberry Passion Awareness,G Thé vert
+Fruitopia Strw Syrup,Galette de poulet
+Fry Display,Garni comme Big Mac
+Fry Monitor Display,Garni comme Mac
+Fudge,Garniture croustillante au car
+Fudge Sundae,Garniture croustillante au caramel salé
+Fuze Iced Tea,Garniture Mcflurry
+FUZE Iced Tea,Glaçage au fromage à la crème
+Fuze Iced Tea Syrup,Glace
+Garden Salad(apples & walnuts),Glace chili limettes
+Garlic Seasoning,Glacéau smartwater
+Gingham Holiday Mug,"Glacéau vitaminwater baie d'acai, bleuet et grenade"
+Gold Peak Slightly Sweet Lemon Iced Tea,Glacéau vitaminwater bleuets
+Gold Peak Sweet Lemon Iced Tea,Glacéau vitaminwater orange
+Granola,glacée moka
+Grape Tomatoes,Glacée moka  (lait d'amande)
+Gravy,Godet crème
+Greek Entrée Salad,Godet de lait
+Greek Pasta Feta Salad,Gonflez V Tr
+Green Dipped Mug,Graines tournesol
 Green Onions,Grand
 Green Tea,Grand
-Grilled Cheese,Grand americano
-Grilled Cheese Sandwich,Grand Café frappé
-Grilled Cheese Sandwiches,Grand café glacé
-Grilled Chicken,Grand café glacé à la vanille
-Grilled Chicken Patty,Grand café glacé au caramel
+Grilled Cheese,Grand
+Grilled Cheese Sandwich,Grand americano
+Grilled Cheese Sandwiches,Grand Café frappé
+Grilled Chicken,Grand café glacé
+Grilled Chicken Patty,Grand café glacé à la vanille
+Grilled Chicken Sandwich,Grand café glacé au caramel
 Grilled Chicken Sandwich,Grand café glacé avec boisson à l'avoine
 Grilled Chicken Sandwich,Grand café glacé avec sirop sans sucre
-Grilled Chicken Sandwich,Grand Café glacé avec sirop sans sucre
-Grilled Chicken Sandwich Extra Value Meal,Grand café infusé
-Grilled Frank's RedHot Origina,Grand café infusé à froid
-Grilled Frank's RedHot Original,Grand café infusé à froid avec sirop sans sucre et crème
-Grilled Frank's RedHot Original Extra Value Meal,Grand café infusé à froid caramel et crème
-Grilled Frank’s RedHot Origina,Grand café infusé à froid sucré avec crème
-Grilled Frank’s RedHot Original Bacon Deluxe,Grand café infusé à froid sucré/avoine
-Grilled Frank’s RedHot Original Bacon Deluxe Meal,Grand café infusé à froid vanille française et crème
-Grilled Onions,Grand Café infusé aînés
-Grilled Ranch Snack Wrap,Grand café infusé décaféiné
-Grilled Snack Wrap,Grand café infusé décaféiné aînés
-Ground Coffee & Mug Giftset,Grand café infusé décaféiné Remplir nouveau
-Guacamole,Grand café infusé Remplir nouveau
-Half Cream,Grand cappuccino (lait 2%)
-Half Crispy Chicken Patty,Grand Cappuccino (lait d'amande)
-Half Decaf,Grand Chai frappé à la vanille
+Grilled Chicken Sandwich Extra Value Meal,Grand Café glacé avec sirop sans sucre
+Grilled Frank's RedHot Origina,Grand café infusé
+Grilled Frank's RedHot Original,Grand café infusé à froid
+Grilled Frank's RedHot Original Extra Value Meal,Grand café infusé à froid avec sirop sans sucre et crème
+Grilled Frank’s RedHot Origina,Grand café infusé à froid caramel et crème
+Grilled Frank’s RedHot Original Bacon Deluxe,Grand café infusé à froid sucré avec crème
+Grilled Frank’s RedHot Original Bacon Deluxe Meal,Grand café infusé à froid sucré/avoine
+Grilled Onions,Grand café infusé à froid vanille française et crème
+Grilled Ranch Snack Wrap,Grand Café infusé aînés
+Grilled Snack Wrap,Grand café infusé décaféiné
+Ground Coffee & Mug Giftset,Grand café infusé décaféiné aînés
+Guacamole,Grand café infusé décaféiné Remplir nouveau
+Half Cream,Grand café infusé Remplir nouveau
+Half Crispy Chicken Patty,Grand cappuccino (lait 2%)
+Half Decaf,Grand Cappuccino (lait d'amande)
 Half Filet-O-Fish Patty,Grand Chai frappé à la vanille
-Half Grilled Chicken,Grand Chocolat chaud (lait 2%)
-Half Ice,Grand Coca-Cola
-Half Milk,Grand Coca-Cola Zero
-Half Oat Beverage,Grand Coke
-Half Splenda,Grand Coke Diète
-Half Sugar,Grand Frites
-Half Syrup,Grand Fruitopia fraises
-HALLOWEEN GC,Grand Fruitopia orange
-Halloween Gift Certs,Grand glacée moka
-Hamburger,Grand jus d'orange
-Hamburger Deluxe,Grand jus de pomme
-Hamburger Deluxe McValue Meal,Grand lait ultra-frappé à la fraise
-Hamburger Happy Meal,Grand lait ultra-frappé à la vanille
-Hamburger with Apple slices,Grand lait ultra-frappé au chocolat
-"Hamburger, No Meat",Grand latte (lait 2%)
-Happy Meal,Grand latte (lait d'amande)
-Happy Meal 4 McNuggets with Apple slices,Grand latte à la caramel (lait 2%)
-Happy Meal 4 McNuggets with Apple Slices,Grand latte à la vanille française (lait 2%)
-Happy Meal 4 McNuggets with Mini Fries,Grand Latte à la vanille française (lait d'amande)
-Happy Meal 4 McNuggets with Mini-fries,Grand latte à thé London fog (lait 2%)
-Happy Meal 4 McNuggets with Small Fries,Grand latte au thé matcha (lait 2%)
-Happy Meal 4 McNuggets with Small fries for $2.99,Grand latte avec sirop sans sucre (lait 2%)
-Happy Meal Book only,Grand latte avec sirop sans sucre (lait d'amande)
-Happy Meal Cheeseburger,Grand latte caramel (lait 2%)
-Happy Meal Cheeseburger Mini Fry for $2.99,Grand latte caramel (lait d'amande)
-Happy Meal Cheeseburger with Apple slices,Grand latte glacé (lait 2%)
-Happy Meal Cheeseburger with Apple Slices,Grand Latte glacé (lait amande)
-Happy Meal Cheeseburger with Mini Fries,Grand latte glacé au matcha (lait 2%)
-Happy Meal Cheeseburger with mini-fries,Grand latte glacé matcha (lait amande)
-Happy Meal Cheeseburger with Small Fries,Grand menthe poivrée
-Happy Meal Cheeseburger with Small fries for $2.99,Grand Moka (lait 2%)
-Happy Meal Crispy Chicken Snack Wrap with Apple Slices,Grand moka glacé
-Happy Meal Crispy Chicken Snack Wrap with Mini Fries,Grand Racinette Barq's
-Happy Meal Crispy Chicken Snack Wrap with Small Fries,Grand smoothie fraises-banane
-Happy Meal Crispy Mayo with Mini Fries,Grand smoothie grenade-bleuets
-Happy Meal Fish Stick,Grand smoothie mangue-ananas
-Happy Meal French Book only,Grand Splash fraîcheur au citron
-Happy Meal Grilled Cheese with Apple Slices,Grand Splash fraîcheur au melon d’eau et à la lime
-Happy Meal Grilled Cheese with Mini Fries,Grand Sprite
-Happy Meal Grilled Cheese with Small Fries,Grand Sprite nocturne
-Happy Meal Grilled Chicken Snack Wrap with Apple Slices,Grand thé à la menthe poivrée
-Happy Meal Grilled Chicken Snack Wrap with Mini Fries,Grand thé à la menthe poivrée aînés
-Happy Meal Grilled Chicken Snack Wrap with Small Fries,Grand thé bergamia gris
-Happy Meal Hamburger with Apple slices,Grand thé chai éclat
-Happy Meal Hamburger with Apple Slices,Grand thé Earl Grey
-Happy Meal Hamburger with Mini Fry,Grand thé earl grey aînés
-Happy Meal Hamburger with mini-fries,Grand Thé glacé Fuze
-Happy Meal Hamburger with Small Fries,Grand thé menthe poivrée aînés
-Happy Meal Hamburger with Small fries for $2.99,Grand thé orange pekoe
-Happy Meal Hotcakes with Apple Slices,Grand thé Orange Pekoe
-Happy Meal Hotcakes with Hash Browns,Grand thé orange pekoe aînés
-Happy Meal Hotcakes with Hashbrowns for $2.99,Grand thé rugissement noir
-Happy Meal Hotcakes with Mini Fry,Grand thé vert
-Happy Meal Hotcakes with Small Fries,Grand thé vert à la citronnelle
-Happy Meal Juice/Milk/Water,Grand thé vert aînés
-Happy Meal Lettuce & Tomato Snack Wrap w/ Apple Slices,Gratuit moyen boisson
-Happy Meal Lettuce & Tomato Snack Wrap with Mini Fries,Guacamole
-Happy Meal Lettuce & Tomato Snack Wrap with Small Fries,H-fromage
-Happy Meal Lettuce & Tomato SnackWrap w/ Sml Fries,Hamburger
-Happy Meal Mayo Crispy Chicken Snack Wrap with Mini Fries,Hamburger avec fromage
-Happy Meal Nugget,Hamburger avec fromage de luxe
-Happy Meal snack Wrap,"Hamburger avec fromage, sans viande"
-Happy Meal Snack Wrap,Hamburger De Luxe
-Happy Meal Toy,Hamburger fromage
-Happy Meal Toy - Under 3,"Hamburger fromage, sans viande"
-Happy Meal with Apple slices,"Hamburger, sans viande"
-Happy Meal with Apple Slices,Hamburgers
-Happy Meal with Hash Browns,Hazelnut & Cocoa McPops
-Happy Meal with Hashbrowns,Honest Kids La Fée des pommes
-Happy Meal with Mini Fries,Honest Kids Super Punch aux Fr
-Happy Meal with mini-fries,Honest Kids Super Punch aux Fruits
-Happy Meal with Mini-fries,Hummus original
-Happy Meal with Small fries,J’ai ma tasse (M)
-Happy Meal with Small Fries,JF Crêpes ***
-Happy Meals,JF Fête crêpes
-Harvest Entrée Salad,JF Fête h-from
-Hash Brown,JF Fête hamb fromage
-Hash Brown & Coffee,JF Fête McCroq
-Hash Brown & Medium Premium Roast Coffee,JF Fête McCroquettes
-Hash Browns,JF Fête wrap
-Have my Own Cup (Med),JF Jouet
-Have my Own Cup (Med),JF Jouet garçon
-Hazelnut & Cocoa McPops,JF Jouet R
-Heart Mug,JF poisson ***
-Heated,JF Poutine
-Herb & Garlic Seasoned Fries,JF Sand from fond***
-HM 4 Nuggets & Mini Fry for $2.99,JF Wrp-éclair lait+tom***
-HM 4Nug Chrg,"Joeyeux Festin 4 McCroquettes, petit frites pour 2,99$"
-HM 4Nug Party Charge,Jouet moins de 3 ans
-HM 4Nugget ***,Journal post sem
-HM BAGEL ***,Journal post semaine
-HM BAGL ***,Journal post wk-end
-HM Buf Wrap Crispy ***,Journal quotid
-HM Buf Wrap Grill ***,Journal quotid 4
-HM Buf Wrp Cr ***,Journal quotidien
-HM Buf Wrp Gr ***,Journal week-end
-HM Cheese Bagl ***,Journal weekend
-HM Cheeseburger ***,Journal wk-end 4
-HM Cheeseburger Mn Fry Yog,Journl post wk-end
-HM Chkn McBites ***,Joyeux festin
-HM Chsb Chrg,Joyeux festin 1 pat hach brune
-HM Chsb Party Charge,Joyeux festin 4 McCroquettes - mini-frites
-HM Evry Bagel ***,Joyeux festin 4 McCroquettes - P frites
-HM Grilled Cheese ***,Joyeux festin 4 McCroquettes - pommes
-HM Hambuger ***,Joyeux Festin 4 McCroquettes avec pommes
-HM Hamburger ***,"Joyeux Festin 4 McCroquettes, mini frites pour 2,99$"
-HM Hamburger Mini Fry,"Joyeux Festin 4 McCroquettes, mini-frites"
-HM Hamburger Mini Fry for $2.99,Joyeux Festin avec mini-frites
-HM Hotcakes ***,Joyeux Festin avec pat hach br
-HM Htck Chrg,Joyeux Festin avec petit frite
-HM Htck Party Charge,Joyeux festin avec pommes
-HM Let & Tom Snwrp ***,Joyeux Festin avec pommes
-HM McEGGY ***,Joyeux festin Crêpes - 1 pat hach brune
-HM Mgrain Bagel ***,Joyeux festin Crêpes - mini-frites
-HM Plain Bagel ***,Joyeux festin Crêpes - p frites
-HM Sesame Bagel ***,Joyeux festin Crêpes - pommes
-HM Snack Wrap ***,"Joyeux Festin Crêpes, pat hach brunes pour 2,99$"
-HM Snk Wrap Chrg,Joyeux festin hamburger - mini-frites
-HM Snk Wrap Party Charge,Joyeux festin hamburger - P frites
+Half Grilled Chicken,Grand Chai frappé à la vanille
+Half Ice,Grand Chocolat chaud (lait 2%)
+Half Milk,Grand Coca-Cola
+Half Oat Beverage,Grand Coca-Cola Zero
+Half Splenda,Grand Coke
+Half Sugar,Grand Coke Diète
+Half Syrup,Grand Frites
+HALLOWEEN GC,Grand Fruitopia fraises
+Halloween Gift Certs,Grand Fruitopia orange
+Hamburger,Grand glacée moka
+Hamburger Deluxe,Grand jus d'orange
+Hamburger Deluxe McValue Meal,Grand jus de pomme
+Hamburger Happy Meal,Grand lait ultra-frappé à la fraise
+Hamburger with Apple slices,Grand lait ultra-frappé à la vanille
+"Hamburger, No Meat",Grand lait ultra-frappé au chocolat
+Happy Meal,Grand latte (lait 2%)
+Happy Meal 4 McNuggets with Apple slices,Grand latte (lait d'amande)
+Happy Meal 4 McNuggets with Apple Slices,Grand latte à la caramel (lait 2%)
+Happy Meal 4 McNuggets with Mini Fries,Grand latte à la vanille française (lait 2%)
+Happy Meal 4 McNuggets with Mini-fries,Grand Latte à la vanille française (lait d'amande)
+Happy Meal 4 McNuggets with Small Fries,Grand latte à thé London fog (lait 2%)
+Happy Meal 4 McNuggets with Small fries for $2.99,Grand latte au thé matcha (lait 2%)
+Happy Meal Book only,Grand latte avec sirop sans sucre (lait 2%)
+Happy Meal Cheeseburger,Grand latte avec sirop sans sucre (lait d'amande)
+Happy Meal Cheeseburger Mini Fry for $2.99,Grand latte caramel (lait 2%)
+Happy Meal Cheeseburger with Apple slices,Grand latte caramel (lait d'amande)
+Happy Meal Cheeseburger with Apple Slices,Grand latte glacé (lait 2%)
+Happy Meal Cheeseburger with Mini Fries,Grand Latte glacé (lait amande)
+Happy Meal Cheeseburger with mini-fries,Grand latte glacé au matcha (lait 2%)
+Happy Meal Cheeseburger with Small Fries,Grand latte glacé matcha (lait amande)
+Happy Meal Cheeseburger with Small fries for $2.99,Grand menthe poivrée
+Happy Meal Crispy Chicken Snack Wrap with Apple Slices,Grand Moka (lait 2%)
+Happy Meal Crispy Chicken Snack Wrap with Mini Fries,Grand moka glacé
+Happy Meal Crispy Chicken Snack Wrap with Small Fries,Grand Racinette Barq's
+Happy Meal Crispy Mayo with Mini Fries,Grand smoothie fraises-banane
+Happy Meal Fish Stick,Grand smoothie grenade-bleuets
+Happy Meal French Book only,Grand smoothie mangue-ananas
+Happy Meal Grilled Cheese with Apple Slices,Grand Splash fraîcheur au citron
+Happy Meal Grilled Cheese with Mini Fries,Grand Splash fraîcheur au melon d’eau et à la lime
+Happy Meal Grilled Cheese with Small Fries,Grand Sprite
+Happy Meal Grilled Chicken Snack Wrap with Apple Slices,Grand Sprite nocturne
+Happy Meal Grilled Chicken Snack Wrap with Mini Fries,Grand thé à la menthe poivrée
+Happy Meal Grilled Chicken Snack Wrap with Small Fries,Grand thé à la menthe poivrée aînés
+Happy Meal Hamburger with Apple slices,Grand thé bergamia gris
+Happy Meal Hamburger with Apple Slices,Grand thé chai éclat
+Happy Meal Hamburger with Mini Fry,Grand thé Earl Grey
+Happy Meal Hamburger with mini-fries,Grand thé earl grey aînés
+Happy Meal Hamburger with Small Fries,Grand Thé glacé Fuze
+Happy Meal Hamburger with Small fries for $2.99,Grand thé menthe poivrée aînés
+Happy Meal Hotcakes with Apple Slices,Grand thé orange pekoe
+Happy Meal Hotcakes with Hash Browns,Grand thé Orange Pekoe
+Happy Meal Hotcakes with Hashbrowns for $2.99,Grand thé orange pekoe aînés
+Happy Meal Hotcakes with Mini Fry,Grand thé rugissement noir
+Happy Meal Hotcakes with Small Fries,Grand thé vert
+Happy Meal Juice/Milk/Water,Grand thé vert à la citronnelle
+Happy Meal Lettuce & Tomato Snack Wrap w/ Apple Slices,Grand thé vert aînés
+Happy Meal Lettuce & Tomato Snack Wrap with Mini Fries,Gratuit moyen boisson
+Happy Meal Lettuce & Tomato Snack Wrap with Small Fries,Guacamole
+Happy Meal Lettuce & Tomato SnackWrap w/ Sml Fries,H-fromage
+Happy Meal Mayo Crispy Chicken Snack Wrap with Mini Fries,Hamburger
+Happy Meal Nugget,Hamburger avec fromage
+Happy Meal snack Wrap,Hamburger avec fromage de luxe
+Happy Meal Snack Wrap,"Hamburger avec fromage, sans viande"
+Happy Meal Toy,Hamburger De Luxe
+Happy Meal Toy - Under 3,Hamburger fromage
+Happy Meal with Apple slices,"Hamburger fromage, sans viande"
+Happy Meal with Apple Slices,Hamburger Joueur étoile
+Happy Meal with Hash Browns,Hamburger Joueur étoile - repas Bâtons LNH
+Happy Meal with Hashbrowns,"Hamburger, sans viande"
+Happy Meal with Mini Fries,Hamburgers
+Happy Meal with mini-fries,Hazelnut & Cocoa McPops
+Happy Meal with Mini-fries,Honest Kids La Fée des pommes
+Happy Meal with Small fries,Honest Kids Super Punch aux Fr
+Happy Meal with Small Fries,Honest Kids Super Punch aux Fruits
+Happy Meals,Hummus original
+Harvest Entrée Salad,J’ai ma tasse (M)
+Hash Brown,JF Crêpes ***
+Hash Brown & Coffee,JF Fête crêpes
+Hash Brown & Medium Premium Roast Coffee,JF Fête h-from
+Hash Browns,JF Fête hamb fromage
+Have my Own Cup (Med),JF Fête McCroq
+Have my Own Cup (Med),JF Fête McCroquettes
+Hazelnut & Cocoa McPops,JF Fête wrap
+Heart Mug,JF Jouet
+Heated,JF Jouet garçon
+Herb & Garlic Seasoned Fries,JF Jouet R
+HM 4 Nuggets & Mini Fry for $2.99,JF poisson ***
+HM 4Nug Chrg,JF Poutine
+HM 4Nug Party Charge,JF Sand from fond***
+HM 4Nugget ***,JF Wrp-éclair lait+tom***
+HM BAGEL ***,"Joeyeux Festin 4 McCroquettes, petit frites pour 2,99$"
+HM BAGL ***,Jouet moins de 3 ans
+HM Buf Wrap Crispy ***,Journal post sem
+HM Buf Wrap Grill ***,Journal post semaine
+HM Buf Wrp Cr ***,Journal post wk-end
+HM Buf Wrp Gr ***,Journal quotid
+HM Cheese Bagl ***,Journal quotid 4
+HM Cheeseburger ***,Journal quotidien
+HM Cheeseburger Mn Fry Yog,Journal week-end
+HM Chkn McBites ***,Journal weekend
+HM Chsb Chrg,Journal wk-end 4
+HM Chsb Party Charge,Journl post wk-end
+HM Evry Bagel ***,Joyeux festin
+HM Grilled Cheese ***,Joyeux festin 1 pat hach brune
+HM Hambuger ***,Joyeux festin 4 McCroquettes - mini-frites
+HM Hamburger ***,Joyeux festin 4 McCroquettes - P frites
+HM Hamburger Mini Fry,Joyeux festin 4 McCroquettes - pommes
+HM Hamburger Mini Fry for $2.99,Joyeux Festin 4 McCroquettes avec pommes
+HM Hotcakes ***,"Joyeux Festin 4 McCroquettes, mini frites pour 2,99$"
+HM Htck Chrg,"Joyeux Festin 4 McCroquettes, mini-frites"
+HM Htck Party Charge,Joyeux Festin avec mini-frites
+HM Let & Tom Snwrp ***,Joyeux Festin avec pat hach br
+HM McEGGY ***,Joyeux Festin avec petit frite
+HM Mgrain Bagel ***,Joyeux festin avec pommes
+HM Plain Bagel ***,Joyeux Festin avec pommes
+HM Sesame Bagel ***,Joyeux festin Crêpes - 1 pat hach brune
+HM Snack Wrap ***,Joyeux festin Crêpes - mini-frites
+HM Snk Wrap Chrg,Joyeux festin Crêpes - p frites
+HM Snk Wrap Party Charge,Joyeux festin Crêpes - pommes
+Hockey Hero Burger,"Joyeux Festin Crêpes, pat hach brunes pour 2,99$"
+Hockey Hero Burger - NHL Star Sticks Meal,Joyeux festin hamburger - mini-frites
+Hockey Hero Burger Extra Value Meal,Joyeux festin hamburger - P frites
 Hockey Holiday Mug,Joyeux festin hamburger - pommes
 Hockey Tickets,Joyeux Festin Hamburger avec pommes
 Holiday Sweater Cup,Joyeux festin hamburger fromage - mini-frites
@@ -1151,307 +1155,309 @@ Lrg Nite Sprite,McPops
 Lrg Oat Iced Coffee,McPops au chocolat blanc
 Lrg Orange Juice,McPops aux baies
 Lrg Orange Pekoe Tea,McVégé
-Lrg Peppermint Tea,McVégé avec Frank’s RedHot
-Lrg Premium Roast Coffee,McVégé avec sauce originale Frank’s RedHot
-Lrg Premium Roast Decaf Coffee,McVégé de luxe
-Lrg Roaring Black Tea,McVégé épicé
-Lrg Senior Orange Pekoe Tea,McVégé épicé de luxe
-Lrg Senior Peppermint Tea,McVégé et wraps
-Lrg Senior's Coffee,McVeggie
-Lrg Shamrock Shake,McWrap bacon et poulet grillé
-Lrg Sprite,McWrap bacon poulet grillé
-Lrg Strawberry Banana Smoothie,McWrap cajun et poulet grillé
-Lrg Strawberry Triple Thick Milkshake,McWrap cajun poulet grillé
-Lrg Sweetened Cold Brew with Cream,McWrap césar et poulet grillé
-Lrg Sweetened Cold Brew with Oat Beverage,McWrap césar poulet grillé
-Lrg Vanilla Chai Frappé,McWrap Chili doux
-Lrg Vanilla Iced Coffee,McWrap Chili doux
-Lrg Vanilla Triple Thick Milkshake,McWrap Chili doux avec poulet croustillant
-Lrg Watermelon Lime Fruit Splash,McWrap Chili doux avec poulet grillé
-LTO Sauce 1,McWrap chipotle crémeuse
-LTO Sauce 2,McWrap Lime vivifiante
-Lunch & Dinner Menu,McWrap poulet croustillant et sauce chipotle crémeuse
-M  Hot Choc ***,McWrap Poulet et bacon
-M Apple Juice,McWrap Poulet et bacon avec poulet croustillant
-M Cap ***,McWrap Poulet et bacon avec poulet grillé
-M Cap Syrup ***,McWrap poulet grillé et sauce chipotle crémeuse
-M Cappuccino ***,McWrap sauce Ranch à l’avocat
-M Cappuccino Syrup ***,McWrap sauce Ranch à l’avocat crémeuse
-M Caramel Choc Latte ***,McWrap sauce Ranch à l’avocat crémeuse avec poulet croustill
-M Caramel Choc Mocha ***,McWrap sauce ranch cajun
-M Caramel Latte ***,McWrap sauce ranch cajun
-M Chai Latte ***,McWrap Signature bacon et poulet grillé
-M Choc Chip Lat ***,McWrap Signature cajun et poulet grillé
-M Hot Choc  ***,McWrap Signature césar et poulet grillé
-M Hot Choc ***,Medium Cup
-M Hot Choc Mint ***,Medium Moka (lait 2%)
-M Hot Chocolate ***,Mélange aux légumes
-M Hot Water,Mélange Burritos
-M Hot Wht Choc ***,Mélange de fruits
-M Ice Latte ***,Menthe poivrée
-M Iced Matcha Latte ***,Menthe poivrée aînés
-M Lat Caramel ***,Menu de nuit
-M Lat Chc Chp ***,Menu du déjeuner
-M Lat Cml Choc ***,Menu du dîner/souper
-M Lat M. Caramel ***,Menu Frank's RedHot
-M Lat M. Caramel***,Menu McValeur
-M Lat M. Crml ***,Miel
-M Lat Pump ***,Mini
-M Lat Pumpkin Crml ***,Mini Potato Hash Browns
-M Lat SF ***,Mini-cornet à la vanille
-M Lat Syrup ***,MiW Hasbro
-M Latte ***,MiW Softserve
-M Latte Cml Choc ***,Moitié boisson à l'avoine
-M Latte Pumpkin ***,Moitié sirop
-M Latte Syrup ***,Moka
-M Lndn Fog Latte ***,Moka  (lait 2%)
-M Matcha Latte ***,Moka (lait 2%)
-M Matcha Tea Latte ***,Moka (lait aux amandes)
-M Mint Latte ***,Moka glacé
-M Mint Latte L ***,"Moka, format moyen (lait aux amandes)"
-M Mint Latte R ***,"Moka, grand format (lait aux amandes)"
-M Mint Latte R***,"Moka, petit format (lait aux amandes)"
-M Mocha ***,Monterey Jack
-M Mocha Cml Choc ***,Morceaux de gâteau au fromage
-M Mocha Mint ***,Morceaux Nanaimo
-M Mocha White Choc ***,Morceaux Reese's
-M Orange Juice,Morceaux Smarties
-M Sugar Free Latte ***,Mousse
-M Van Latte ***,Moutarde
-M Water,Moutarde à l’érable
-Make it a meal,Moutarde de dijon crémeuse
-Make it a Meal,Moyen
-Make It a Meal,Moyen americano
-Mango Pineapple Real Fruit Smoothie,Moyen café
-Mango Pineapple Smoothie,Moyen Café frappé
-Mango Smoothie,Moyen café glacé
-Map Mug,Moyen café glacé à la vanille
-Maple & Cheddar Chkn ***,Moyen café glacé au caramel
-Maple & Cheddar Chkn EVM ***,Moyen café glacé avec boisson à l'avoine
-Maple Leaf Cup,Moyen café glacé avec sirop sans sucre
-Maple Leaf Tumblr,Moyen Café glacé avec sirop sans sucre
-Maple Mustard Sauce,Moyen café infusé
-Maple Syrup,Moyen café infusé à froid
-Margarine,Moyen café infusé à froid avec sirop sans sucre et crème
-Margarine with knife,Moyen café infusé à froid caramel et crème
-Mask,Moyen café infusé à froid sucré avec crème
-Matcha Tea Latte (2% Milk),Moyen café infusé à froid sucré/avoine
-Matcha Tea Latte (Almond Milk),Moyen café infusé à froid vanille française et crème
-Mayo Chicken Snack Wrap with Grilled Chicken,Moyen café infusé aînés
-Mayo Grilled Snack Wrap,Moyen café infusé décaféiné
-Mayo Snack Wrap with Grilled Chicken,Moyen café infusé décaféiné aînés
-Mayo-Style Sauce,Moyen café infusé décaféiné Remplir nouveau
-Mayo-Style Sauce Packet,Moyen café infusé Remplir nouveau
-MCafe Upchrg,Moyen cappuccino (lait 2%)
-McCafé Chocolate Syrup,Moyen cappuccino (lait d'amande)
-McCafé Coupon,Moyen Chai frappé à la vanille
-McCafé Especialty,Moyen Chocolat chaud  (lait 2%)
-McCafé Hot Beverage,Moyen Coca-Cola
-McCafé Hot Espresso,Moyen Coca-Cola Zero
-McCafé Hot Speciality,Moyen Coke
-McCafé Latte,Moyen Coke Diète
-McCafé Mocha (2% Milk),Moyen frites
-McCafe Mug,Moyen Frites
-McCafe Upcharge,Moyen Fruitopia fraises
-McChicken,Moyen Fruitopia orange
-McChicken & Side Deal,Moyen jus d'orange
-McChicken Extra Value Meal,Moyen jus de pomme
-McCrispy,Moyen lait ultra-frappé à la fraise
-McCrispy Extra Value Meal,Moyen lait ultra-frappé à la vanille
-McDouble,Moyen lait ultra-frappé au chocolat
-McDouble (DLM),Moyen latte (lait 2%)
-McDouble (like Mac),Moyen latte (lait d'amande)
-McDouble McValue Meal,Moyen latte à la vanille française (lait 2%)
-McDouble Meal Deal,Moyen Latte à la vanille française (lait 2%)
-McFlurry,Moyen Latte à la vanille française (lait d'amande)
-McFlurry Toppings,Moyen latte à thé London fog (lait sans lactose)
-McGriddle,Moyen latte au thé matcha (lait 2%)
-McGriddles,Moyen latte avec sirop sans sucre (lait 2%)
-McGriddles Sandwiches,Moyen latte avec sirop sans sucre (lait aux amandes)
-McMuffin & S Coffee offer,Moyen latte avec sirop sans sucre (lait d'amande)
-McMuffin & S Coffee Offer,Moyen latte caramel (lait 2%)
-McMuffin Sandwich,Moyen latte caramel (lait d'amande)
-McMuffin Sandwiches,Moyen latte glacé (lait 2%)
-McNugget Sauces,Moyen Latte glacé (lait amande)
-McNuggets,Moyen latte glacé au matcha (lait 2%)
-McPops,Moyen latte glacé matcha (lait amande)
-McRib,Moyen menthe poivrée
-McSpicy,Moyen Moka (lait 2%)
-McValue Meals,Moyen moka glacé
-McValue Menu,Moyen Racinette Barq's
-McVeggie,Moyen smoothie fraises-banane
-McVeggie & Wraps,Moyen smoothie grenade-bleuets
-McVeggie Deluxe,Moyen smoothie mangue-ananas
-McVeggie Deluxe Extra Value Meal,Moyen Splash fraîcheur au citron
-McVeggie Extra Value Meal,Moyen Splash fraîcheur au melon d’eau et à la lime
-McWrap,Moyen Sprite
-McWrap Bacon ***,Moyen Sprite nocturne
-McWrap Chili ***,Moyen thé à la menthe poivrée
-McWrp Bacon ***,Moyen thé à la menthe poivrée aînés
-McWrp Chili ***,Moyen thé bergamia gris
-McWRP SRSLY BACON***,Moyen thé chai éclat
-Meal Deal,Moyen thé Earl Grey
-Meal with a side,Moyen thé earl grey aînés
-Meat Patty,Moyen Thé glacé Fuze
-Med Americano,Moyen thé menthe poivrée aînés
-Med Americano Coffee,Moyen thé orange pekoe
-Med Apple Juice,Moyen thé Orange Pekoe
-Med Barq's Root Beer,Moyen thé orange pekoe aînés
-Med Bergamia Grey Tea,Moyen thé rugissement noir
-Med Blueberry Pomegranate Real Fruit Smoothie,Moyen thé vert
-Med Blueberry Pomegranate Smoothie,Moyen thé vert à la citronnelle
-Med Cappuccino (2% Milk),Moyen thé vert aînés
-Med Cappuccino (Almond Milk),MoyenChocolat chaud  (lait 2%)
-Med Caramel Cream Cold Brew,Muesli
-Med Caramel Iced Coffee,Muffin anglais
-Med Caramel Latte (2% Milk),Muffin anglais avec beurre
-Med Caramel Latte (Almond milk),Muffin aux bananes et aux morceaux de chocolat
-Med Caramel Latte (Almond Milk),Muffin aux pépites de chocolat
+Lrg Peppermint Tea,McVégé - repas Bâtons des étoiles de la LNH
+Lrg Premium Roast Coffee,McVégé avec Frank’s RedHot
+Lrg Premium Roast Decaf Coffee,McVégé avec sauce originale Frank’s RedHot
+Lrg Roaring Black Tea,McVégé de luxe
+Lrg Senior Orange Pekoe Tea,McVégé épicé
+Lrg Senior Peppermint Tea,McVégé épicé - repas Bâtons des étoiles de la LNH
+Lrg Senior's Coffee,McVégé épicé de luxe
+Lrg Shamrock Shake,McVégé et wraps
+Lrg Sprite,McVeggie
+Lrg Strawberry Banana Smoothie,McWrap bacon et poulet grillé
+Lrg Strawberry Triple Thick Milkshake,McWrap bacon poulet grillé
+Lrg Sweetened Cold Brew with Cream,McWrap cajun et poulet grillé
+Lrg Sweetened Cold Brew with Oat Beverage,McWrap cajun poulet grillé
+Lrg Vanilla Chai Frappé,McWrap césar et poulet grillé
+Lrg Vanilla Iced Coffee,McWrap césar poulet grillé
+Lrg Vanilla Triple Thick Milkshake,McWrap Chili doux
+Lrg Watermelon Lime Fruit Splash,McWrap Chili doux
+LTO Sauce 1,McWrap Chili doux avec poulet croustillant
+LTO Sauce 2,McWrap Chili doux avec poulet grillé
+Lunch & Dinner Menu,McWrap chipotle crémeuse
+M  Hot Choc ***,McWrap Lime vivifiante
+M Apple Juice,McWrap poulet croustillant et sauce chipotle crémeuse
+M Cap ***,McWrap Poulet et bacon
+M Cap Syrup ***,McWrap Poulet et bacon avec poulet croustillant
+M Cappuccino ***,McWrap Poulet et bacon avec poulet grillé
+M Cappuccino Syrup ***,McWrap poulet grillé et sauce chipotle crémeuse
+M Caramel Choc Latte ***,McWrap sauce Ranch à l’avocat
+M Caramel Choc Mocha ***,McWrap sauce Ranch à l’avocat crémeuse
+M Caramel Latte ***,McWrap sauce Ranch à l’avocat crémeuse avec poulet croustill
+M Chai Latte ***,McWrap sauce ranch cajun
+M Choc Chip Lat ***,McWrap sauce ranch cajun
+M Hot Choc  ***,McWrap Signature bacon et poulet grillé
+M Hot Choc ***,McWrap Signature cajun et poulet grillé
+M Hot Choc Mint ***,McWrap Signature césar et poulet grillé
+M Hot Chocolate ***,Medium Cup
+M Hot Water,Medium Moka (lait 2%)
+M Hot Wht Choc ***,Mélange aux légumes
+M Ice Latte ***,Mélange Burritos
+M Iced Matcha Latte ***,Mélange de fruits
+M Lat Caramel ***,Menthe poivrée
+M Lat Chc Chp ***,Menthe poivrée aînés
+M Lat Cml Choc ***,Menu de nuit
+M Lat M. Caramel ***,Menu du déjeuner
+M Lat M. Caramel***,Menu du dîner/souper
+M Lat M. Crml ***,Menu Frank's RedHot
+M Lat Pump ***,Menu McValeur
+M Lat Pumpkin Crml ***,Miel
+M Lat SF ***,Mini
+M Lat Syrup ***,Mini Potato Hash Browns
+M Latte ***,Mini-cornet à la vanille
+M Latte Cml Choc ***,MiW Hasbro
+M Latte Pumpkin ***,MiW Softserve
+M Latte Syrup ***,Moitié boisson à l'avoine
+M Lndn Fog Latte ***,Moitié sirop
+M Matcha Latte ***,Moka
+M Matcha Tea Latte ***,Moka  (lait 2%)
+M Mint Latte ***,Moka (lait 2%)
+M Mint Latte L ***,Moka (lait aux amandes)
+M Mint Latte R ***,Moka glacé
+M Mint Latte R***,"Moka, format moyen (lait aux amandes)"
+M Mocha ***,"Moka, grand format (lait aux amandes)"
+M Mocha Cml Choc ***,"Moka, petit format (lait aux amandes)"
+M Mocha Mint ***,Monterey Jack
+M Mocha White Choc ***,Morceaux de gâteau au fromage
+M Orange Juice,Morceaux Nanaimo
+M Sugar Free Latte ***,Morceaux Reese's
+M Van Latte ***,Morceaux Smarties
+M Water,Mousse
+Make it a meal,Moutarde
+Make it a Meal,Moutarde à l’érable
+Make It a Meal,Moutarde de dijon crémeuse
+Mango Pineapple Real Fruit Smoothie,Moyen
+Mango Pineapple Smoothie,Moyen americano
+Mango Smoothie,Moyen café
+Map Mug,Moyen Café frappé
+Maple & Cheddar Chkn ***,Moyen café glacé
+Maple & Cheddar Chkn EVM ***,Moyen café glacé à la vanille
+Maple Leaf Cup,Moyen café glacé au caramel
+Maple Leaf Tumblr,Moyen café glacé avec boisson à l'avoine
+Maple Mustard Sauce,Moyen café glacé avec sirop sans sucre
+Maple Syrup,Moyen Café glacé avec sirop sans sucre
+Margarine,Moyen café infusé
+Margarine with knife,Moyen café infusé à froid
+Mask,Moyen café infusé à froid avec sirop sans sucre et crème
+Matcha Tea Latte (2% Milk),Moyen café infusé à froid caramel et crème
+Matcha Tea Latte (Almond Milk),Moyen café infusé à froid sucré avec crème
+Mayo Chicken Snack Wrap with Grilled Chicken,Moyen café infusé à froid sucré/avoine
+Mayo Grilled Snack Wrap,Moyen café infusé à froid vanille française et crème
+Mayo Snack Wrap with Grilled Chicken,Moyen café infusé aînés
+Mayo-Style Sauce,Moyen café infusé décaféiné
+Mayo-Style Sauce Packet,Moyen café infusé décaféiné aînés
+MCafe Upchrg,Moyen café infusé décaféiné Remplir nouveau
+McCafé Chocolate Syrup,Moyen café infusé Remplir nouveau
+McCafé Coupon,Moyen cappuccino (lait 2%)
+McCafé Especialty,Moyen cappuccino (lait d'amande)
+McCafé Hot Beverage,Moyen Chai frappé à la vanille
+McCafé Hot Espresso,Moyen Chocolat chaud  (lait 2%)
+McCafé Hot Speciality,Moyen Coca-Cola
+McCafé Latte,Moyen Coca-Cola Zero
+McCafé Mocha (2% Milk),Moyen Coke
+McCafe Mug,Moyen Coke Diète
+McCafe Upcharge,Moyen frites
+McChicken,Moyen Frites
+McChicken & Side Deal,Moyen Fruitopia fraises
+McChicken Extra Value Meal,Moyen Fruitopia orange
+McCrispy,Moyen jus d'orange
+McCrispy Extra Value Meal,Moyen jus de pomme
+McDouble,Moyen lait ultra-frappé à la fraise
+McDouble (DLM),Moyen lait ultra-frappé à la vanille
+McDouble (like Mac),Moyen lait ultra-frappé au chocolat
+McDouble McValue Meal,Moyen latte (lait 2%)
+McDouble Meal Deal,Moyen latte (lait d'amande)
+McFlurry,Moyen latte à la vanille française (lait 2%)
+McFlurry Toppings,Moyen Latte à la vanille française (lait 2%)
+McGriddle,Moyen Latte à la vanille française (lait d'amande)
+McGriddles,Moyen latte à thé London fog (lait sans lactose)
+McGriddles Sandwiches,Moyen latte au thé matcha (lait 2%)
+McMuffin & S Coffee offer,Moyen latte avec sirop sans sucre (lait 2%)
+McMuffin & S Coffee Offer,Moyen latte avec sirop sans sucre (lait aux amandes)
+McMuffin Sandwich,Moyen latte avec sirop sans sucre (lait d'amande)
+McMuffin Sandwiches,Moyen latte caramel (lait 2%)
+McNugget Sauces,Moyen latte caramel (lait d'amande)
+McNuggets,Moyen latte glacé (lait 2%)
+McPops,Moyen Latte glacé (lait amande)
+McRib,Moyen latte glacé au matcha (lait 2%)
+McSpicy,Moyen latte glacé matcha (lait amande)
+McValue Meals,Moyen menthe poivrée
+McValue Menu,Moyen Moka (lait 2%)
+McVeggie,Moyen moka glacé
+McVeggie - NHL Star Sticks Meal,Moyen Racinette Barq's
+McVeggie & Wraps,Moyen smoothie fraises-banane
+McVeggie Deluxe,Moyen smoothie grenade-bleuets
+McVeggie Deluxe Extra Value Meal,Moyen smoothie mangue-ananas
+McVeggie Extra Value Meal,Moyen Splash fraîcheur au citron
+McWrap,Moyen Splash fraîcheur au melon d’eau et à la lime
+McWrap Bacon ***,Moyen Sprite
+McWrap Chili ***,Moyen Sprite nocturne
+McWrp Bacon ***,Moyen thé à la menthe poivrée
+McWrp Chili ***,Moyen thé à la menthe poivrée aînés
+McWRP SRSLY BACON***,Moyen thé bergamia gris
+Meal Deal,Moyen thé chai éclat
+Meal with a side,Moyen thé Earl Grey
+Meat Patty,Moyen thé earl grey aînés
+Med Americano,Moyen Thé glacé Fuze
+Med Americano Coffee,Moyen thé menthe poivrée aînés
+Med Apple Juice,Moyen thé orange pekoe
+Med Barq's Root Beer,Moyen thé Orange Pekoe
+Med Bergamia Grey Tea,Moyen thé orange pekoe aînés
+Med Blueberry Pomegranate Real Fruit Smoothie,Moyen thé rugissement noir
+Med Blueberry Pomegranate Smoothie,Moyen thé vert
+Med Cappuccino (2% Milk),Moyen thé vert à la citronnelle
+Med Cappuccino (Almond Milk),Moyen thé vert aînés
+Med Caramel Cream Cold Brew,MoyenChocolat chaud  (lait 2%)
+Med Caramel Iced Coffee,Muesli
+Med Caramel Latte (2% Milk),Muffin anglais
+Med Caramel Latte (Almond milk),Muffin anglais avec beurre
+Med Caramel Latte (Almond Milk),Muffin aux bananes et aux morceaux de chocolat
 Med CaramelLatte (2% Milk),Muffin aux pépites de chocolat
-Med Chai Cardamom Tea Latte (2% Milk),Muffin bananes morceaux choco
-Med Chai Cardamom Tea Latte (Almond Milk),Muffin bleuets
-Med Chai Glow Tea,Muffin Brownie au Chocolat
-Med Chocolate Hazelnut Iced Latte (2% Milk),Muffin canneberges et orange
-Med Chocolate Hazelnut Latte (2% Milk),Muffin carottes
-Med Chocolate Triple Thick Milkshake,Muffin fruits et fibres
-Med Coca-Cola,Muffins
-Med Coffee,Muffins cuits au four
-Med Coffee Frappé,Nature
-Med Coffee Frappé w/ Whipped Cream & Choc Drizzle,NB Softserve
-Med Coffee Refill,Noir
-Med Coke Zero,Oe bac crêp rôt bla
-Med Cold Brew,Oe bac crêp rôt blé
-Med Cold Brew with Sugar-Free Syrup & Cream,Oeuf frit
-Med Decaf Coffee,Œuf frit
-Med Decaf Coffee Refill,Oeuf McMuf PHB
-Med Diet Coke,Oeuf McMuffin
-Med Earl Grey Tea,Œuf McMuffin
-Med French Vanilla Cream Cold Brew,Oeuf McMuffin avec bacon et Patates hachées brunes duo
-Med French Vanilla Latte (2% Milk),Oeuf McMuffin avec saucisse et Patates hachées brunes duo
-Med French Vanilla Latte (Almond milk),Oeuf McMuffin BLT
-Med French Vanilla Latte (Almond Milk),Oeuf McMuffin et Patates hachées brunes duo
-Med Fries,Oeuf McMuffin et PHB
-Med Fruitopia Orange,Oeuf McMuffin et phb duo
-Med Fruitopia Strawberry,Oeuf McMuffin sauc et phb duo
-Med Fuze Iced Tea,Œuf McMuffin sauce à l’ail sty
-Med Green Tea,Œuf McMuffin sauce à l’ail style Frank’s
-Med Hot Chocolate (2% Milk),Œuf rond
-Med Hot Chocolate (Almond Milk),Offre 1 trio
-Med Iced Coffee,Offre 2 trios
-Med Iced Coffee with sugar free syrup,Offre de 2 sandwichs Oeuf McMu
-Med Iced Latte (2% Milk),Offre de 2 sandwichs Oeuf McMuffin
-Med Iced Latte (Almond Milk),Offre de 3 H-Fromage ou hambur
-Med Iced Matcha Tea Latte (2% Milk),Offre de 3 H-Fromage ou hamburgers
-Med Iced Matcha Tea Latte (Almond Milk),Oign grillé lamelle
-Med Iced Mocha (2% Milk),Oignons
-Med Iced Mocha (almond milk),Oignons caramélisés
-Med Latte (2% Milk),Oignons croustillants
-Med Latte (Almond milk),Oignons verts
-Med Latte (Almond Milk),OMRM Livre de Coupons
-Med Latte with sugar free syrup (2% Milk),Optez pour un trio
-Med Latte with sugar free syrup (Almond Milk),Optez pour un Trio
-Med Lemon Fruit Splash,Optez pour unTrio
-Med Lemongrass Green Tea,Ordinaire
-Med London Fog Tea Latte (2% Milk),Oreo
-Med London Fog Tea Latte (Almond Milk),P Café décaf infusé
-Med Mango Pineapple Real Fruit Smoothie,P Café frappé + crème fouettée + coulis au choc.
-Med Mango Smoothie,P Capp sirop ***
-Med Matcha Tea Latte (2% Milk),P Cappuccino ***
-Med Matcha Tea Latte (Almond Milk),P Cappuccino Sirop ***
-Med McCafé Mocha (2% Milk),P Cappuccino Sirop R ***
-Med Mocha (2% Milk),P Chai frappé van. + cr. fouettée + coulis au choc.
-Med Mocha (Almond Milk),P Choc ch ment ***
-Med Mocha(2% Milk),P chocolat chaud ***
-Med Nite Sprite,P Coke
-Med Oat Iced Coffee,P Déca infusé
-Med Orange Juice,P Eau chaude
-Med Orange Pekoe Tea,P Eau froide
-Med Peppermint Tea,P Frites
-Med Premium Roast Coffee,P Jus d'orange
-Med Premium Roast Decaf Coffee,P Jus de pomme
-Med Roaring Black Tea,P Lat M. Car ***
-Med Senior Orange Pekoe Tea,P Lat M. Crml ***
-Med Senior Peppermint Tea,P Lat pép choc ***
-Med Shamrock Shake,P Latte
-Med Sprite,P Latte ***
-Med Strawberry Banana Smoothie,P Latte au chocolat et à la noisette (lait 2 %)
-Med Strawberry Triple Thick Milkshake,P Latte glacé ***
-Med Sweetened Cold Brew with Cream,P Latte glacé au chocolat et à la noisette (lait 2 %)
-Med Sweetened Cold Brew with Oat Beverage,P Latte glacé R ***
-Med Vanilla Chai Frappé,P Latte M. Caramel ***
-Med Vanilla Iced Coffee,P Latte menthe ***
-Med Vanilla Triple Thick Milkshake,P Latte pép choc ***
-Med Watermelon Lime Fruit Splash,P Latte sirop ***
-Mediterranean Feta Sauce,P Latte Sirop ***
-Medium,P Latte SS
-Medium Cappuccino (Almond Milk),P Latte ss ***
-Medium Chocolate Shake,P LF à la fraise ML
-Medium Clear Cup,P LF à la vanille ML
-Medium Coffee,P LF au chocolat ML
-Medium Coke,P LF chocolat
-Medium Cup,P LF fraise
-Medium Cup FS,P LF vanille
-Medium Decaf Coffee,P Moka ***
-Medium Earl Grey,P Moka glacé ***
-Medium French Fries,P Moka menthe ***
-Medium French Vanilla Latte (2% milk),P Mokaccino
-Medium Fries,P Thé Earl Grey
-medium fry,P Thé pekoe
-Medium Green Tea,P Thé vert
-Medium Orange Pekoe Tea,P’tits beignes
-Medium Peppermint Tea,Paille
-Medium Senior's Coffee,Paille flexible
-Medium Senior's Decaf Coffee,Pailles
-Medium Senior's Earl Grey Tea,Pains-crêpes
-Medium Senior's Green Tea,Panier café moulu
-Medium Senior's Orange Pekoe Tea,Parmesan râpé
-Medium Senior's Peppermint Tea,Pas de sac
-Medium Soft Drinks,Pas maintenant
-Medium Strawberry Shake,Pat hach brunes
-Medium Vanilla Shake,Patates hach brunes
-MediumSoft Drinks,Patates hachées brunes
-Melon Trio,Patates hachées brunes et café
-Mgrn Bgl w/ Sprd VM ***,Pâté de boeuf
-Mgrn Bgl w/Sprd VM ***,Pâté de bœuf
-Mighty McGriddles,Pâté de saucisse
-Mighty McGriddles Extra Value Meal,Pâté poulet gril
-Mighty McMuffin,Pâté Végé
-Mighty McMuffin Extra Value Meal,Pâtisseries
-Milk,Pâtisseries et desserts
-Milk 250mL,Petit
-Milk Bottle,Petit americano
-Milk Deposit,Petit café frappé
-Milk Packet,Petit Café frappé
-Milk Type,Petit café glacé
-Milkshakes,Petit café glacé à la vanille
-Mini,Petit café glacé au caramel
-Mini Baguette Bun,Petit café glacé avec boisson à l'avoine
-Mini Fries,Petit café glacé avec sirop sans sucre
-Mini Potato Hash Browns,Petit Café glacé avec sirop sans sucre
-MiW Hasbro,Petit café infusé
-MiW Softserve,Petit Café infusé
-Mixed Greens,Petit café infusé à froid
-Mocha,Petit café infusé à froid avec sirop sans sucre et crème
-Mocha (2% Milk),Petit café infusé à froid caramel et crème
-Mocha (Almond Milk),Petit café infusé à froid sucré avec crème
-Monterey Jack Jalapeno,Petit café infusé à froid sucré/avoine
-Moose Mug,Petit café infusé à froid vanille française et crème
-Moose Stainless Cup,Petit café infusé aînés
-More Burgers,Petit café infusé décaféiné
-More Chicken,Petit café infusé décaféiné aînés
-More Snacks,Petit café infusé décaféiné Remplir nouveau
-More Snacks & Sides,Petit café infusé Remplir nouveau
-Mozzarella Cheese,Petit cappuccino (lait 2%)
-Muffin & Coffee Pairing,Petit Cappuccino (lait d'amande)
-Mustard,Petit Chai frappé à la vanille
-Nacho Cheese Sauce,Petit chocolat chaud
-Nanaimo Crumbs,Petit Chocolat chaud (lait 2%)
-Napkins,Petit Coca-Cola
-Natural Cheddar,Petit Coca-Cola Zero
-NB Softserve,Petit Coke
-NESTEA Iced Tea,Petit Coke Diète
-NHL Star Sticks,Petit Fries
-NHL Star Sticks - Add to order,Petit Frites
+Med Chai Cardamom Tea Latte (2% Milk),Muffin aux pépites de chocolat
+Med Chai Cardamom Tea Latte (Almond Milk),Muffin bananes morceaux choco
+Med Chai Glow Tea,Muffin bleuets
+Med Chocolate Hazelnut Iced Latte (2% Milk),Muffin Brownie au Chocolat
+Med Chocolate Hazelnut Latte (2% Milk),Muffin canneberges et orange
+Med Chocolate Triple Thick Milkshake,Muffin carottes
+Med Coca-Cola,Muffin fruits et fibres
+Med Coffee,Muffins
+Med Coffee Frappé,Muffins cuits au four
+Med Coffee Frappé w/ Whipped Cream & Choc Drizzle,Nature
+Med Coffee Refill,NB Softserve
+Med Coke Zero,Noir
+Med Cold Brew,Oe bac crêp rôt bla
+Med Cold Brew with Sugar-Free Syrup & Cream,Oe bac crêp rôt blé
+Med Decaf Coffee,Oeuf frit
+Med Decaf Coffee Refill,Œuf frit
+Med Diet Coke,Oeuf McMuf PHB
+Med Earl Grey Tea,Oeuf McMuffin
+Med French Vanilla Cream Cold Brew,Œuf McMuffin
+Med French Vanilla Latte (2% Milk),Oeuf McMuffin avec bacon et Patates hachées brunes duo
+Med French Vanilla Latte (Almond milk),Oeuf McMuffin avec saucisse et Patates hachées brunes duo
+Med French Vanilla Latte (Almond Milk),Oeuf McMuffin BLT
+Med Fries,Oeuf McMuffin et Patates hachées brunes duo
+Med Fruitopia Orange,Oeuf McMuffin et PHB
+Med Fruitopia Strawberry,Oeuf McMuffin et phb duo
+Med Fuze Iced Tea,Oeuf McMuffin sauc et phb duo
+Med Green Tea,Œuf McMuffin sauce à l’ail sty
+Med Hot Chocolate (2% Milk),Œuf McMuffin sauce à l’ail style Frank’s
+Med Hot Chocolate (Almond Milk),Œuf rond
+Med Iced Coffee,Offre 1 trio
+Med Iced Coffee with sugar free syrup,Offre 2 trios
+Med Iced Latte (2% Milk),Offre de 2 sandwichs Oeuf McMu
+Med Iced Latte (Almond Milk),Offre de 2 sandwichs Oeuf McMuffin
+Med Iced Matcha Tea Latte (2% Milk),Offre de 3 H-Fromage ou hambur
+Med Iced Matcha Tea Latte (Almond Milk),Offre de 3 H-Fromage ou hamburgers
+Med Iced Mocha (2% Milk),Oign grillé lamelle
+Med Iced Mocha (almond milk),Oignons
+Med Latte (2% Milk),Oignons caramélisés
+Med Latte (Almond milk),Oignons croustillants
+Med Latte (Almond Milk),Oignons verts
+Med Latte with sugar free syrup (2% Milk),OMRM Livre de Coupons
+Med Latte with sugar free syrup (Almond Milk),Optez pour un trio
+Med Lemon Fruit Splash,Optez pour un Trio
+Med Lemongrass Green Tea,Optez pour unTrio
+Med London Fog Tea Latte (2% Milk),Ordinaire
+Med London Fog Tea Latte (Almond Milk),Oreo
+Med Mango Pineapple Real Fruit Smoothie,P Café décaf infusé
+Med Mango Smoothie,P Café frappé + crème fouettée + coulis au choc.
+Med Matcha Tea Latte (2% Milk),P Capp sirop ***
+Med Matcha Tea Latte (Almond Milk),P Cappuccino ***
+Med McCafé Mocha (2% Milk),P Cappuccino Sirop ***
+Med Mocha (2% Milk),P Cappuccino Sirop R ***
+Med Mocha (Almond Milk),P Chai frappé van. + cr. fouettée + coulis au choc.
+Med Mocha(2% Milk),P Choc ch ment ***
+Med Nite Sprite,P chocolat chaud ***
+Med Oat Iced Coffee,P Coke
+Med Orange Juice,P Déca infusé
+Med Orange Pekoe Tea,P Eau chaude
+Med Peppermint Tea,P Eau froide
+Med Premium Roast Coffee,P Frites
+Med Premium Roast Decaf Coffee,P Jus d'orange
+Med Roaring Black Tea,P Jus de pomme
+Med Senior Orange Pekoe Tea,P Lat M. Car ***
+Med Senior Peppermint Tea,P Lat M. Crml ***
+Med Shamrock Shake,P Lat pép choc ***
+Med Sprite,P Latte
+Med Strawberry Banana Smoothie,P Latte ***
+Med Strawberry Triple Thick Milkshake,P Latte au chocolat et à la noisette (lait 2 %)
+Med Sweetened Cold Brew with Cream,P Latte glacé ***
+Med Sweetened Cold Brew with Oat Beverage,P Latte glacé au chocolat et à la noisette (lait 2 %)
+Med Vanilla Chai Frappé,P Latte glacé R ***
+Med Vanilla Iced Coffee,P Latte M. Caramel ***
+Med Vanilla Triple Thick Milkshake,P Latte menthe ***
+Med Watermelon Lime Fruit Splash,P Latte pép choc ***
+Mediterranean Feta Sauce,P Latte sirop ***
+Medium,P Latte Sirop ***
+Medium Cappuccino (Almond Milk),P Latte SS
+Medium Chocolate Shake,P Latte ss ***
+Medium Clear Cup,P LF à la fraise ML
+Medium Coffee,P LF à la vanille ML
+Medium Coke,P LF au chocolat ML
+Medium Cup,P LF chocolat
+Medium Cup FS,P LF fraise
+Medium Decaf Coffee,P LF vanille
+Medium Earl Grey,P Moka ***
+Medium French Fries,P Moka glacé ***
+Medium French Vanilla Latte (2% milk),P Moka menthe ***
+Medium Fries,P Mokaccino
+medium fry,P Thé Earl Grey
+Medium Green Tea,P Thé pekoe
+Medium Orange Pekoe Tea,P Thé vert
+Medium Peppermint Tea,P’tits beignes
+Medium Senior's Coffee,Paille
+Medium Senior's Decaf Coffee,Paille flexible
+Medium Senior's Earl Grey Tea,Pailles
+Medium Senior's Green Tea,Pains-crêpes
+Medium Senior's Orange Pekoe Tea,Panier café moulu
+Medium Senior's Peppermint Tea,Parmesan râpé
+Medium Soft Drinks,Pas de sac
+Medium Strawberry Shake,Pas maintenant
+Medium Vanilla Shake,Pat hach brunes
+MediumSoft Drinks,Patates hach brunes
+Melon Trio,Patates hachées brunes
+Mgrn Bgl w/ Sprd VM ***,Patates hachées brunes et café
+Mgrn Bgl w/Sprd VM ***,Pâté de boeuf
+Mighty McGriddles,Pâté de bœuf
+Mighty McGriddles Extra Value Meal,Pâté de saucisse
+Mighty McMuffin,Pâté poulet gril
+Mighty McMuffin Extra Value Meal,Pâté Végé
+Milk,Pâtisseries
+Milk 250mL,Pâtisseries et desserts
+Milk Bottle,Petit
+Milk Deposit,Petit americano
+Milk Packet,Petit café frappé
+Milk Type,Petit Café frappé
+Milkshakes,Petit café glacé
+Mini,Petit café glacé à la vanille
+Mini Baguette Bun,Petit café glacé au caramel
+Mini Fries,Petit café glacé avec boisson à l'avoine
+Mini Potato Hash Browns,Petit café glacé avec sirop sans sucre
+MiW Hasbro,Petit Café glacé avec sirop sans sucre
+MiW Softserve,Petit café infusé
+Mixed Greens,Petit Café infusé
+Mocha,Petit café infusé à froid
+Mocha (2% Milk),Petit café infusé à froid avec sirop sans sucre et crème
+Mocha (Almond Milk),Petit café infusé à froid caramel et crème
+Monterey Jack Jalapeno,Petit café infusé à froid sucré avec crème
+Moose Mug,Petit café infusé à froid sucré/avoine
+Moose Stainless Cup,Petit café infusé à froid vanille française et crème
+More Burgers,Petit café infusé aînés
+More Chicken,Petit café infusé décaféiné
+More Snacks,Petit café infusé décaféiné aînés
+More Snacks & Sides,Petit café infusé décaféiné Remplir nouveau
+Mozzarella Cheese,Petit café infusé Remplir nouveau
+Muffin & Coffee Pairing,Petit cappuccino (lait 2%)
+Mustard,Petit Cappuccino (lait d'amande)
+Nacho Cheese Sauce,Petit Chai frappé à la vanille
+Nanaimo Crumbs,Petit chocolat chaud
+Napkins,Petit Chocolat chaud (lait 2%)
+Natural Cheddar,Petit Coca-Cola
+NB Softserve,Petit Coca-Cola Zero
+NESTEA Iced Tea,Petit Coke
+NHL Star Sticks,Petit Coke Diète
+NHL Star Sticks - Add to order,Petit Fries
+NHL Star Sticks Meal,Petit Frites
 Nite Sprite,Petit Fruitopia fraises
 No Accessories,Petit Fruitopia orange
 No Aioli Sauce,Petit glacée moka
@@ -1520,26 +1526,22 @@ Own Cup Senior Orange Pekoe Tea,Petites salades
 Own Cup Senior Peppermint Tea,Petites salades/Wraps
 Pad Thai Salad,Pichet de lait d'amande
 Pairing with Soup,Placeholder 1
-Parmesan Cheese,Placeholder 1114
-Party Charge,Placeholder 1199
-Peach Mango Syrup,Placeholder 1262
-Peanut Butter,Placeholder 1266
-Peanut butter with knife,Placeholder 2
-Pepper Packet,Placeholder 3
-Peppermint Tea,Placeholder 4
-Pick Your Own 2 McPops,Placeholder 5
-Pick Your Own 6 Baked Muffins,Placeholder 6
-Pick Your Own 6 McPops,Placeholder 7
-Pick Your Own 6 Muffins,Placeholder 8
-Pickles,Placeholder 9
-Pie,Placeholder Sub 1
-Pine Branch Mug,Placeholder Sub 2
-Pitcher Almond Milk,Placeholder Sub 3
-Placeholder 1,Plateu boisson
-Placeholder 1114,Poisson
-Placeholder 1199,Poitrine de poulet croustillan
-Placeholder 1262,Poitrine de poulet croustillant
-Placeholder 1266,Poitrine de poulet grillé
+Parmesan Cheese,Placeholder 2
+Party Charge,Placeholder 3
+Peach Mango Syrup,Placeholder 4
+Peanut Butter,Placeholder 5
+Peanut butter with knife,Placeholder 6
+Pepper Packet,Placeholder 7
+Peppermint Tea,Placeholder 8
+Pick Your Own 2 McPops,Placeholder 9
+Pick Your Own 6 Baked Muffins,Placeholder Sub 1
+Pick Your Own 6 McPops,Placeholder Sub 2
+Pick Your Own 6 Muffins,Placeholder Sub 3
+Pickles,Plateu boisson
+Pie,Poisson
+Pine Branch Mug,Poitrine de poulet croustillan
+Pitcher Almond Milk,Poitrine de poulet croustillant
+Placeholder 1,Poitrine de poulet grillé
 Placeholder 2,Poitrine poul/croust.
 Placeholder 3,Poitrine poulet croust
 Placeholder 4,Poitrine poulet grillé
@@ -1621,388 +1623,388 @@ Ranch Chicken Snack Wrap® with Grilled Chicken,Remplacer par sauce mayonnaise
 Ranch Crispy Snack Wrap,Remplir
 Ranch Grilled Snack Wrap,Renouvellem
 Ranch Sauce,Répartis Sur
-Ranch Snack Wrap w/ Crispy Chicken McValue Meal,Repas familial
-Ranch Snack Wrap w/ Grilled Chicken McValue Meal,Repas Joyeux festin
-Ranch Snack Wrap® w/ Crispy Chicken McValue Meal,Repas quatre
-Ranch Snack Wrap® w/ Grilled Chicken McValue Meal,Retour JF boisson PST
+Ranch Snack Wrap w/ Crispy Chicken McValue Meal,Repas Bâtons LNH
+Ranch Snack Wrap w/ Grilled Chicken McValue Meal,Repas familial
+Ranch Snack Wrap® w/ Crispy Chicken McValue Meal,Repas Joyeux festin
+Ranch Snack Wrap® w/ Grilled Chicken McValue Meal,Repas quatre
+Raspberry Pomegranate Syrup,Retour JF boisson PST
 Raspberry Pomegranate Syrup,Retour trio boisson PST
-Raspberry Pomegranate Syrup,Root Beer Syrup
-Red Packet,Rôties pain blanc
-Red Skin Potato Salad,Rôties pain blé entier
-Reese's Pieces,Rôties pain brun
-Refill,Sac
-Refill Tea,Sac séparé
-Reg Chicken Nacho Poutine with Crispy Chicken,Sac(s)
+Red Packet,Root Beer Syrup
+Red Skin Potato Salad,Rôties pain blanc
+Reese's Pieces,Rôties pain blé entier
+Refill,Rôties pain brun
+Refill Tea,Sac
+Reg Chicken Nacho Poutine with Crispy Chicken,Sac séparé
 Reg Chicken Nacho Poutine with Grilled Chicken,Sac(s)
-Reg Crm Chs,Sach à côté
-Regular,Sach sauce style mayo
-Regular Bagel,Sachet à côté
-Regular Caramel Cheesecake McFlurry,Sachet canneberges
-Regular CC,Sachet de graines de citrouille
-Regular Chocolate Cheesecake McFlurry,Sachet de sauce de style mayonnaise
-Regular Cream Cheese,Sachet de Splenda
-Regular Oreo Cheesecake McFlurry,Sachet de sucre
-Regular Oreo McFlurry,Sachet graines de citrouille
-Regular Pour,Sachet sel
-Regular Salted Caramel McFlurry,Sachets de thé chai éclat
-Regular Skor McFlurry,Sachets de thé earl grey suppl
-Regular Smarties McFlurry,Sachets de thé earl grey supplémentaires
-Regular Spicy Buffalo Crispy Poutine,Sachets de thé menthe supplém
-Regular Spicy Buffalo Grilled Poutine,Sachets de thé orange pekoe su
-Returnable Cold Cup,Sachets de thé orange pekoe supplémentaires
-Returnable Hot Cup,Sachets de thé vert supplément
-Rink Holiday Mug,Sachets de thé vert supplémentaires
-RMHC Canada Donation $3,Sachets ketchup
-RMHC Canada Donation $5,Salade asiatique
-RMHC Coupon Book,Salade aux 3 grains au sésame
-Roaring Black Tea,Salade aux 3 grains au sésame et au gingembre
-Ronald McDonald House Donation,Salade aux pommes de terre rouges
-Root Beer Syrup,Salade d'Entrée
-Rotisserie Sauce,Salade d’épinards (carottes/gr. tournesol/canneb.)
-Round Egg,Salade de couscous
-S  Hot Choc ***,Salade de haricots noirs
-S Apple Juice,Salade de pois chiches et d'ed
-S Cappuccino ***,Salade de pois chiches et d'edamames
-S Cappuccino Syrup ***,Salade de taboulé
-S Caramel Choc Latte ***,Salade du jardin (pommes et noix)
-S Caramel Choc Mocha ***,Salade fusion asiatique au sésame
-S Caramel Latte ***,Salade grecque aux pâtes et au feta
-S Chai Latte ***,Salade pad thaï
-S Choc Chip Lat ***,Salade teriyaki ***
-S Crème Brûlée Latte ***,Salade-repas César
-S Green Tea,Salade-repas grecque
-S Green Tea L,Salade-repas récolte
-S Hot Choc  ***,Salades-repas
-S Hot Choc ***,Salé sirop au caramel
-S Hot Choc Mint ***,Salsa
-S Hot Chocolate ***,Sand. McMuffin ou McCrêpes au
-S Hot Water,Sand. McMuffin ou McCrêpes au poulet
-S Hot Wht Choc ***,sandwich
-S Ice Latte ***,Sandwich
-S Iced Matcha Latte ***,Sandwich Au Bagel
-S Lat Brûlée ***,Sandwich au fromage fondant
-S Lat Caramel ***,Sandwich au poulet grillé
-S Lat Chc Chp ***,Sandwich au poulet grillé de l
-S Lat Cml Choc ***,Sandwich au poulet grillé de luxe avec bacon
-S Lat M. Caramel ***,Sandwich épicé au poulet grill
-S Lat M. Caramel***,Sandwich épicé au poulet grillé
-S Lat M. Crml ***,Sandwich épicé au poulet grillé de luxe avec bacon
-S Lat Pump ***,Sandwich et M Boisso
-S Lat Pumpkin Crml ***,"Sandwich et M Boisson pour X,XX$"
-S Lat SF ***,Sandwich junior au poulet
-S Latte ***,Sandwich MacPoulet
-S Latte Cml Choc ***,sandwich McMuffin
-S Latte Pumpkin ***,Sandwich Mcmuffin
-S Latte Syrup ***,Sandwich petit déjeuner
-S Lndn Fog Latte ***,Sandwich Petit Déjeuner
-S Matcha Latte ***,"Sandwich pour X,XX$"
-S Mint Latte ***,Sandwichs Bistro
-S Mint Latte L ***,Sandwichs bistro
-S Mint Latte R ***,Sandwichs café
-S Mocha ***,Sandwichs McCrêpes
-S Mocha Cml Choc ***,Sandwichs McMuffin
-S Mocha Mint ***,Sandwichs McWrap
-S Mocha Wht Choc ***,Sandwichs Wrap-éclair
-S Orange Juice,Sandwichs-matin
-S SF Latte ***,Sans confiture
-S Sugar Free Latte ***,Sans crème fouettée
-S Van Latte ***,Sans glace
-S Water,Sans jouet
-SA Cappuccino ***,Sans paille
-SA Cappuccino Syrup ***,Sans pâté
-Sa Caramel Choc Latte ***,Sans sachets ketchup
-SA Caramel Choc Latte ***,Sans sauce
-SA Caramel Choc Mocha ***,Sans Sauce
-SA Hot Choc Mint ***,Sans sauce à bouchées de froma
-SA Hot Chocolate ***,Sans sauce à bouchées de fromage
-SA Lat Caramel ***,Sans sauce aioli
-SA Lat Cml Choc  ***,Sans sauce tartare
-SA Lat Cml Choc ***,Sans sirop
-SA Lat M. Caramel ***,Sans ustensiles
-SA Lat M. Caramel***,Sans vinaigrette
-SA Lat Pump ***,Sauc McCrêpes
-SA Lat Pumpkin Crml ***,Sauc McMuf oeuf
-Sa Lat SF ***,Sauc McMuffin
-Sa Latte ***,Sauce
-Sa Latte Cml Choc ***,Sauce 3 from
-SA Latte Pumpkin ***,Sauce 3 fromage
-SA Latte Syrup ***,Sauce à Big Mac
-SA Latte Van,Sauce à crème sure et oignon
-SA Latte Vanilla,Sauce à l’ail style Frank’s Re
-SA Mocha ***,Sauce à l’ail style Frank’s RedHot
-SA Mocha Cml Choc ***,Sauce à la fumée de bois de po
-SA Mocha Mint ***,Sauce à la fumée de bois de pommier
-Sa SF Latte ***,Sauce à la thaïe
-Sa Van Latte ***,Sauce aigre-douce
-Salad Dressing,Sauce aioli
-Salad Dressings,Sauce au fromage nacho
-Salad Meat,Sauce au miel
-Salad Mix,Sauce au scotch bonnet
-Salsa,Sauce aux canneberges
-Salsa Packet,Sauce aux féta et aux olives
-Salt,Sauce aux fines herbes italien
-Salt Packet,Sauce aux fines herbes italienne
-Salted Caramel Crunch Topping,Sauce barbecue
-Salted Caramel McFlurry,Sauce barbecue Caroline
-Salted Caramel Syrup,Sauce barbecue fumée
-Sample,Sauce BBQ
-Sandwich,Sauce Buffalo
-Sandwich & Med Drink Offer,Sauce César
-Sans sauce à bouchées de froma,Sauce chili doux
-Sans sauce à bouchées de fromage,Sauce chipotle crémeuse
-Sau Egg Bagel,Sauce cornichon à l'aneth crémeuse
-Sau Egg Bagl VM,Sauce cornichon crémeuse
-Sauce,Sauce crém. tomate
-Sausage 'n Egg McMuffin,Sauce crém. Tomate
-Sausage 'N Egg McMuffin,Sauce de style hollandaise
-Sausage 'N Egg McMuffin Extra Value Meal,Sauce épaisse originale Frank’
-Sausage 'n' Egg McMuffin,Sauce épaisse originale Frank’s RedHot®
-Sausage 'n' Egg McMuffin Extra Value Meal,Sauce épice crémeaux
-Sausage Egg McMuffin,Sauce épicée avec habanero
-Sausage McGriddle,Sauce féta méditerranéenne
-Sausage McGriddle Extra Value Meal,Sauce fromage
-Sausage McGriddles,Sauce fromage suisse
-Sausage McGriddles McValue Meal,Sauce fromagée
-Sausage McMuffin,Sauce Lime coriandre
-Sausage McMuffin & Hash Brown,Sauce mayonnaise
-Sausage McMuffin & Hash Brown Deal,Sauce McCroq
-Sausage McMuffin Extra Value Meal,Sauce McCroquettes
-Sausage McMuffin McValue Meal,Sauce Mediterran
-Sausage Patty,Sauce Mediterranean
-"Sausage, Bacon & Egg Breakfast Wrap",Sauce miel épicé Frank’s RedHo
-"Sausage, Bacon & Egg Breakfast Wrap Extra Value Meal",Sauce miel épicé Frank’s RedHot
-"Sausage, Bacon & Egg Wrap",Sauce moutarde forte
-"Sausage, Egg & Cheese McGridde",Sauce poutine
-"Sausage, Egg & Cheese McGriddl",Sauce Ranch
-"Sausage, Egg & Cheese McGriddles",Sauce style rôtisserie
-"Sausage, Egg & Cheese McGriddles Extra Value Meal",Sauce tartare
-Sausge Egg McMuffin & Hash Brown Deal,Sauce-matin
-Sausge Egg McMuffin & HB,Sauces à McCroquettes
-Scotch Bonnet Sauce,Saucisse McCrêpes
-Seasoning,Saucisse McCrêpes avec œuf
-Select Coffee,Saucisse McMuffin
-Select Fries,Saucisse McMuffin avec œuf
-Select Happy Meal,Saucisse McMuffin Oeuf
-Select Happy Meal Drink,Saucisse McMuffin œuf et sauce
-Select HM Side,Saucisse McMuffin œuf et sauce ail style Frank’s
-Select Lunch Side,Sel
-Select Sandwich,Sélection de sac
-Select Small Brewed Coffee,Serviettes
-Senior,Sésame bagel
-Senior Drink,Simply Limonade avec framboise
-Senior Earl Grey Tea,Sirop
-Senior Green Tea,Sirop à crêpes
-Senior Hot Chocolate,Sirop à la fraise et au fruit
-Senior Orange Pekoe Tea,Sirop à la fraise et au fruit de la passion
-Senior Peppermint Tea,Sirop à la framb bleue
-Senior's Earl Grey Tea,Sirop à la pêche et à la mangu
-Senior's Green Tea,Sirop à la pêche et à la mangue
-Senior's Orange Pekoe Tea,Sirop à la vanille
-Senior's Peppermint Tea,Sirop à la vanille française
-Separate Bags,Sirop au caramel
-Served,Sirop au chocolat
+Reg Crm Chs,Sac(s)
+Regular,Sach à côté
+Regular Bagel,Sach sauce style mayo
+Regular Caramel Cheesecake McFlurry,Sachet à côté
+Regular CC,Sachet canneberges
+Regular Chocolate Cheesecake McFlurry,Sachet de graines de citrouille
+Regular Cream Cheese,Sachet de sauce de style mayonnaise
+Regular Oreo Cheesecake McFlurry,Sachet de Splenda
+Regular Oreo McFlurry,Sachet de sucre
+Regular Pour,Sachet graines de citrouille
+Regular Salted Caramel McFlurry,Sachet sel
+Regular Skor McFlurry,Sachets de thé chai éclat
+Regular Smarties McFlurry,Sachets de thé earl grey suppl
+Regular Spicy Buffalo Crispy Poutine,Sachets de thé earl grey supplémentaires
+Regular Spicy Buffalo Grilled Poutine,Sachets de thé menthe supplém
+Returnable Cold Cup,Sachets de thé orange pekoe su
+Returnable Hot Cup,Sachets de thé orange pekoe supplémentaires
+Rink Holiday Mug,Sachets de thé vert supplément
+RMHC Canada Donation $3,Sachets de thé vert supplémentaires
+RMHC Canada Donation $5,Sachets ketchup
+RMHC Coupon Book,Salade asiatique
+Roaring Black Tea,Salade aux 3 grains au sésame
+Ronald McDonald House Donation,Salade aux 3 grains au sésame et au gingembre
+Root Beer Syrup,Salade aux pommes de terre rouges
+Rotisserie Sauce,Salade d'Entrée
+Round Egg,Salade d’épinards (carottes/gr. tournesol/canneb.)
+S  Hot Choc ***,Salade de couscous
+S Apple Juice,Salade de haricots noirs
+S Cappuccino ***,Salade de pois chiches et d'ed
+S Cappuccino Syrup ***,Salade de pois chiches et d'edamames
+S Caramel Choc Latte ***,Salade de taboulé
+S Caramel Choc Mocha ***,Salade du jardin (pommes et noix)
+S Caramel Latte ***,Salade fusion asiatique au sésame
+S Chai Latte ***,Salade grecque aux pâtes et au feta
+S Choc Chip Lat ***,Salade pad thaï
+S Crème Brûlée Latte ***,Salade teriyaki ***
+S Green Tea,Salade-repas César
+S Green Tea L,Salade-repas grecque
+S Hot Choc  ***,Salade-repas récolte
+S Hot Choc ***,Salades-repas
+S Hot Choc Mint ***,Salé sirop au caramel
+S Hot Chocolate ***,Salsa
+S Hot Water,Sand. McMuffin ou McCrêpes au
+S Hot Wht Choc ***,Sand. McMuffin ou McCrêpes au poulet
+S Ice Latte ***,sandwich
+S Iced Matcha Latte ***,Sandwich
+S Lat Brûlée ***,Sandwich Au Bagel
+S Lat Caramel ***,Sandwich au fromage fondant
+S Lat Chc Chp ***,Sandwich au poulet grillé
+S Lat Cml Choc ***,Sandwich au poulet grillé de l
+S Lat M. Caramel ***,Sandwich au poulet grillé de luxe avec bacon
+S Lat M. Caramel***,Sandwich épicé au poulet grill
+S Lat M. Crml ***,Sandwich épicé au poulet grillé
+S Lat Pump ***,Sandwich épicé au poulet grillé de luxe avec bacon
+S Lat Pumpkin Crml ***,Sandwich et M Boisso
+S Lat SF ***,"Sandwich et M Boisson pour X,XX$"
+S Latte ***,Sandwich junior au poulet
+S Latte Cml Choc ***,Sandwich MacPoulet
+S Latte Pumpkin ***,sandwich McMuffin
+S Latte Syrup ***,Sandwich Mcmuffin
+S Lndn Fog Latte ***,Sandwich petit déjeuner
+S Matcha Latte ***,Sandwich Petit Déjeuner
+S Mint Latte ***,"Sandwich pour X,XX$"
+S Mint Latte L ***,Sandwichs Bistro
+S Mint Latte R ***,Sandwichs bistro
+S Mocha ***,Sandwichs café
+S Mocha Cml Choc ***,Sandwichs McCrêpes
+S Mocha Mint ***,Sandwichs McMuffin
+S Mocha Wht Choc ***,Sandwichs McWrap
+S Orange Juice,Sandwichs Wrap-éclair
+S SF Latte ***,Sandwichs-matin
+S Sugar Free Latte ***,Sans confiture
+S Van Latte ***,Sans crème fouettée
+S Water,Sans glace
+SA Cappuccino ***,Sans jouet
+SA Cappuccino Syrup ***,Sans paille
+Sa Caramel Choc Latte ***,Sans pâté
+SA Caramel Choc Latte ***,Sans sachets ketchup
+SA Caramel Choc Mocha ***,Sans sauce
+SA Hot Choc Mint ***,Sans Sauce
+SA Hot Chocolate ***,Sans sauce à bouchées de froma
+SA Lat Caramel ***,Sans sauce à bouchées de fromage
+SA Lat Cml Choc  ***,Sans sauce aioli
+SA Lat Cml Choc ***,Sans sauce tartare
+SA Lat M. Caramel ***,Sans sirop
+SA Lat M. Caramel***,Sans ustensiles
+SA Lat Pump ***,Sans vinaigrette
+SA Lat Pumpkin Crml ***,Sauc McCrêpes
+Sa Lat SF ***,Sauc McMuf oeuf
+Sa Latte ***,Sauc McMuffin
+Sa Latte Cml Choc ***,Sauce
+SA Latte Pumpkin ***,Sauce 3 from
+SA Latte Syrup ***,Sauce 3 fromage
+SA Latte Van,Sauce à Big Mac
+SA Latte Vanilla,Sauce à crème sure et oignon
+SA Mocha ***,Sauce à l’ail style Frank’s Re
+SA Mocha Cml Choc ***,Sauce à l’ail style Frank’s RedHot
+SA Mocha Mint ***,Sauce à la fumée de bois de po
+Sa SF Latte ***,Sauce à la fumée de bois de pommier
+Sa Van Latte ***,Sauce à la thaïe
+Salad Dressing,Sauce aigre-douce
+Salad Dressings,Sauce aioli
+Salad Meat,Sauce au fromage nacho
+Salad Mix,Sauce au miel
+Salsa,Sauce au scotch bonnet
+Salsa Packet,Sauce aux canneberges
+Salt,Sauce aux féta et aux olives
+Salt Packet,Sauce aux fines herbes italien
+Salted Caramel Crunch Topping,Sauce aux fines herbes italienne
+Salted Caramel McFlurry,Sauce barbecue
+Salted Caramel Syrup,Sauce barbecue Caroline
+Sample,Sauce barbecue fumée
+Sandwich,Sauce BBQ
+Sandwich & Med Drink Offer,Sauce Buffalo
+Sans sauce à bouchées de froma,Sauce César
+Sans sauce à bouchées de fromage,Sauce chili doux
+Sau Egg Bagel,Sauce chipotle crémeuse
+Sau Egg Bagl VM,Sauce crém. tomate
+Sauce,Sauce crém. Tomate
+Sausage 'n Egg McMuffin,Sauce de style hollandaise
+Sausage 'N Egg McMuffin,Sauce épaisse originale Frank’
+Sausage 'N Egg McMuffin Extra Value Meal,Sauce épaisse originale Frank’s RedHot®
+Sausage 'n' Egg McMuffin,Sauce épice crémeaux
+Sausage 'n' Egg McMuffin Extra Value Meal,Sauce épicée avec habanero
+Sausage Egg McMuffin,Sauce féta méditerranéenne
+Sausage McGriddle,Sauce fromage
+Sausage McGriddle Extra Value Meal,Sauce fromage suisse
+Sausage McGriddles,Sauce fromagée
+Sausage McGriddles McValue Meal,Sauce Lime coriandre
+Sausage McMuffin,Sauce mayonnaise
+Sausage McMuffin & Hash Brown,Sauce McCroq
+Sausage McMuffin & Hash Brown Deal,Sauce McCroquettes
+Sausage McMuffin Extra Value Meal,Sauce Mediterran
+Sausage McMuffin McValue Meal,Sauce Mediterranean
+Sausage Patty,Sauce miel épicé Frank’s RedHo
+"Sausage, Bacon & Egg Breakfast Wrap",Sauce miel épicé Frank’s RedHot
+"Sausage, Bacon & Egg Breakfast Wrap Extra Value Meal",Sauce moutarde forte
+"Sausage, Bacon & Egg Wrap",Sauce poutine
+"Sausage, Egg & Cheese McGridde",Sauce Ranch
+"Sausage, Egg & Cheese McGriddl",Sauce style rôtisserie
+"Sausage, Egg & Cheese McGriddles",Sauce tartare
+"Sausage, Egg & Cheese McGriddles Extra Value Meal",Sauce-matin
+Sausge Egg McMuffin & Hash Brown Deal,Sauces à McCroquettes
+Sausge Egg McMuffin & HB,Saucisse McCrêpes
+Scotch Bonnet Sauce,Saucisse McCrêpes avec œuf
+Seasoning,Saucisse McMuffin
+Select Coffee,Saucisse McMuffin avec œuf
+Select Fries,Saucisse McMuffin Oeuf
+Select Happy Meal,Saucisse McMuffin œuf et sauce
+Select Happy Meal Drink,Saucisse McMuffin œuf et sauce ail style Frank’s
+Select HM Side,Sel
+Select Lunch Side,Sélection de sac
+Select Sandwich,Serviettes
+Select Small Brewed Coffee,Sésame bagel
+Senior,Simply Limonade avec framboise
+Senior Drink,Sirop
+Senior Earl Grey Tea,Sirop à crêpes
+Senior Green Tea,Sirop à la fraise et au fruit
+Senior Hot Chocolate,Sirop à la fraise et au fruit de la passion
+Senior Orange Pekoe Tea,Sirop à la framb bleue
+Senior Peppermint Tea,Sirop à la pêche et à la mangu
+Senior's Earl Grey Tea,Sirop à la pêche et à la mangue
+Senior's Green Tea,Sirop à la vanille
+Senior's Orange Pekoe Tea,Sirop à la vanille française
+Senior's Peppermint Tea,Sirop au caramel
+Separate Bags,Sirop au chocolat
+Served,Sirop Framboise et Grenade
 Service Fee,Sirop Framboise et Grenade
-Sesame and Poppy Seed Bun,Sirop Framboise et Grenade
-Sesame Bacon 'N Egg Bagel,Sirop melon lime
-Sesame Bacon 'N Egg Bagel Extra Value Meal,Sirop sans sucre
-Sesame Bagel,Skor
-Sesame Bagel w/ Reg CC Product,SKOR
-Sesame Bagel w/ Reg Cream Cheese McValue Meal,Small Cup
-Sesame Bagel w/ Regular CC,Smoothie
-Sesame Bagel w/ Regular Cream,Smoothie fraises-banane
-Sesame Bagel w/ Regular Cream Cheese,Smoothie grenade-bleuets
-Sesame Bagel w/ Regular Cream Cheese Product,Smoothie mangue-ananas
-Sesame Bagel with Regular Cream Cheese,Smoothies et frappes
-Sesame Bagl w/ Spreads,Smoothies et Frappés
-Sesame Bagl w/ Spreads ***,Smoothies et Frappés glacés
-Sesame BLT Bagel,Soutenir CapitalCare Norwood
-Sesame BLT Bagel EVM,Splash fraîcheur au citron
-Sesame BLT Bagel Extra Value Meal,Splash fraîcheur au melon d’eau et à la lime
-Sesame Egg BLT Bagel,Splenda
-Sesame Egg BLT Bagel Extra Value Meal,Sprite
-Sesame Sausage 'N Egg Bagel,Sprite nocturne
-Sesame Sausage 'N Egg Bagel Extra Value Meal,Sprite Syrup
-Sesame Seed Split Bun,Sub bac dos
-Seseme Bagel Happy Meal,Sub fr MoJac
-Sesm Bgl w/ Sprd VM ***,Sub laitu la
-Shamrock Shake,Sub muf angl
-Share Bundle,Sub parmesan
-Share Bundle (Serves 2),Sub sce BMac
-Shred Parmesan,Sub sceRanch
-Shredded Carrots,Sub tr from
-Shredded Cheese,Subs coul ch
-Shredded Lettuce,Subs poul cr
-Side Item,Subs sir car
-Side Salads & Snack Wraps,Subs sir van
-Signature Danish,Subs tartare
-Signature Danishes,Subst bacon
-Silver Holiday Tumblr,Subst bacon dos
-Simply Apple Juice,Subst coulis choc
-Simply Lemonade Raspberry,Subst crème
-Simply Orange Juice,Subst from MJack
-Skor  Pieces,Subst laitue feu
-SKOR  Pieces,Subst laitue lan
-Skor McFlurry,Subst McCrêpes
-Skor Pieces,Subst muffin ang
-SKOR Pieces,Subst oeuf brouillé
-Slushies,Subst oeuf crevé
-Small,Subst oeuf miroir
-Small Apple Juice,Subst oeuf rond
-Small Cappuccino (Almond Milk),Subst oig lam
-Small Chocolate Shake,Subst oig recons
-Small Clear Cup,Subst p pain Qrt
-Small Cup,Subst parmesan
-Small Cup FS,Subst pâté Quart
-Small Decaf Coffee,Subst poulet crou
-Small Earl Grey,Subst sauce BigM
-Small French Fries,Subst sauce MacP
-Small French Vanilla Latte (2% milk),Subst sauce Ran
-Small French Vanilla Latte (Almond milk),Subst sauce tart
-Small Fries,Subst sauce thaïe
-Small Hot Chocolate,Subst sirop car
-Small Hot Chocolate (2% Milk),Subst sirop van
-Small Orange Juice,Subst tranche fr
-Small Orange Pekoe Tea,Substituer saucisse
-Small Order Fee,Substituer Wrap de laitue
-Small Peppermint Tea,Sucre
-Small Premium Roast Coffee,sucre caramélisé
-Small Senior's Coffee,Sucre liquide
-Small Senior's Decaf Coffee,Supp McCafé
-Small Senior's Earl Grey Tea,Tartinades
-Small Senior's Green Tea,Tass thé vert client aîné
-Small Senior's Orange Pekoe Tea,Tasse
-Small Senior's Peppermint Tea,Tasse à café déca client
-Small Soft Drinks,Tasse à café infusé client
-Small Strawberry Shake,Tasse à thé menthe client
-Small Vanilla Shake,Tasse à thé vert client
-Smarties McFlurry,Tasse bon homme de neige fêtes
-Smarties Pieces,Tasse Earl Grey client
-Smartwater,Tasse Earl Grey client aîné
-Sml Americano,Tasse McCafé
-Sml Apple Juice,Tasse menthe client aîné
-Sml Barq's Root Beer,Tasse Orange Pekoe client
-Sml Bergamia Grey Tea,Tasse Pekoe client aîné
-Sml Blueberry Pomegranate Real Fruit Smoothie,Tasse thé bergamia gris client
-Sml Blueberry Pomegranate Smoothie,Thé bergamia gris
-Sml Cappuccino (2% Milk),Thé chai éclat
-Sml Cappuccino (Almond Milk),Thé Earl Grey
-Sml Caramel Cream Cold Brew,Thé earl grey aînés
-Sml Caramel Iced Coffee,Thé glacé au au légèrement citron sucre Gold Peak
-Sml Caramel Latte (2% Milk),Thé glacé au citron Gold Peak
-Sml Caramel Latte (Almond milk),Thé glacé au légèrement citron sucre Gold Peak
-Sml Caramel Latte (Almond Milk),Thé glacé brassé
-Sml Chai Cardamom Tea Latte (2% Milk),Thé glacé Fuze
-Sml Chai Cardamom Tea Latte (Almond Milk),Thé glacé FUZE
-Sml Chai Glow Tea,Thé glacé NESTEA
-Sml Chocolate Hazelnut Iced Latte (2% Milk),Thé menthe poivrée aînés
-Sml Chocolate Hazelnut Latte (2% Milk),Thé orange pekoe
-Sml Chocolate Triple Thick Milkshake,Thé Orange Pekoe
-Sml Coca-Cola,Thé orange pekoe aînés
-Sml Coffee,Thé Remplir Nouveau
-Sml Coffee Frappé,Thé rugissement noir
-Sml Coffee Frappé w/ Whipped Cream & Choc Drizzle,Thé vert
-Sml Coffee Refill,Thé vert à la citronnelle
-Sml Coke,Thé vert aînés
-Sml Coke Zero,Tomate
-Sml Cold Brew,Tomate et Mozza ***
-Sml Cold Brew with Sugar-Free Syrup & Cream,Tomates raisins
-Sml Decaf Coffee,Tortilla
-Sml Decaf Coffee Refill,Tout le bacon et le guacamole bagel
-Sml Diet Coke,TR 1 Hamb 1 Hamb from
-Sml Earl Grey Tea,TR asiago et bacon poulet ***
-Sml French Vanilla Cream Cold Brew,TR Bag Bac Œ Goud
-Sml French Vanilla Latte (2% Milk),TR Bag Bac Œuf et Gou ***
-Sml French Vanilla Latte (Almond Milk),TR Bagel Oeuf BLT
-Sml Fries,TR Bgl grain tart ***
-Sml Fruitopia Orange,TR Bgl grains tart ***
-sml Fruitopia Strawberry,TR Bgl nat tart ***
-Sml Fruitopia Strawberry,TR Bgl p-goût tart ***
-Sml Fuze Iced Tea,TR Bgl pl-goût tart ***
-Sml Green Tea,TR Bgl sés tart ***
-Sml Hot Chocolate (Almond Milk),TR Bgl sésa tart ***
-Sml Iced Coffee,TR Érable et cheddar poulet **
-Sml Iced Coffee with sugar free syrup,TR Érable et cheddar poulet ***
-Sml Iced Latte (2% Milk),Tr McCroustillant luxe bac sce orig Frank's RedHot
-Sml Iced Latte (Almond Milk),TR McValeur Wrap-éclair poulet croust sauce Buffalo
-Sml Iced Matcha Tea Latte (2% Milk),TR McValeur Wrap-éclair poulet croust sauce Ranch
-Sml Iced Matcha Tea Latte (Almond Milk),TR McValeur Wrap-éclair poulet grillé sauce Buffalo
-Sml Iced Mocha (2% Milk),TR McValeur Wrap-éclair poulet grillé sauce Ranch
-Sml Iced Mocha (Almond Milk),TR tom et herbe poulet ***
-Sml Latte (2% Milk),Trad Softserve
-Sml Latte (Almond milk),Tranches de pomme
-Sml Latte (Almond Milk),Trés grand
-Sml Latte with sugar free syrup (2% Milk),Très grand
-Sml Latte with sugar free syrup (Almond Milk),Très grand café infusé
-Sml Lemon Fruit Splash,Très grand café infusé aînés
-Sml Lemongrass Green Tea,Très grand café infusé décaféiné
-Sml London Fog Tea Latte (2% Milk),Très grand café infusé décaféiné aînés
-Sml London Fog Tea Latte (Almond Milk),Très grand café infusé décaféiné Remplir nouveau
-Sml Mango Pineapple Real Fruit Smoothie,Très grand café infusé Remplir nouveau
-Sml Mango Pineapple Smoothie,Trés grand menthe poivrée
-Sml Matcha Tea Latte (2% Milk),Très grand thé à la menthe poivrée
-Sml Matcha Tea Latte (Almond Milk),Très grand thé à la menthe poivrée aînés
-Sml McCafé Mocha (2% Milk),Trés grand thé bergamia gris
-Sml Mocha (2% Milk),Trés grand thé chai éclat
-Sml Mocha (Almond Milk),Trés grand thé Earl Grey
-Sml Mocha(2% Milk),Trés grand thé earl grey aînés
-Sml Nite Sprite,Trés grand thé menthe poivrée aînés
-Sml Oat Iced Coffee,Trés grand thé Orange Pekoe
-Sml Orange Juice,Très grand thé orange pekoe
-Sml Orange Pekoe Tea,Trés grand thé orange pekoe aînés
-Sml Peppermint Tea,Très grand thé orange pekoe aînés
-Sml Premium Roast Coffee,Trés grand thé rugissement noir
-Sml Premium Roast Decaf Coffee,Trés grand thé vert
-Sml Pumpkin Spice Latte (2% Milk),Tres grand thé vert à la citronnelle
-Sml Roaring Black Tea,Trés grand thé vert aînés
-Sml Senior Orange Pekoe Tea,Trio
-Sml Senior Peppermint Tea,Trio 10 McCroquettes
-Sml Shamrock Shake,Trio 2 Burritos-matin
-Sml Sprite,Trio 2 Hamburgers
-Sml Strawberry Banana Smoothie,Trio 2 hamburgers avec fromage
-Sml Strawberry Triple Thick Milkshake,Trio 20 McCroquettes
-Sml Sweetened Cold Brew with Cream,Trio 6 McCroquettes
-Sml Sweetened Cold Brew with Oat Beverage,"Trio avec frites, format moyen"
-Sml VanChai Frappé w/ Whipped Cream & Choc Drizzle,Trio bacon McCrêpes avec œuf
-Sml Vanilla Chai Frappé,Trio bacon McMuffin avec œuf
-Sml Vanilla Iced Coffee,Trio Bacon McMuffin œuf et sauce ail style Frank
-Sml Vanilla Triple Thick Milkshake,Trio Bagel au bacon et guacamole
-Sml Watermelon Lime Fruit Splash,Trio Bagel BLT Tout
-Smoky BBQ Sauce,Trio Bagel multigrains avec bacon et œuf style béné
-Smoothie,Trio Bagel nature avec bacon et œuf style béné
-Smoothies & Frappes,Trio Bagel nature avec oeuf et bacon
-Smoothies & Frappés,Trio Bagel nature avec oeuf et saucisse
-Snack,Trio Bagel nature BLT
-Snack Caramel Cheesecake McFlurry,Trio Bagel nature BLT avec oeuf
-Snack Chocolate Cheesecake McFlurry,Trio Bagel nature oeuf et bacon
-Snack McFlurry,Trio Bagel plein-goût avec bacon et œuf style béné
-Snack Oreo Cheesecake McFlurry,Trio Bagel plein-goût bacon et oeuf
-Snack Oreo McFlurry,Trio Bagel plein-goût BLT avec oeuf
-Snack Salted Caramel McFlurry,Trio Bagel plein-goût saucisse et oeuf
-Snack Size,Trio Bagel sésa avec oeuf et bacon
-Snack Size Chocolate Milkshake,Trio Bagel sésa avec oeuf et saucisse
-Snack Size Shamrock Shake,Trio Bagel sésa BLT avec oeuf
-Snack Size Strawberry Milkshake,Trio Bagel sésa oeuf et bacon
-Snack Size Vanilla Milkshake,Trio Bagel sésame avec bacon et œuf style béné
-Snack Skor McFlurry,Trio Bagel sésame BLT
-Snack Smarties McFlurry,Trio Big Mac
-Snack Wrap ***,Trio Big Mac (sans viande)
-Snack Wrap Patty,Trio Crêpe et saucisse
-Snack Wrap Sauce,Trio Crêpes
-Snack Wrap with Crispy Chicken,Trio Crêpes et bacon
-Snack Wrap with Grilled Chicken,Trio Crêpes et saucisse
-Snack Wraps,Trio dbl quart BLT
-Snack’n Go,Trio de melons
-Snacks & Sides,Trio Double Big Mac
-Snowflake Holiday Mug,Trio Double extra fromagé
-Soft Drinks,Trio Double filet de poisson
-Sour Cream ‘N Onion Flavoured,Trio Double Hamburger
-Sour Cream ‘N Onion Flavoured Sauce,Trio Double hamburger avec fromage
-Sour Cream & Chive Sauce,Trio Double Hamburger avec fromage et bacon
-SPC Card,Trio Double Quart Fromage
-Spicy Bac Deluxe Grill Chicken,Trio Double Quart Hamburger (sans fromage)
-Spicy Bacon Deluxe Grilled Chicken Extra Value Meal,Trio Double Quart livre (sans fromage)
-Spicy Bacon Deluxe Grilled Chicken Sandwich,Trio Filet de poisson
-Spicy Bacon Deluxe McCrispy,Trio Hamburger avec fromage de luxe
+Sesame and Poppy Seed Bun,Sirop melon lime
+Sesame Bacon 'N Egg Bagel,Sirop sans sucre
+Sesame Bacon 'N Egg Bagel Extra Value Meal,Skor
+Sesame Bagel,SKOR
+Sesame Bagel w/ Reg CC Product,Small Cup
+Sesame Bagel w/ Reg Cream Cheese McValue Meal,Smoothie
+Sesame Bagel w/ Regular CC,Smoothie fraises-banane
+Sesame Bagel w/ Regular Cream,Smoothie grenade-bleuets
+Sesame Bagel w/ Regular Cream Cheese,Smoothie mangue-ananas
+Sesame Bagel w/ Regular Cream Cheese Product,Smoothies et frappes
+Sesame Bagel with Regular Cream Cheese,Smoothies et Frappés
+Sesame Bagl w/ Spreads,Smoothies et Frappés glacés
+Sesame Bagl w/ Spreads ***,Soutenir CapitalCare Norwood
+Sesame BLT Bagel,Splash fraîcheur au citron
+Sesame BLT Bagel EVM,Splash fraîcheur au melon d’eau et à la lime
+Sesame BLT Bagel Extra Value Meal,Splenda
+Sesame Egg BLT Bagel,Sprite
+Sesame Egg BLT Bagel Extra Value Meal,Sprite nocturne
+Sesame Sausage 'N Egg Bagel,Sprite Syrup
+Sesame Sausage 'N Egg Bagel Extra Value Meal,Sub bac dos
+Sesame Seed Split Bun,Sub fr MoJac
+Seseme Bagel Happy Meal,Sub laitu la
+Sesm Bgl w/ Sprd VM ***,Sub muf angl
+Shamrock Shake,Sub parmesan
+Share Bundle,Sub sce BMac
+Share Bundle (Serves 2),Sub sceRanch
+Shred Parmesan,Sub tr from
+Shredded Carrots,Subs coul ch
+Shredded Cheese,Subs poul cr
+Shredded Lettuce,Subs sir car
+Side Item,Subs sir van
+Side Salads & Snack Wraps,Subs tartare
+Signature Danish,Subst bacon
+Signature Danishes,Subst bacon dos
+Silver Holiday Tumblr,Subst coulis choc
+Simply Apple Juice,Subst crème
+Simply Lemonade Raspberry,Subst from MJack
+Simply Orange Juice,Subst laitue feu
+Skor  Pieces,Subst laitue lan
+SKOR  Pieces,Subst McCrêpes
+Skor McFlurry,Subst muffin ang
+Skor Pieces,Subst oeuf brouillé
+SKOR Pieces,Subst oeuf crevé
+Slushies,Subst oeuf miroir
+Small,Subst oeuf rond
+Small Apple Juice,Subst oig lam
+Small Cappuccino (Almond Milk),Subst oig recons
+Small Chocolate Shake,Subst p pain Qrt
+Small Clear Cup,Subst parmesan
+Small Cup,Subst pâté Quart
+Small Cup FS,Subst poulet crou
+Small Decaf Coffee,Subst sauce BigM
+Small Earl Grey,Subst sauce MacP
+Small French Fries,Subst sauce Ran
+Small French Vanilla Latte (2% milk),Subst sauce tart
+Small French Vanilla Latte (Almond milk),Subst sauce thaïe
+Small Fries,Subst sirop car
+Small Hot Chocolate,Subst sirop van
+Small Hot Chocolate (2% Milk),Subst tranche fr
+Small Orange Juice,Substituer saucisse
+Small Orange Pekoe Tea,Substituer Wrap de laitue
+Small Order Fee,Sucre
+Small Peppermint Tea,sucre caramélisé
+Small Premium Roast Coffee,Sucre liquide
+Small Senior's Coffee,Supp McCafé
+Small Senior's Decaf Coffee,Tartinades
+Small Senior's Earl Grey Tea,Tass thé vert client aîné
+Small Senior's Green Tea,Tasse
+Small Senior's Orange Pekoe Tea,Tasse à café déca client
+Small Senior's Peppermint Tea,Tasse à café infusé client
+Small Soft Drinks,Tasse à thé menthe client
+Small Strawberry Shake,Tasse à thé vert client
+Small Vanilla Shake,Tasse bon homme de neige fêtes
+Smarties McFlurry,Tasse Earl Grey client
+Smarties Pieces,Tasse Earl Grey client aîné
+Smartwater,Tasse McCafé
+Sml Americano,Tasse menthe client aîné
+Sml Apple Juice,Tasse Orange Pekoe client
+Sml Barq's Root Beer,Tasse Pekoe client aîné
+Sml Bergamia Grey Tea,Tasse thé bergamia gris client
+Sml Blueberry Pomegranate Real Fruit Smoothie,Thé bergamia gris
+Sml Blueberry Pomegranate Smoothie,Thé chai éclat
+Sml Cappuccino (2% Milk),Thé Earl Grey
+Sml Cappuccino (Almond Milk),Thé earl grey aînés
+Sml Caramel Cream Cold Brew,Thé glacé au au légèrement citron sucre Gold Peak
+Sml Caramel Iced Coffee,Thé glacé au citron Gold Peak
+Sml Caramel Latte (2% Milk),Thé glacé au légèrement citron sucre Gold Peak
+Sml Caramel Latte (Almond milk),Thé glacé brassé
+Sml Caramel Latte (Almond Milk),Thé glacé Fuze
+Sml Chai Cardamom Tea Latte (2% Milk),Thé glacé FUZE
+Sml Chai Cardamom Tea Latte (Almond Milk),Thé glacé NESTEA
+Sml Chai Glow Tea,Thé menthe poivrée aînés
+Sml Chocolate Hazelnut Iced Latte (2% Milk),Thé orange pekoe
+Sml Chocolate Hazelnut Latte (2% Milk),Thé Orange Pekoe
+Sml Chocolate Triple Thick Milkshake,Thé orange pekoe aînés
+Sml Coca-Cola,Thé Remplir Nouveau
+Sml Coffee,Thé rugissement noir
+Sml Coffee Frappé,Thé vert
+Sml Coffee Frappé w/ Whipped Cream & Choc Drizzle,Thé vert à la citronnelle
+Sml Coffee Refill,Thé vert aînés
+Sml Coke,Tomate
+Sml Coke Zero,Tomate et Mozza ***
+Sml Cold Brew,Tomates raisins
+Sml Cold Brew with Sugar-Free Syrup & Cream,Tortilla
+Sml Decaf Coffee,Tout le bacon et le guacamole bagel
+Sml Decaf Coffee Refill,TR 1 Hamb 1 Hamb from
+Sml Diet Coke,TR asiago et bacon poulet ***
+Sml Earl Grey Tea,TR Bag Bac Œ Goud
+Sml French Vanilla Cream Cold Brew,TR Bag Bac Œuf et Gou ***
+Sml French Vanilla Latte (2% Milk),TR Bagel Oeuf BLT
+Sml French Vanilla Latte (Almond Milk),TR Bgl grain tart ***
+Sml Fries,TR Bgl grains tart ***
+Sml Fruitopia Orange,TR Bgl nat tart ***
+sml Fruitopia Strawberry,TR Bgl p-goût tart ***
+Sml Fruitopia Strawberry,TR Bgl pl-goût tart ***
+Sml Fuze Iced Tea,TR Bgl sés tart ***
+Sml Green Tea,TR Bgl sésa tart ***
+Sml Hot Chocolate (Almond Milk),TR Érable et cheddar poulet **
+Sml Iced Coffee,TR Érable et cheddar poulet ***
+Sml Iced Coffee with sugar free syrup,Tr McCroustillant luxe bac sce orig Frank's RedHot
+Sml Iced Latte (2% Milk),TR McValeur Wrap-éclair poulet croust sauce Buffalo
+Sml Iced Latte (Almond Milk),TR McValeur Wrap-éclair poulet croust sauce Ranch
+Sml Iced Matcha Tea Latte (2% Milk),TR McValeur Wrap-éclair poulet grillé sauce Buffalo
+Sml Iced Matcha Tea Latte (Almond Milk),TR McValeur Wrap-éclair poulet grillé sauce Ranch
+Sml Iced Mocha (2% Milk),TR tom et herbe poulet ***
+Sml Iced Mocha (Almond Milk),Trad Softserve
+Sml Latte (2% Milk),Tranches de pomme
+Sml Latte (Almond milk),Trés grand
+Sml Latte (Almond Milk),Très grand
+Sml Latte with sugar free syrup (2% Milk),Très grand café infusé
+Sml Latte with sugar free syrup (Almond Milk),Très grand café infusé aînés
+Sml Lemon Fruit Splash,Très grand café infusé décaféiné
+Sml Lemongrass Green Tea,Très grand café infusé décaféiné aînés
+Sml London Fog Tea Latte (2% Milk),Très grand café infusé décaféiné Remplir nouveau
+Sml London Fog Tea Latte (Almond Milk),Très grand café infusé Remplir nouveau
+Sml Mango Pineapple Real Fruit Smoothie,Trés grand menthe poivrée
+Sml Mango Pineapple Smoothie,Très grand thé à la menthe poivrée
+Sml Matcha Tea Latte (2% Milk),Très grand thé à la menthe poivrée aînés
+Sml Matcha Tea Latte (Almond Milk),Trés grand thé bergamia gris
+Sml McCafé Mocha (2% Milk),Trés grand thé chai éclat
+Sml Mocha (2% Milk),Trés grand thé Earl Grey
+Sml Mocha (Almond Milk),Trés grand thé earl grey aînés
+Sml Mocha(2% Milk),Trés grand thé menthe poivrée aînés
+Sml Nite Sprite,Trés grand thé Orange Pekoe
+Sml Oat Iced Coffee,Très grand thé orange pekoe
+Sml Orange Juice,Trés grand thé orange pekoe aînés
+Sml Orange Pekoe Tea,Très grand thé orange pekoe aînés
+Sml Peppermint Tea,Trés grand thé rugissement noir
+Sml Premium Roast Coffee,Trés grand thé vert
+Sml Premium Roast Decaf Coffee,Tres grand thé vert à la citronnelle
+Sml Pumpkin Spice Latte (2% Milk),Trés grand thé vert aînés
+Sml Roaring Black Tea,Trio
+Sml Senior Orange Pekoe Tea,Trio 10 McCroquettes
+Sml Senior Peppermint Tea,Trio 2 Burritos-matin
+Sml Shamrock Shake,Trio 2 Hamburgers
+Sml Sprite,Trio 2 hamburgers avec fromage
+Sml Strawberry Banana Smoothie,Trio 20 McCroquettes
+Sml Strawberry Triple Thick Milkshake,Trio 6 McCroquettes
+Sml Sweetened Cold Brew with Cream,"Trio avec frites, format moyen"
+Sml Sweetened Cold Brew with Oat Beverage,Trio bacon McCrêpes avec œuf
+Sml VanChai Frappé w/ Whipped Cream & Choc Drizzle,Trio bacon McMuffin avec œuf
+Sml Vanilla Chai Frappé,Trio Bacon McMuffin œuf et sauce ail style Frank
+Sml Vanilla Iced Coffee,Trio Bagel au bacon et guacamole
+Sml Vanilla Triple Thick Milkshake,Trio Bagel BLT Tout
+Sml Watermelon Lime Fruit Splash,Trio Bagel multigrains avec bacon et œuf style béné
+Smoky BBQ Sauce,Trio Bagel nature avec bacon et œuf style béné
+Smoothie,Trio Bagel nature avec oeuf et bacon
+Smoothies & Frappes,Trio Bagel nature avec oeuf et saucisse
+Smoothies & Frappés,Trio Bagel nature BLT
+Snack,Trio Bagel nature BLT avec oeuf
+Snack Caramel Cheesecake McFlurry,Trio Bagel nature oeuf et bacon
+Snack Chocolate Cheesecake McFlurry,Trio Bagel plein-goût avec bacon et œuf style béné
+Snack McFlurry,Trio Bagel plein-goût bacon et oeuf
+Snack Oreo Cheesecake McFlurry,Trio Bagel plein-goût BLT avec oeuf
+Snack Oreo McFlurry,Trio Bagel plein-goût saucisse et oeuf
+Snack Salted Caramel McFlurry,Trio Bagel sésa avec oeuf et bacon
+Snack Size,Trio Bagel sésa avec oeuf et saucisse
+Snack Size Chocolate Milkshake,Trio Bagel sésa BLT avec oeuf
+Snack Size Shamrock Shake,Trio Bagel sésa oeuf et bacon
+Snack Size Strawberry Milkshake,Trio Bagel sésame avec bacon et œuf style béné
+Snack Size Vanilla Milkshake,Trio Bagel sésame BLT
+Snack Skor McFlurry,Trio Big Mac
+Snack Smarties McFlurry,Trio Big Mac (sans viande)
+Snack Wrap ***,Trio Crêpe et saucisse
+Snack Wrap Patty,Trio Crêpes
+Snack Wrap Sauce,Trio Crêpes et bacon
+Snack Wrap with Crispy Chicken,Trio Crêpes et saucisse
+Snack Wrap with Grilled Chicken,Trio dbl quart BLT
+Snack Wraps,Trio de melons
+Snack’n Go,Trio Double Big Mac
+Snacks & Sides,Trio Double extra fromagé
+Snowflake Holiday Mug,Trio Double filet de poisson
+Soft Drinks,Trio Double Hamburger
+Sour Cream ‘N Onion Flavoured,Trio Double hamburger avec fromage
+Sour Cream ‘N Onion Flavoured Sauce,Trio Double Hamburger avec fromage et bacon
+Sour Cream & Chive Sauce,Trio Double Quart Fromage
+SPC Card,Trio Double Quart Hamburger (sans fromage)
+Spicy Bac Deluxe Grill Chicken,Trio Double Quart livre (sans fromage)
+Spicy Bacon Deluxe Grilled Chicken Extra Value Meal,Trio Filet de poisson
+Spicy Bacon Deluxe Grilled Chicken Sandwich,Trio Hamburger avec fromage de luxe
+Spicy Bacon Deluxe McCrispy,Trio Hamburger Joueur étoile
 Spicy Bacon Deluxe McCrispy Extra Value Meal,Trio junior au poulet
 Spicy Buffalo Chicken Snack Wrap with Crispy Chicken,Trio Junior au poulet chili doux
 Spicy Buffalo Chicken Snack Wrap with Grilled Chicken,Trio MacPoulet
@@ -2024,120 +2026,121 @@ Spicy Habanero Sauce,Trio McValeur bagel nature avec fromage à la crème
 Spicy McCrispy,Trio McValeur bagel plein-goût fromage à la crème
 Spicy McCrispy Extra Value Meal,Trio McValeur bagel sésame avec fromage à la crème
 Spicy McVeggie,Trio McValeur Burrito-matin
-Spicy McVeggie Deluxe,Trio McValeur Hamburger De Luxe
-Spicy McVeggie Deluxe Extra Value Meal,Trio McValeur Junior au poulet
-Spicy McVeggie Extra Value Meal,Trio McValeur McDouble
-Spicy Poutine ***,Trio McValeur Saucisse McCrêpes
-"Spinach Salad(carrots,sunflowe",Trio McValeur Saucisse McMuffin
-"Spinach Salad(carrots,sunflower seeds,cranberries)",Trio McValeur Wrap-éclair poulet croust sauce Buffalo épicée
-Splenda,Trio McValeur Wrap-éclair poulet croust sauce Ranch
-Splenda Packet,Trio McValeur Wrap-éclair poulet grillé sauce Buffalo épicée
-Spoons,Trio McValeur Wrap-éclair poulet grillé sauce Ranch
-Spread On,Trio McVégé
-Spread Type,Trio McVégé avec sauce originale Frank’s RedHot
-Sprite,Trio McVégé de luxe
-Sprite Bottle,Trio McVégé épicé
-Sprite Syrup,Trio McVégé épicé de luxe
-Sr Barq's Root Beer,Trio McWrap bacon poulet grillé
-Sr Coca Cola,Trio McWrap cajun poulet grillé
-Sr Coke Zero,Trio McWrap césar poulet grillé
-Sr Diet Coke,Trio McWrap Chili doux
-Sr Fruitopia Orange,Trio McWrap Chili doux avec poulet croustillant
-Sr Fruitopia Strawberry Passion Awareness,Trio McWrap Chili doux avec poulet grillé
-Sr Sprite,Trio McWrap chipotle crémeuse
-Ssm Bgl w/Sprd VM ***,Trio McWrap Lime vivifiante
-Stainless Holiday Cup,Trio McWrap poulet croustillant et sauce chipotle crémeuse
-Stamp Mug,Trio McWrap Poulet et bacon
-Star Sticks - Add to order,Trio McWrap Poulet et bacon avec poulet croustillant
-Stir Sticks,Trio McWrap Poulet et bacon avec poulet grillé
-Straw,Trio McWrap poulet grillé et sauce chipotle crémeuse
-Strawberry Banana Smoothie,Trio McWrap sauce Ranch à l’avocat
-Strawberry Jam,Trio McWrap sauce ranch cajun
-Strawberry Passionfruit Syrup,Trio œuf McMuffin
-Strawberry Triple Thick Milkshake,Trio œuf McMuffin BLT
-Straws,Trio Œuf McMuffin sauce à l’ail style Frank’s
-Striped Mug,Trio poulet grillé bac/sce orig Frank's RedHot
-Stripes Tumbler,Trio poulet grillé sauce originale Frank's RedHot
-Sub Broke Egg,Trio Poulet McCrêpes
-Sub Can Bac,Trio Poulet McCroquettes
-SUB Can Bacon,Trio Poulet McCroquettes (pour 2 personnes)
-Sub Cara syp,Trio Poulet McMuffin
-SUB Caramel Syrup,Trio Poulet McMuffin sauce à l’ail style Frank’s
-SUB Cheese Slice,Trio quart BLT
-Sub Choc Drzl,"Trio Quart de livre - frites, moyen"
-SUB Chocolate Drizzle,Trio Quart de livre BLT
-Sub Chs Slce,Trio Quart fromage
-Sub Cr Ckn,Trio Quart hamburger (sans fromage)
-Sub Cream,Trio Quart livre (sans fromage)
-SUB Crispy Chicken,"Trio Quarter fromage  - frites, moyen"
-Sub Eng Mfn,"Trio Quarter Fromage  - frites, moyen"
-SUB Eng Muffin,Trio rôties blanc et 2 œufs frits
-Sub Fried Egg,"Trio rôties blanc, bacon, et 2 œufs frits"
-SUB Fried Egg,"Trio rôties blé entier, bacon, et 2 œufs frits"
-Sub Griddle,Trio sandwich au poulet grillé
-SUB Griddle,Trio sandwich au poulet grillé de luxe avec bacon
-SUB Leaf Let,Trio sandwich épicé au poulet grillé
-Sub Lettuce,Trio sandwich épicé poulet grillé de luxe avec bacon
-Sub LTO Sauce 1,Trio Saucisse McCrêpes
-Sub LTO Sauce 2,Trio Saucisse McCrêpes avec œuf
-SUB LTO Sce 1,Trio Saucisse McMuffin
-SUB LTO Sce 2,Trio saucisse McMuffin avec œuf
-Sub Mac Sauc,Trio Saucisse McMuffin œuf sauce ail style Frank’s
-SUB Mac Sauce,Trio Tout le bacon et le guacamole bagel
-SUB Mont Jack Chs,Trio Wrap-déjeuner avec poulet
-Sub MontJak,"Trio Wrap-déjeuner avec saucisse, bacon et œuf"
-SUB Onion Rec,Trio Wrap-déjeuner épicé œuf et patates hachées brunes
-SUB Onion Red,TRIO Wrap-éclair poulet sauce Buffalo
-SUB Onion Slv,TRIO Wrap-éclair poulet sauce Ranch
-Sub Parm,Tripl triple
-SUB Parmesan Chs,Triple triple
-Sub Qtr Bun,Type de lait
-SUB Qtr Bun,Verre
-Sub Qtr Meat,Verre ch retournable
-SUB Qtr Meat,Verre client
-Sub Ranch,Verre fr retournable
-SUB Ranch Sauce,Verre réutilisable (chaud)
-Sub Recon On,Verre réutilisable (froid)
-Sub Red On,Vert mélangé
-Sub Regular Bun,Vinaigette miel et mourtarde d
-Sub Rnd Egg,Vinaigette miel et mourtarde de Dijon
-SUB Round Egg,Vinaigre
-Sub Scramble,Vinaigrette
-Sub Shrd Let,Vinaigrettes
-SUB Shred Let,votre ajout exclusif McValeur
-Sub Slvr Onions,Votre don aide les familles d’enfant malade.
-Sub Sunny Egg,Water
-Sub Tartar,Wrap épicé œuf et patate h.b.
-SUB Tartar Sauce,Wrap fiesta ***
-Sub Thai Sauce,"Wrap saucisse, bacon et œuf"
-SUB Thai Sauce,Wrap-déjeuner avec poulet
-Sub Van syp,"Wrap-déjeuner avec saucisse, bacon et œuf"
-SUB Vanilla Syrup,Wrap-déjeuner épicé avec œuf et patates hachées brunes
-Substitute Almond Beverage,Wrap-éclair au poulet croust avec sauce Buffalo épicée
-Substitute Bacon,Wrap-éclair au poulet croustillant avec sauce Buffalo épicée
-Substitute Cilantro Lime Sauce,Wrap-éclair au poulet croustillant avec sauce Ranch
-Substitute Habanero Sauce,Wrap-éclair au poulet grillé avec sauce Buffalo épicée
-Substitute Lettuce Wrap,Wrap-éclair au poulet grillé avec sauce Ranch
-Substitute Mayo-Style Sauce,Wrap-éclair avec poulet croustillant
-Substitute Milk,Wrap-éclair avec poulet grillé
-Substitute Oat Beverage,Wrap-éclair Buffalo croustil
-Substitute Sausage,Wrap-éclair Buffalo grillé
-Substitute Sweet Chili Sauce,Wrap-éclair croustil
-Sugar,Wrap-éclair grillé
-Sugar Free Syrup,Wrap-éclair laitue et tomate
-Sugar Packet,Wrap-éclair mayo avec poulet croustillant
-Sundae,Wrap-éclair mayo avec poulet grillé
-Sundaes & Cones,Wrap-éclair mayo croustil
-Sunflower Seeds Pkt,Wrap-éclair mayo grillé
-Sunflwr Seed Pkt,Wrap-éclair poul ***
-Support CapitalCare Norwood,Wrap-éclair poulet croustillant ranch
-Sweater Holiday Mug,Wrap-éclair Ranch avec poulet grillé
-Sweet 'N Sour Sauce,Wrap-éclair Ranch croustil
-Sweet Chili Junior Chicken,Wrap-éclair Ranch grillé
-Sweet Chili Junior Chicken Extra Value Meal,Wraps
-Sweet Chili McWrap,Wraps-déjeuner et burritos
-Sweet Chili McWrap Extra Value Meal,Yogourt
-Sweet Chili McWrap with Crispy Chicken,Yougurt
+Spicy McVeggie - NHL Star Sticks Meal,Trio McValeur Hamburger De Luxe
+Spicy McVeggie Deluxe,Trio McValeur Junior au poulet
+Spicy McVeggie Deluxe Extra Value Meal,Trio McValeur McDouble
+Spicy McVeggie Extra Value Meal,Trio McValeur Saucisse McCrêpes
+Spicy Poutine ***,Trio McValeur Saucisse McMuffin
+"Spinach Salad(carrots,sunflowe",Trio McValeur Wrap-éclair poulet croust sauce Buffalo épicée
+"Spinach Salad(carrots,sunflower seeds,cranberries)",Trio McValeur Wrap-éclair poulet croust sauce Ranch
+Splenda,Trio McValeur Wrap-éclair poulet grillé sauce Buffalo épicée
+Splenda Packet,Trio McValeur Wrap-éclair poulet grillé sauce Ranch
+Spoons,Trio McVégé
+Spread On,Trio McVégé avec sauce originale Frank’s RedHot
+Spread Type,Trio McVégé de luxe
+Sprite,Trio McVégé épicé
+Sprite Bottle,Trio McVégé épicé de luxe
+Sprite Syrup,Trio McWrap bacon poulet grillé
+Sr Barq's Root Beer,Trio McWrap cajun poulet grillé
+Sr Coca Cola,Trio McWrap césar poulet grillé
+Sr Coke Zero,Trio McWrap Chili doux
+Sr Diet Coke,Trio McWrap Chili doux avec poulet croustillant
+Sr Fruitopia Orange,Trio McWrap Chili doux avec poulet grillé
+Sr Fruitopia Strawberry Passion Awareness,Trio McWrap chipotle crémeuse
+Sr Sprite,Trio McWrap Lime vivifiante
+Ssm Bgl w/Sprd VM ***,Trio McWrap poulet croustillant et sauce chipotle crémeuse
+Stainless Holiday Cup,Trio McWrap Poulet et bacon
+Stamp Mug,Trio McWrap Poulet et bacon avec poulet croustillant
+Star Sticks - Add to order,Trio McWrap Poulet et bacon avec poulet grillé
+Stir Sticks,Trio McWrap poulet grillé et sauce chipotle crémeuse
+Straw,Trio McWrap sauce Ranch à l’avocat
+Strawberry Banana Smoothie,Trio McWrap sauce ranch cajun
+Strawberry Jam,Trio œuf McMuffin
+Strawberry Passionfruit Syrup,Trio œuf McMuffin BLT
+Strawberry Triple Thick Milkshake,Trio Œuf McMuffin sauce à l’ail style Frank’s
+Straws,Trio poulet grillé bac/sce orig Frank's RedHot
+Striped Mug,Trio poulet grillé sauce originale Frank's RedHot
+Stripes Tumbler,Trio Poulet McCrêpes
+Sub Broke Egg,Trio Poulet McCroquettes
+Sub Can Bac,Trio Poulet McCroquettes (pour 2 personnes)
+SUB Can Bacon,Trio Poulet McMuffin
+Sub Cara syp,Trio Poulet McMuffin sauce à l’ail style Frank’s
+SUB Caramel Syrup,Trio quart BLT
+SUB Cheese Slice,"Trio Quart de livre - frites, moyen"
+Sub Choc Drzl,Trio Quart de livre BLT
+SUB Chocolate Drizzle,Trio Quart fromage
+Sub Chs Slce,Trio Quart hamburger (sans fromage)
+Sub Cr Ckn,Trio Quart livre (sans fromage)
+Sub Cream,"Trio Quarter fromage  - frites, moyen"
+SUB Crispy Chicken,"Trio Quarter Fromage  - frites, moyen"
+Sub Eng Mfn,Trio rôties blanc et 2 œufs frits
+SUB Eng Muffin,"Trio rôties blanc, bacon, et 2 œufs frits"
+Sub Fried Egg,"Trio rôties blé entier, bacon, et 2 œufs frits"
+SUB Fried Egg,Trio sandwich au poulet grillé
+Sub Griddle,Trio sandwich au poulet grillé de luxe avec bacon
+SUB Griddle,Trio sandwich épicé au poulet grillé
+SUB Leaf Let,Trio sandwich épicé poulet grillé de luxe avec bacon
+Sub Lettuce,Trio Saucisse McCrêpes
+Sub LTO Sauce 1,Trio Saucisse McCrêpes avec œuf
+Sub LTO Sauce 2,Trio Saucisse McMuffin
+SUB LTO Sce 1,Trio saucisse McMuffin avec œuf
+SUB LTO Sce 2,Trio Saucisse McMuffin œuf sauce ail style Frank’s
+Sub Mac Sauc,Trio Tout le bacon et le guacamole bagel
+SUB Mac Sauce,Trio Wrap-déjeuner avec poulet
+SUB Mont Jack Chs,"Trio Wrap-déjeuner avec saucisse, bacon et œuf"
+Sub MontJak,Trio Wrap-déjeuner épicé œuf et patates hachées brunes
+SUB Onion Rec,TRIO Wrap-éclair poulet sauce Buffalo
+SUB Onion Red,TRIO Wrap-éclair poulet sauce Ranch
+SUB Onion Slv,Tripl triple
+Sub Parm,Triple triple
+SUB Parmesan Chs,Type de lait
+Sub Qtr Bun,Verre
+SUB Qtr Bun,Verre ch retournable
+Sub Qtr Meat,Verre client
+SUB Qtr Meat,Verre fr retournable
+Sub Ranch,Verre réutilisable (chaud)
+SUB Ranch Sauce,Verre réutilisable (froid)
+Sub Recon On,Vert mélangé
+Sub Red On,Vinaigette miel et mourtarde d
+Sub Regular Bun,Vinaigette miel et mourtarde de Dijon
+Sub Rnd Egg,Vinaigre
+SUB Round Egg,Vinaigrette
+Sub Scramble,Vinaigrettes
+Sub Shrd Let,votre ajout exclusif McValeur
+SUB Shred Let,Votre don aide les familles d’enfant malade.
+Sub Slvr Onions,Water
+Sub Sunny Egg,Wrap épicé œuf et patate h.b.
+Sub Tartar,Wrap fiesta ***
+SUB Tartar Sauce,"Wrap saucisse, bacon et œuf"
+Sub Thai Sauce,Wrap-déjeuner avec poulet
+SUB Thai Sauce,"Wrap-déjeuner avec saucisse, bacon et œuf"
+Sub Van syp,Wrap-déjeuner épicé avec œuf et patates hachées brunes
+SUB Vanilla Syrup,Wrap-éclair au poulet croust avec sauce Buffalo épicée
+Substitute Almond Beverage,Wrap-éclair au poulet croustillant avec sauce Buffalo épicée
+Substitute Bacon,Wrap-éclair au poulet croustillant avec sauce Ranch
+Substitute Cilantro Lime Sauce,Wrap-éclair au poulet grillé avec sauce Buffalo épicée
+Substitute Habanero Sauce,Wrap-éclair au poulet grillé avec sauce Ranch
+Substitute Lettuce Wrap,Wrap-éclair avec poulet croustillant
+Substitute Mayo-Style Sauce,Wrap-éclair avec poulet grillé
+Substitute Milk,Wrap-éclair Buffalo croustil
+Substitute Oat Beverage,Wrap-éclair Buffalo grillé
+Substitute Sausage,Wrap-éclair croustil
+Substitute Sweet Chili Sauce,Wrap-éclair grillé
+Sugar,Wrap-éclair laitue et tomate
+Sugar Free Syrup,Wrap-éclair mayo avec poulet croustillant
+Sugar Packet,Wrap-éclair mayo avec poulet grillé
+Sundae,Wrap-éclair mayo croustil
+Sundaes & Cones,Wrap-éclair mayo grillé
+Sunflower Seeds Pkt,Wrap-éclair poul ***
+Sunflwr Seed Pkt,Wrap-éclair poulet croustillant ranch
+Support CapitalCare Norwood,Wrap-éclair Ranch avec poulet grillé
+Sweater Holiday Mug,Wrap-éclair Ranch croustil
+Sweet 'N Sour Sauce,Wrap-éclair Ranch grillé
+Sweet Chili Junior Chicken,Wraps
+Sweet Chili Junior Chicken Extra Value Meal,Wraps-déjeuner et burritos
+Sweet Chili McWrap,Yogourt
+Sweet Chili McWrap Extra Value Meal,Yougurt
+Sweet Chili McWrap with Crispy Chicken,
 Sweet Chili McWrap with Crispy Chicken Extra Value Meal,
 Sweet Chili McWrap with Grilled Chicken,
 Sweet Chili McWrap with Grilled Chicken Extra Value Meal,
