@@ -145,6 +145,7 @@ document.getElementById("filter").addEventListener("input", () => {
             }
         });
     });
+    document.getElementById("total-items").textContent = tableHeader.length - 3;
 
     const minPercentDiff = Math.min(...percentDiffs.filter(diff => diff !== "N/A"));
     const maxPercentDiff = Math.max(...percentDiffs.filter(diff => diff !== "N/A"));

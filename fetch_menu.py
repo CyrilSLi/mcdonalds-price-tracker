@@ -69,7 +69,7 @@ def fetch_menu(restaurant_id, location="", is_retry=False):
         if not is_retry and res.status_code == 401:
             print("Unauthorized, refreshing login...")
             refresh_login()
-            return fetch_menu(restaurant_id, is_retry=True)
+            return fetch_menu(restaurant_id, location, is_retry=True)
         else:
             raise e
 

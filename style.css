@@ -43,3 +43,12 @@ a, a:visited {
     color: blue;
     text-decoration-color: blue;
 }
+#totals {
+    display: inline-block;
+    margin-top: var(--pico-typography-spacing-vertical);
+}
+@media (min-width: 350px) {
+    #lang-switch {
+        margin-right: var(--pico-spacing);
+    }
+}
