@@ -2,6 +2,6 @@
 
 # Restaurants temporarily closed
 
-- 26060, Winnipeg
+- 2622, Winnipeg (MAYBE? CHECK JSON DATA NEXT UPDATE)
 
 # TODO: Add support for DELIVERY and EATIN channels
